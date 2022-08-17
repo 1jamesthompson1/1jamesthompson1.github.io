@@ -1,7 +1,6 @@
 ---
-title: James Thompson
+
 ---
+This is my website.
 
-# James Thompson
-
-And here is some text
+See below for soem of my recent posts.
