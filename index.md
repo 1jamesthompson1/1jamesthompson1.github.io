@@ -1,7 +1,5 @@
 ---
-layout: home
 title: James Thompson
-theme: minimal
 ---
 
 # James Thompson
