@@ -1,6 +1,6 @@
 ---
-title: CV
 permalink: /cv/
+title: CV
 ---
 # James Thompson's CV
 ### EXPERIENCE
