@@ -1,3 +1,7 @@
+---
+title: CV
+permalink: /cv/
+---
 # James Thompson's CV
 ### EXPERIENCE
 
