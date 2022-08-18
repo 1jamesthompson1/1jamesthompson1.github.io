@@ -1,6 +1,4 @@
 ---
 
 ---
-This is my website.
-
-See below for soem of my recent posts.
+You can take a puruse around. Your probably going to find lots of words written by me!
