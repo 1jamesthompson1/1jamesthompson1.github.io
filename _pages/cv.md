@@ -1,6 +1,4 @@
 # James Thompson's CV
-_________________
-
 ### EXPERIENCE
 
 #### The Call Centre, Lower Hutt - _Phone Operator_
@@ -87,4 +85,4 @@ Thank you for reading my
 1jamesthompson1@gmail.com  
 www.facebook.com/profile.php?id=100009620767683  
 www.instagram.com/1jamesthompson1  
-[github](github.com/1jamesthompson1)
+[github.com/1jamesthompson1](https://github.com/1jamesthompson1)
