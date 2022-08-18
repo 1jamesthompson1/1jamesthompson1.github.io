@@ -83,7 +83,7 @@ Can provide the certificate and the results sheet if you would like.
 Thank you for reading my 
 
 ### CONTACT DETAILS
-021 0233 9469
+021 0233 9469  
 1jamesthompson1@gmail.com  
 www.facebook.com/profile.php?id=100009620767683  
 www.instagram.com/1jamesthompson1  
