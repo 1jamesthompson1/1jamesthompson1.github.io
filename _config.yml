@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -26,27 +26,28 @@ analytics:
   google:
     tracking_id: "G-1234567890"
     anonymize_ip: false # default
-    
+
 description: >- # this means to ignore newlines until "baseurl:"
   Home for my online presence
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: 1jamesthompson1
-github_username:  1jamesthompson1
+url: "https://1jamesthompson1.github.io/"
 
+repository: "1jamesthompson1/1jamesthompson1.github.io"
+breadcrumbs: true
+search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  
-  
+
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -60,7 +61,8 @@ plugins:
 author:
   name   : "James Thompson"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Snowboarder and Developer all in one day"
+  bio    : "Snowboarder and Nerd all in one day"
+  location: "New Zealand"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -68,6 +70,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/1jamesthompson1"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/JamesThompsonSnowboarder/"
+    - label: "1jamesthompson1@gmail.com"
+      url: ""
+
 
 footer:
   links:
@@ -77,6 +85,11 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/1jamesthompson1"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/JamesThompsonSnowboarder/"
+    - label: "1jamesthompson1@gmail.com"
+      url: ""
 
 defaults:
   # _posts
@@ -84,12 +97,13 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
