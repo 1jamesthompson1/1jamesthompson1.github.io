@@ -2,8 +2,20 @@
 permalink: /cv/
 title: CV
 ---
-# James Thompson's CV
 ### EXPERIENCE
+
+#### Telefund, Remote, NZ - _Tele fundraiser_/_Admin_
+April 2021 - Current
+
+I work parttime as a Tele fundraiser for a small fundraising consultancy. At the end of 2021 I took on some of the admin responsibilities.
+Since then I have help automate the processes with Google Sheets Formula, App Script and AutoHotKey scripting.
+
+
+#### Coronet Peak Ski Field, Queenstown - _Snowboard Instructor_
+Jul 2020 - September 2020
+
+I worked as a part-time snowboard instructor for NZ SKI for the 2020 ski season. In this job, I worked as part of a team managing and organizing group and private lessons. Then I would be responsible for a group and give them safe and fun snowboard lessons. For this, I needed great self-management as I was mostly directing myself throughout these lessons.
+
 
 #### The Call Centre, Lower Hutt - _Phone Operator_
 Feb 2020 - Jul 2020
@@ -14,24 +26,16 @@ I worked in a team for a boutique inbound call centre. We deal with fixing peopl
 #### Tasty Indian Curry, Lower Hutt - _Kitchen Hand_
 Jan 2019 - May 2019
 
-I was a part-time kitchen hand at Tasty Indian Curry  We operated as an efficient team of three in an often high-pressure environment. 
-
-
-#### Coronet Peak Ski Field, Queenstown - _Snowboard Instructor_
-Jul 2020 - September 2020
-
-
-
-I worked as a part-time snowboard instructor for NZ SKI for the 2020 ski season. In this job, I worked as part of a team managing and organizing group and private lessons. Then I would be responsible for a group and give them safe and fun snowboard lessons. For this, I needed great self-management as I was mostly directing myself throughout these lessons.
+I was a part-time kitchen hand at Tasty Indian Curry.  We operated as an efficient team of three in an often high-pressure environment.
 
 
 ### AWARDS/ACHIEVEMENTS
 
-#### Competitive snowboarding 
+#### Competitive snowboarding
 
 * 2018 I placed second overall at the NZ Junior freeride tour.
 * 2019 I placed second on the NZ Junior freeride tour, received the NZ Junior Freeride title and consequently was invited to represent New Zealand at the Junior Freeride World Championship in Austria in January 2020.
-* 2020 Placed first for New Zealand and fourth for the Junior freeride Tour Europe/Oceania. Competed at Jr Freeride World Championships in Kappl Austria (sadly crashed, not a great result). 
+* 2020 Placed first for New Zealand and fourth for the Junior freeride Tour Europe/Oceania. Competed at Jr Freeride World Championships in Kappl Austria (sadly crashed, not a great result).
 * 2020 NZ season won the NZ Junior Tour.
 * 2021 Freeride Junior World Championship placed 5th, placed 3rd for the Junior Freeride Tour Europe/Oceania region.
 
@@ -52,7 +56,7 @@ I worked as a part-time snowboard instructor for NZ SKI for the 2020 ski season.
 * Teamwork \
 I have a good ability to work and cooperate in a team. I have developed this through my involvement with the various teams at work and in clubs (E.g Debating). Plus my experience in various sports teams.
 * Communication \
-I have a good ability to communicate clearly with people. Senior-level debating has taught me to listen to what people are trying to say, and also articulate my ideas well. My good communication is with all people, not just those close to me. 
+I have a good ability to communicate clearly with people. Senior-level debating has taught me to listen to what people are trying to say, and also articulate my ideas well. My good communication is with all people, not just those close to me.
 * Hard-working \
 I have always had a good work ethic and the resilience to keep working even when things go wrong, this has been developed through all my training for various sports, especially snowboarding as well as my various jobs. I have had always improved my ability to have a strong inwards work drive.
 * Initiative \
@@ -82,7 +86,7 @@ Snowboard Instructor Certification - Level 1 & 2
 Can provide the certificate and the results sheet if you would like.
 
 
-Thank you for reading my 
+Thank you for reading my
 
 ### CONTACT DETAILS
 021 0233 9469  
