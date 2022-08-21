@@ -49,3 +49,5 @@ Problem.
 I can get the blogdown::build_site() to make the md file from the rmd file. That works great. Then it will build the site but I cant get the images to work.
 
 I am going to try put them in there original figures folder but include that in the config.yml folder.
+
+I have also had to change the file path to just figures. This hopefully will work if the ifgures is included in the site.
