@@ -11,7 +11,7 @@ If so then this will make the process of producing cool blog posts with data and
 I guess I should start using some data that I have been working with for a recent uni project.
 
 Below is R code that will load the library and you can see the code.
-```{r loadInTheDataAndLibrarys}
+```{r loadInTheDataAndLibrarys, warning = FALSE}
 library(rethinking)
 data(Howell1)
 ```
@@ -23,7 +23,7 @@ attach(Howell1)
 plot(height, weight)
 ```
 
-However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh silly me. Here goes then Ill even show you what I am doing:
+However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh! silly me. Here goes then Ill even show you what I am doing:
 ```{r Howell1LogPlot}
 plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weight")
 ```

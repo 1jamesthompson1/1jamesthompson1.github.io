@@ -1,12 +1,9 @@
 ---
-title: Test of building blog posts with rmd and Jekyll
-author: James Thompson
-categories:
-- blog
-tags:
-- meta
+title: "Test of building blog posts with rmd and Jekyll"
+author: "James Thompson"
+categories: blog
+tags: meta
 ---
-
 This is a test to see if I can get my rmd files to get compiled and displayed in a nice format.
 
 If so then this will make the process of producing cool blog posts with data and graphs much superior then other methods. It also means that I can be developing straight into the github repo and pushing it.
@@ -137,15 +134,15 @@ data(Howell1)
 
 But this code below that makes the plot is hidden!
 
-![plot of chunk Howell1BasicPlot](figure/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1BasicPlot-1.png)
+![plot of chunk Howell1BasicPlot](assets/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1BasicPlot-1.png)
 
-However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh silly me. Here goes then Ill even show you what I am doing:
+However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh! silly me. Here goes then Ill even show you what I am doing:
 
 {% highlight r %}
 plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weight")
 {% endhighlight %}
 
-![plot of chunk Howell1LogPlot](figure/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1LogPlot-1.png)
+![plot of chunk Howell1LogPlot](assets/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1LogPlot-1.png)
 
 I wouldn't want to jump to too many conclusions but it looks to me that when height increases weight decreases? Wait no maybe increases? Always get stumped on these questions Ill let you decide. Now I might just test some console out.
 
