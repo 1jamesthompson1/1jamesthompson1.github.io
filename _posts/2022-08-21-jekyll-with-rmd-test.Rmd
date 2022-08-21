@@ -30,7 +30,7 @@ plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weights")
 
 I wouldn't want to jump to too many conclusions but it looks to me that when height increases weight decreases? Wait no maybe increases? Always get stumped on these questions Ill let you decide. Now I might just test some console out.
 ```{r console}
-x <- 5 + 10
+x <- 5 + 14
 print(x)
 ```
 

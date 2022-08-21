@@ -19,7 +19,7 @@ data(Howell1)
 
 But this code below that makes the plot is hidden!
 
-![plot of chunk Howell1BasicPlot](/figures/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1BasicPlot-1.png)
+![plot of chunk Howell1BasicPlot](figures/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1BasicPlot-1.png)
 
 However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh silly me. Here goes then Ill even show you what I am doing:
 
@@ -27,19 +27,19 @@ However I have been told by people who are more knowledgeable then me that actua
 plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weights")
 {% endhighlight %}
 
-![plot of chunk Howell1LogPlot](/figures/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1LogPlot-1.png)
+![plot of chunk Howell1LogPlot](figures/./_posts/2022-08-21-jekyll-with-rmd-test/Howell1LogPlot-1.png)
 
 I wouldn't want to jump to too many conclusions but it looks to me that when height increases weight decreases? Wait no maybe increases? Always get stumped on these questions Ill let you decide. Now I might just test some console out.
 
 {% highlight r %}
-x <- 5 + 10
+x <- 5 + 14
 print(x)
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## [1] 15
+## [1] 19
 {% endhighlight %}
 
 And now lets make sure that nothing shows up or happens at all
