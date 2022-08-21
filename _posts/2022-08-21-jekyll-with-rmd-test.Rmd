@@ -11,7 +11,7 @@ If so then this will make the process of producing cool blog posts with data and
 I guess I should start using some data that I have been working with for a recent uni project.
 
 Below is R code that will load the library and you can see the code.
-```{r loadInTheDataAndLibrarys, warning = FALSE}
+```{r loadInTheDataAndLibrarys, warning = FALSE, message = FALSE}
 library(rethinking)
 data(Howell1)
 ```
@@ -23,9 +23,9 @@ attach(Howell1)
 plot(height, weight)
 ```
 
-However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh! silly me. Here goes then Ill even show you what I am doing:
+However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh silly me. Here goes then Ill even show you what I am doing:
 ```{r Howell1LogPlot}
-plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weight")
+plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weights")
 ```
 
 I wouldn't want to jump to too many conclusions but it looks to me that when height increases weight decreases? Wait no maybe increases? Always get stumped on these questions Ill let you decide. Now I might just test some console out.
@@ -42,3 +42,10 @@ print(y)
 ```
 
 Well lets hope that this works.
+
+It is proving to be difficult but I am at least learning!
+
+Problem.
+I can get the blogdown::build_site() to make the md file from the rmd file. That works great. Then it will build the site but I cant get the images to work.
+
+I am going to try put them in there original figures folder but include that in the config.yml folder.
