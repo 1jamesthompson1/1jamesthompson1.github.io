@@ -2,7 +2,7 @@
 title: "Test of building blog posts with rmd and Jekyll"
 author: "James Thompson"
 categories: blog
-tags: meta
+tags: Meta
 ---
 This is a test to see if I can get my rmd files to get compiled and displayed in a nice format.
 
@@ -24,7 +24,7 @@ But this code below that makes the plot is hidden!
 However I have been told by people who are more knowledgeable then me that actually only the log of weight is relevant to height. Doh silly me. Here goes then Ill even show you what I am doing:
 
 {% highlight r %}
-plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weights")
+plot(Howell1$height, log(Howell1$weight), xlab="Height", ylab="Log weight")
 {% endhighlight %}
 
 ![plot of chunk Howell1LogPlot](/figures/Howell1LogPlot-1.png)
@@ -55,4 +55,8 @@ I can get the blogdown::build_site() to make the md file from the rmd file. That
 
 I am going to try put them in there original figures folder but include that in the config.yml folder.
 
-I have also had to change the file path to just figures. This hopefully will work if the ifgures is included in the site.
+I have also had to change the file path to just figures. This hopefully will work if the figures is included in the site.
+
+Well it seems to be that it wants to read the images as binary files I will try putting in a different format photo.
+
+Well that didnt work. I am getting quite stuck but amd going to put it down for the evening. I was supposed to be relaxing today!
