@@ -18,3 +18,4 @@ group :jekyll_plugins do
 end
 
 gem "webrick"
+gem "rack", ">= 2.1.4"
