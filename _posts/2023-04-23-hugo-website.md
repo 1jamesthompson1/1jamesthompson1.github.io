@@ -47,7 +47,7 @@ Because of this we didnt want a single page site and instead wanted a home page 
 We settled on the Stack theme because it was easy to use and fit our requirements. I am sure there are lots more which would fit our requirements but it can be considered lucky this was the one that works. There is also a bonus that the atomic unit all the pages are folders meaning that storing assets needed for a post close by is quite easy.
 
 As I have never used Hugo before so there was some warming up stage as I was just trying to figure out how Hugo and this theme works. Because of this it took another 20% of the time to get the basics configuared for our website. As we got this sorted we had a website that looked something like this: 
-![](assets/images/posts/Screenshot 2023-04-23 144122.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/posts/Screenshot 2023-04-23 144122.png)
 
 From here we could move on to getting stuck in to actually create the website. This meant writing and a fair amount of it. Filling this out meant the website started to a take a form that was quite appealing. We were missing any photos as we hadnt found any that ere suitable but regardless is was all coming togather. This chunk of work easily took about 40% of the time.
 
@@ -123,7 +123,7 @@ I also found out that the [half star](https://symbl.cc/en/2BEA/) unicode charact
 
 Regardless of how it was made it did come out looking not half bad.
 
-![](assets/images/posts/Screenshot 2023-04-23 145710.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/posts/Screenshot 2023-04-23 145710.png)
 
 
 ## Deploying
