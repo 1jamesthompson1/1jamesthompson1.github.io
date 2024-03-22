@@ -2,7 +2,7 @@
 title: "Hello reader"
 last_modified_at: 2022-08-18T16:20:02-05:00
 categories:
-  - Blog
+  - blog
 tags:
   - Meta
 ---

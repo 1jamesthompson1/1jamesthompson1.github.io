@@ -2,7 +2,7 @@
 title: "Rmd no more (atleast not while it is hindering me)"
 last_modified_at: 2023-04-11T16:20:02-05:00
 categories:
-  - Blog
+  - blog
 tags:
   - Meta
 ---
