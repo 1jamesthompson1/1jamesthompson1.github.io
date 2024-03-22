@@ -7,7 +7,7 @@ tags:
   - Meta
 ---
 
-I had the initial goal here of having a space to help me have a space to write some words. In writing those words I was going to gain some skills in writing words in an order that works well to convery information.
+I had the initial goal here of having a space to help me have a space to write some words. In writing those words I was going to gain some skills in writing words in an order that works well to convey information.
 
 However as one might expect I got bogged down in my efforts to get the website working. Specifically trying to get it to automatically build the rmd files to md with graphs included! This roadblock discouraged me from carrying on from using the website.
 

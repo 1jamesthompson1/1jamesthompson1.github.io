@@ -59,4 +59,4 @@ I have also had to change the file path to just figures. This hopefully will wor
 
 Well it seems to be that it wants to read the images as binary files I will try putting in a different format photo.
 
-Well that didnt work. I am getting quite stuck but amd going to put it down for the evening. I was supposed to be relaxing today!
+Well that didn't work. I am getting quite stuck but amd going to put it down for the evening. I was supposed to be relaxing today!

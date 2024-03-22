@@ -9,7 +9,7 @@ I just created a website for me and my partners travels as well as house sitting
 
 Overall the experience was great. I used [Hugo](https://gohugo.io/) for the static site generator, [Stack](https://stack.jimmycai.com/) as the theme and then [netlify](https://www.netlify.com/) for the deployment.
 
-You can find the website at: [sjtravels.netlify.app](https://sjtravels.netlify.app/). This could quite possibly changei n the future as we decide to splash out and buy a domain name.
+You can find the website at: [sjtravels.netlify.app](https://sjtravels.netlify.app/). This could quite possibly change in the future as we decide to splash out and buy a domain name.
 
 Everything about this from starting the website setting up the theme and deploying it went smoothly. Especially considering that the whole thing was free.
 
@@ -42,14 +42,14 @@ All of this smooth setting up was definitely giving me that good feeling that yo
 
 Of the things that took time in building the website we easily spent about 20% of the time just deciding on the theme. We went with a blog orientated theming. This was because the main use of the website is going to be displaying blog posts with only a few pages.
 
-Because of this we didnt want a single page site and instead wanted a home page that displayed recent blog posts and then a few other pages which would have about us and housesitting etc.
+Because of this we didn't want a single page site and instead wanted a home page that displayed recent blog posts and then a few other pages which would have about us and housesitting etc.
 
 We settled on the Stack theme because it was easy to use and fit our requirements. I am sure there are lots more which would fit our requirements but it can be considered lucky this was the one that works. There is also a bonus that the atomic unit all the pages are folders meaning that storing assets needed for a post close by is quite easy.
 
-As I have never used Hugo before so there was some warming up stage as I was just trying to figure out how Hugo and this theme works. Because of this it took another 20% of the time to get the basics configuared for our website. As we got this sorted we had a website that looked something like this: 
+As I have never used Hugo before so there was some warming up stage as I was just trying to figure out how Hugo and this theme works. Because of this it took another 20% of the time to get the basics configured for our website. As we got this sorted we had a website that looked something like this: 
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/posts/Screenshot 2023-04-23 144122.png)
 
-From here we could move on to getting stuck in to actually create the website. This meant writing and a fair amount of it. Filling this out meant the website started to a take a form that was quite appealing. We were missing any photos as we hadnt found any that ere suitable but regardless is was all coming togather. This chunk of work easily took about 40% of the time.
+From here we could move on to getting stuck in to actually create the website. This meant writing and a fair amount of it. Filling this out meant the website started to a take a form that was quite appealing. We were missing any photos as we hadn't found any that ere suitable but regardless is was all coming together. This chunk of work easily took about 40% of the time.
 
 Adding the contact forms and reviews was something that needed some more of my tech hat on.
 
@@ -59,7 +59,7 @@ Starting with what I know I went to pick up Google forms to make this contact fo
 
 #### getforms
 
-[getforms](https://getform.io/) is free so it ticked that box. It also was easy to use so it ticked that box too! However it wast completely free. Many ofthe useful features that I wanted were locked behind a paywall. This meant that I couldnt have custom form submission pages, deal with notification how I liked and etc.
+[getforms](https://getform.io/) is free so it ticked that box. It also was easy to use so it ticked that box too! However it wast completely free. Many of the useful features that I wanted were locked behind a paywall. This meant that I couldn't have custom form submission pages, deal with notification how I liked and etc.
 
 Regardless though I setup the site to work with getforms and everything was fine.
 
@@ -130,16 +130,16 @@ Regardless of how it was made it did come out looking not half bad.
 
 Now that we had the website we had to deploy it. I started by creating an account with netlify which was easy and then I gave it permissions to my repository and then I well accidentally deployed it.
 
-It was just too darn easy. Well it wasnt really deployed properly it had a weird as domain name (flocking-cats-1234 or something) and also the website was only showing an error. I went back and give it the 'hugo' build command I had ignored when first logging in and then it did work. Just Like That!
+It was just too darn easy. Well it wasn't really deployed properly it had a weird as domain name (flocking-cats-1234 or something) and also the website was only showing an error. I went back and give it the 'hugo' build command I had ignored when first logging in and then it did work. Just Like That!
 
 When I pushed to the main it updated the build. When I added a PR it made a preview. When I did something it just worked.
 
 Very Very impressive I thought.
 
-I kept seeing on the home page as I was looking around that there were forms so I had a look and in changing a single line of code set it up to use netlify instead. As it just automatically found the form and handled it which was very smart of it. The thing about netlify instead of getforms is that nothing was annoying locked behind a paywall. Instead it was simply capped. That's alright because I dont really expect any to actually be using our form let alone more than 50 times a month.
+I kept seeing on the home page as I was looking around that there were forms so I had a look and in changing a single line of code set it up to use netlify instead. As it just automatically found the form and handled it which was very smart of it. The thing about netlify instead of getforms is that nothing was annoying locked behind a paywall. Instead it was simply capped. That's alright because I don't really expect any to actually be using our form let alone more than 50 times a month.
 
 Getting the submission page to work did take more time than I would have liked but it was mostly due to my complete lack of knowledge rather than anything else.
 
 The deployment process was barely a process at all. It was a few button clicks no headaches and our website was live.
 
-This has left me feeling quite impressed with these web tools. As I never get near web technologies or anything to do with web development having this small detour into building a new website go so flawlessly was quite satisfying. Now as you might expect I really want to swtich over my current webstie to this so that everything just works for me too.
+This has left me feeling quite impressed with these web tools. As I never get near web technologies or anything to do with web development having this small detour into building a new website go so flawlessly was quite satisfying. Now as you might expect I really want to switch over my current website to this so that everything just works for me too.
