@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/my-first-prototype/index.html",
+      "/posts/hugo-website/index.html",
+      "/posts/rmd-no-more/index.html",
+      "/posts/jekyll-with-rmd/index.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]
