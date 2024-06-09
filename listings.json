@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/give-till-what/index.html",
       "/posts/my-first-prototype/index.html",
       "/posts/hugo-website/index.html",
       "/posts/rmd-no-more/index.html",
