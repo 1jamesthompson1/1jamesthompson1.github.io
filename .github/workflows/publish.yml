@@ -18,10 +18,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Set up Conda
-      uses: conda-incubator/setup-miniconda@v2
-      with:
-        environment-file: environment.yml
-        activate-environment: ./env
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          environment-file: environment.yml
+          activate-environment: ./env
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
