@@ -2,7 +2,7 @@ This is the repositry for my simple personal website.
 
 It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.com/).
 
-# Instruction
+# Instructions
 
 These instrucitons are here for myself to know what is going on.
 
