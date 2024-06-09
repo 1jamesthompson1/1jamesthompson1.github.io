@@ -12,9 +12,16 @@ website:
         href: https://instagram.com/1jamesthompson1
       - icon: linkedin
         href: https://www.linkedin.com/in/james-thompson-532246208/
+  google-analytics: 
+    tracking-id: "G-Y4LKP8KTPE"
+    storage: none
+    anonymize-ip: true
+
+  
+
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
 
 
