@@ -1,3 +1,6 @@
 /.quarto/
 env
 _site
+/env/
+_freeze
+.vscode

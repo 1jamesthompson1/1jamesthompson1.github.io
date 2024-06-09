@@ -3,18 +3,41 @@ project:
 
 website:
   title: "James Thompson"
+  description: "Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification."
+  site-url: "https://1jamesthompson1.github.io"
   navbar:
     right:
-      - about.qmd
+      - about-me.qmd
       - icon: github
         href: https://github.com/1jamesthompson1
       - icon: instagram
         href: https://instagram.com/1jamesthompson1
       - icon: linkedin
         href: https://www.linkedin.com/in/james-thompson-532246208/
+  google-analytics: 
+    tracking-id: "G-Y4LKP8KTPE"
+    storage: none
+    anonymize-ip: true
+
+  repo-url: "https://github.com/1jamesthompson1/1jamesthompson1.github.io"
+  issue-url: "https://github.com/1jamesthompson1/1jamesthompson1.github.io/issues"
+  page-navigation: true
+
+  page-footer:
+    center: 
+      - text: "About Me"
+        href: about-me.qmd
+      - text: "CC BY-SA 4.0"
+        href: https://creativecommons.org/licenses/by-sa/4.0/
+      - text: "Contact Me: 1jamesthompson1@gmail"
+        href: "mailto:1jamesthompson1@gmail.com"
+
+
+  
+
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
 
 
