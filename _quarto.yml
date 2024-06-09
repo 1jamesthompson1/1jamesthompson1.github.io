@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "James Thompson"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/1jamesthompson1
+      - icon: instagram
+        href: https://instagram.com/1jamesthompson1
+      - icon: linkedin
+        href: https://www.linkedin.com/in/james-thompson-532246208/
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

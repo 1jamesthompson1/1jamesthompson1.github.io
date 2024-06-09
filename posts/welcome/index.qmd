@@ -1,0 +1,9 @@
+---
+title: "Welcome To My Blog"
+date: "2022-08-09"
+categories: [news]
+---
+
+Hello this is my first blog post.
+
+This might be the start of something amazing, or just the start of another abandoned blog story.
