@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -79,12 +79,13 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -143,7 +144,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="James Thompson" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -163,8 +164,8 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about-me.html"> 
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/1jamesthompson1"> <i class="bi bi-github" role="img">
@@ -205,22 +206,19 @@ window.Quarto = {
 <h1>Hello</h1>
 <p>Welcome to my own little space of the internet.</p>
 <p>This is mainly a place for my brain overflow to be dumped.</p>
+<p>Find out about me <a href="./about-me.html">here</a></p>
 <p><strong>Disclaimer: I make no promise that my posts will be consistent with each other I expect my thought and ideas on all discussed topics to change.This means that I am likely to disagree with myself a lot. But your past self is really a different person.</strong></p>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<hr>
+<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ideas,altruism" data-listing-date-sort="1717891200000" data-listing-file-modified-sort="1717904882799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="991">
+<div class="quarto-post image-right" data-index="0" data-categories="ideas,altruism" data-listing-date-sort="1717891200000" data-listing-file-modified-sort="1717907439541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="991">
 <div class="thumbnail">
 <p><a href="./posts/give-till-what/index.html" class="no-external"></a></p><a href="./posts/give-till-what/index.html" class="no-external">
 <p class="card-img-top"><img src="posts/give-till-what/suffering_distributions.jpg" alt="Two versions of the suffering distribution"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/give-till-what/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<h3 class="no-anchor listing-title">
+<h3 class="no-anchor listing-title" data-anchor-id="hello">
 <a href="./posts/give-till-what/index.html" class="no-external">Give till what?</a>
 </h3>
 <div class="listing-subtitle">
@@ -249,7 +247,7 @@ James Thompson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="project,computers" data-listing-date-sort="1710028800000" data-listing-file-modified-sort="1717904882803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2269">
+<div class="quarto-post image-right" data-index="1" data-categories="project,computers" data-listing-date-sort="1710028800000" data-listing-file-modified-sort="1717907439545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2269">
 <div class="thumbnail">
 <p><a href="./posts/my-first-prototype/index.html" class="no-external"></a></p><a href="./posts/my-first-prototype/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -285,7 +283,7 @@ James Thompson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="project" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1717904882803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1549">
+<div class="quarto-post image-right" data-index="2" data-categories="project" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1717907439541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1549">
 <div class="thumbnail">
 <p><a href="./posts/hugo-website/index.html" class="no-external"></a></p><a href="./posts/hugo-website/index.html" class="no-external">
 <p class="card-img-top"><img src="posts/hugo-website/homepage.png"  class="thumbnail-image card-img"/></p>
@@ -318,7 +316,7 @@ James Thompson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="meta" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1717904882803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="quarto-post image-right" data-index="3" data-categories="meta" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1717907439545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
 <div class="thumbnail">
 <p><a href="./posts/rmd-no-more/index.html" class="no-external"></a></p><a href="./posts/rmd-no-more/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -351,7 +349,7 @@ James Thompson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="meta" data-listing-date-sort="1661040000000" data-listing-file-modified-sort="1717904882803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="390">
+<div class="quarto-post image-right" data-index="4" data-categories="meta" data-listing-date-sort="1661040000000" data-listing-file-modified-sort="1717907439545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="390">
 <div class="thumbnail">
 <p><a href="./posts/jekyll-with-rmd/index.html" class="no-external"></a></p><a href="./posts/jekyll-with-rmd/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -384,7 +382,7 @@ James Thompson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1660003200000" data-listing-file-modified-sort="1717904882803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1660003200000" data-listing-file-modified-sort="1717907439545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -421,7 +419,18 @@ James Thompson
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+<nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p>This website was built with <a href="https://quarto.org/">Quarto</a> and uses <a href="https://pages.github.com/">GitHub Pages</a> to host it.<br>
+The code repository can be found here: <a href="https://github.com/1jamesthompson1/1jamesthompson1.github.io">https://github.com/1jamesthompson1/1jamesthompson1.github.io</a></p>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -503,7 +512,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/1jamesthompson1\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/1jamesthompson1\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -832,6 +841,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about-me.html">
+<p>About Me</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<p>CC BY-SA 4.0</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:1jamesthompson1@gmail.com">
+<p>Contact Me: 1jamesthompson1@gmail</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions"><ul><li><a href="https://github.com/1jamesthompson1/1jamesthompson1.github.io/issues" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
