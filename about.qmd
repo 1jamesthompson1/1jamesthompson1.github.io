@@ -1,0 +1,23 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/1jamesthompson1
+    - icon: instagram
+      text: instagram
+      href: https://instagram.com/1jamesthompson1
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/james-thompson-532246208/
+
+---
+
+# Hello
+My name is James Thompson. I am a 20ish old living in New Zealand. On one side I consider myself somewhat of a Snowboarder (In the way that its what my life is built around it!), on the other side I am a right into my computers love a bit of programming. I also enjoy a good ride at the local Mtb park and exploring the outdoors.
+
+# Currently
+Since I have finished my studies (November 2023) I have been working more or less full time at the New Zealand Transport Accident Investigation Commision on a Data Science project. More info can be found [here](https://github.com/1jamesthompson1/TAIC-report-summary)
