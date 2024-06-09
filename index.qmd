@@ -1,12 +1,15 @@
 ---
 title: ""
 listing:
+  id: posts
   contents: posts
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
+  feed: true
   filter-ui: false
+  page-size: 5
 page-layout: full
 title-block-banner: true
 ---
@@ -16,7 +19,13 @@ Welcome to my own little space of the internet.
 
 This is mainly a place for my brain overflow to be dumped.
 
+Find out about me [here](about-me.qmd)
+
 **Disclaimer: I make no promise that my posts will be consistent with each other I expect my thought and ideas on all discussed topics to change.This means that I am likely to disagree with myself a lot. But your past self is really a different person.**
 
- 
- 
+---
+::: {#posts}
+:::
+
+This website was built with [Quarto](https://quarto.org/) and uses [GitHub Pages](https://pages.github.com/) to host it.  
+The code repository can be found here: [https://github.com/1jamesthompson1/1jamesthompson1.github.io](https://github.com/1jamesthompson1/1jamesthompson1.github.io)

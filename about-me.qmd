@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About Me"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
       text: GitHub
@@ -13,11 +13,17 @@ about:
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/james-thompson-532246208/
-
+    - icon: email
+      text: 1jamesthompson1@gmail.com
+      href: mailto:1jamesthompson1@gmail.com
+  image-width: 25em
+  image-shape: rounded
 ---
 
 # Hello
-My name is James Thompson. I am a 20ish old living in New Zealand. On one side I am a Snowboarder (Freeride particularly), on the other side I am right into AI through my Computer. At the end of the day I just want to make the world a better place and see what cool things I can doe
+My name is James Thompson. I am a 20ish old living in New Zealand. On one side I am a Snowboarder (Freeride particularly), on the other side I am right into AI through my Computer. At the end of the day I just want to make the world a better place and see what cool things I can do.
+
+I am always keen to hear about opportunities for me to use my skills in AI/Data Science to make the world a better place.
 
 # Currently (June 2024)
 Since I have finished my studies (November 2023) I have been working more or less full time at the New Zealand Transport Accident Investigation Commission on a Data Science project. More info can be found [here](https://github.com/1jamesthompson1/TAIC-report-summary).
