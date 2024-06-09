@@ -1,15 +1,15 @@
-This is the repositry for my simple personal website.
+This is the repository for my simple personal website.
 
 It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.com/).
 
 # Instructions
 
-These instrucitons are here for myself to know what is going on.
+These instructions are here for myself to know what is going on.
 
 ## Adding post
 
 Simply add a new directory to the `posts` folder.
-It needs to have a `index` file in it. It can be `qmd` or `jupyter`. Then you need to add atleast these things to the yaml frontmatter
+It needs to have a `index` file in it. It can be `qmd` or `jupyter`. Then you need to add at least these things to the yaml frontmatter
 ```yaml
 ---
 title: "Title"
