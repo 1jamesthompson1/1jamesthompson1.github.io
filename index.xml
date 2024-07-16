@@ -9,7 +9,7 @@
 <link>https://1jamesthompson1.github.io/</link>
 <atom:link href="https://1jamesthompson1.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification.</description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.54</generator>
 <lastBuildDate>Sun, 09 Jun 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Give till what?</title>
@@ -173,11 +173,13 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
 <p>Turning the sheets data into md and copying into the website. I know it is a real shame that something cool could of happened but instead I used copy and paste. Coming back to this and linking everything up to be automatic would be wonderful.</p>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">onOpen</span>() {</span>
 <span id="cb1-2">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> ui <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> SpreadsheetApp<span class="op" style="color: #5E5E5E;
@@ -212,11 +214,13 @@ font-style: inherit;">addToUi</span>()</span>
 <span id="cb1-5"></span>
 <span id="cb1-6"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">generateMD</span>() {</span>
 <span id="cb1-7">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> sheet <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> SpreadsheetApp<span class="op" style="color: #5E5E5E;
@@ -228,6 +232,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-8">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> data <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> sheet<span class="op" style="color: #5E5E5E;
@@ -244,6 +249,7 @@ font-style: inherit;">;</span></span>
 <span id="cb1-9"></span>
 <span id="cb1-10">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> MDstring <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
@@ -264,6 +270,7 @@ font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">forEach</span>(<span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(row) {</span>
 <span id="cb1-13">    MDstring <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -343,11 +350,13 @@ font-style: inherit;">log</span>(MDstring)</span>
 <span id="cb1-18"></span>
 <span id="cb1-19"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">convertReviewToMD</span>(review) {</span>
 <span id="cb1-20">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> [</span>
 <span id="cb1-21">    <span class="st" style="color: #20794D;
 background-color: null;
@@ -429,11 +438,13 @@ font-style: inherit;">"</span>)</span>
 <span id="cb1-28"></span>
 <span id="cb1-29"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">convertRatingToString</span>(rating) {</span>
 <span id="cb1-30">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> ratingRounded <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="bu" style="color: null;
@@ -448,6 +459,7 @@ font-style: inherit;">;</span></span>
 <span id="cb1-31"></span>
 <span id="cb1-32">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> string <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
@@ -457,8 +469,10 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-33">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (<span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> i <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -482,8 +496,10 @@ font-style: inherit;">"&amp;#9733;"</span></span>
 <span id="cb1-35">  }</span>
 <span id="cb1-36">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (<span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> i <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -511,6 +527,7 @@ font-style: inherit;">"&amp;#9734;"</span></span>
 <span id="cb1-38">  }</span>
 <span id="cb1-39">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> string</span>
 <span id="cb1-40">}</span></code></pre></div>
 <p>This gives you a string in the console and you can simply add it to the House sitting page md file.</p>
@@ -620,6 +637,43 @@ font-style: inherit;">return</span> string</span>
   <category>news</category>
   <guid>https://1jamesthompson1.github.io/posts/welcome/</guid>
   <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Aiming to ride another day</title>
+  <dc:creator>James Thompson</dc:creator>
+  <link>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="backstory" class="level3">
+<h3 class="anchored" data-anchor-id="backstory">Backstory</h3>
+<p>Firstly a bit of background. I spent the 2023 snow season in Wānaka (Read more about it <a href="https://www.sjtravels.co.nz/p/campervan-life-in-wanaka/">here</a>)so that I could train at <a href="https://www.treblecone.com/">Treble Cone</a> and <a href="https://www.cardrona.com/">Cardrona</a> as I am competing on the <a href="https://www.freerideworldtour.com/qualifier/">Freeride World Tour Qualifier series</a>. This training entails alot of jumping off cliffs and attempting to land back on my snowboard (feet first!). Most of the time this does actually go quite well and I end up on my feet and ride away. However on the fateful day of the 22nd of August I was practicing doing a backflip off what the locals call “the diving board” at Treble cone.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/p9-z9zbuHOY" title="Crash that tore my ACL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Now I was trying to land and ride away but instead I tore my anterior cruciate ligament (ACL). This meant two things. ACL reconstruction surgery in November as well as no snowboarding for ~9 months.</p>
+</section>
+<section id="back-to-today" class="level3">
+<h3 class="anchored" data-anchor-id="back-to-today">Back to today</h3>
+<p>This brings us to the here and now. I am back in Wānaka slowly starting to get back onto my snowboard. I am 5 days in and have noticed a newer idea floating around my head.</p>
+<p>I feel that I have heard the phrase “Atleast there is tomorrow” said alot. A statement which in my eyes catches two sentiments;</p>
+<ul>
+<li>life carries on and,</li>
+<li>if you must you can probably try again</li>
+</ul>
+<p>As I get back on my snowboard I need to test my knee, regain confidence in its ability. I want to slowly push it, slowly fold open the envelope. It really does make me feel silly, like a real fool just “riding around”. Normally this feeling of lack of effort will become quite powerful. Yet these recent days I have noticed something peculiar. That when I call it a day (without doing anything spectacular) I almost feel happy and content that atleast I can still ride again tomorrow.</p>
+<p>This comes from learning over the past year that some snowboarding is better than no snowboarding. I am not snowboarding just to enjoy the feeling of a turn or sweet carve, I am snowboarding to push myself and see what cool things I can do. Yet the turns and sweet carves are still magical and special in their own right. If I push myself too much, take too great of a risk I may miss out the basic magic of snowboarding as well as getting to truly see what cool things I can do on a board.</p>
+<p>All of this is a long winded way of saying that I must make a decision on how much risk I want to take while snowboarding. I can push myself as far as I can go and have a higher risk of serious injury or play things safe, slowly push the envelope while keeping my body safe. To decide how much risk I am willing to take is hard. Yet maybe now after my first big injury I am happy to be a little bit on a safer side.</p>
+<p>That said I am waiting on the green light from my physio and some fresh snow so I can reclaim that cliff!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>snowboarding</category>
+  <guid>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/</guid>
+  <pubDate>Mon, 15 Jul 2002 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
