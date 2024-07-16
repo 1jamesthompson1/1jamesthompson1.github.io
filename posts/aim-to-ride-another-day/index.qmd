@@ -1,6 +1,6 @@
 ---
 title: "Aiming to ride another day"
-date: '2002-07-15'
+date: '2024-07-15'
 categories: ["snowboarding"]
 ---
 
