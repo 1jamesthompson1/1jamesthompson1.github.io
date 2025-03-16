@@ -1,7 +1,7 @@
 ---
 title: "A good automation story"
 date: '2025-03-13'
-categories: ["category"]
+categories: [computers]
 ---
 
 I recently got back from Europe after a couple of months of Snowboarding and competing at some Freeride World Tour Qualifier events. Fun time but crashed at almost all compeitions so didnt go well from that aspect, however my Europe story is for another day. Today I want to talk about a good automation experience. I am sure any person who fiddles with code is well versed and had first hand experience of what ill call the illusion of automation.

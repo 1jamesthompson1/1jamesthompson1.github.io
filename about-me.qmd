@@ -25,5 +25,5 @@ My name is James Thompson. I am a 20ish old living in New Zealand. On one side I
 
 I am always keen to hear about opportunities for me to use my skills in AI/Data Science to make the world a better place.
 
-# Currently (June 2024)
-Since I have finished my studies (November 2023) I have been working more or less full time at the New Zealand Transport Accident Investigation Commission on a Data Science project. More info can be found [here](https://github.com/1jamesthompson1/TAIC-report-summary).
+# Currently (March 2025)
+Living in and around Wellington while studying towards my Master of Artificial Intelligence at Victoria University of Wellington. 
