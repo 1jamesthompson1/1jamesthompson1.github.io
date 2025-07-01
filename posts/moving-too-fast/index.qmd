@@ -1,0 +1,9 @@
+---
+title: "Move too fast and you might just miss something"
+date: '2025-07-01'
+categories: ["ideas"]
+---
+
+I recently completed my first posgraduate research project. It was alot of fun, a lot of frsutration and quit a bit of stress.
+
+All up the outcome wasn't the most successful in actually coming up with a great new idea, however I did achieve the goal of 'learning something about reinforcement learning'.
