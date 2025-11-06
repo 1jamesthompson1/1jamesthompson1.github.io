@@ -9,8 +9,8 @@
 <link>https://1jamesthompson1.github.io/</link>
 <atom:link href="https://1jamesthompson1.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification.</description>
-<generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 13 Mar 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.43</generator>
+<lastBuildDate>Wed, 12 Mar 2025 11:00:00 GMT</lastBuildDate>
 <item>
   <title>A good automation story</title>
   <dc:creator>James Thompson</dc:creator>
@@ -39,7 +39,7 @@
  ]]></description>
   <category>computers</category>
   <guid>https://1jamesthompson1.github.io/posts/a-good-automation-story/</guid>
-  <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 12 Mar 2025 11:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Aiming to ride another day</title>
@@ -76,7 +76,7 @@
  ]]></description>
   <category>snowboarding</category>
   <guid>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/</guid>
-  <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 14 Jul 2024 12:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Give till what?</title>
@@ -110,7 +110,7 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
   <category>ideas</category>
   <category>altruism</category>
   <guid>https://1jamesthompson1.github.io/posts/give-till-what/</guid>
-  <pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 08 Jun 2024 12:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My First Prototype</title>
@@ -180,7 +180,7 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
   <category>project</category>
   <category>computers</category>
   <guid>https://1jamesthompson1.github.io/posts/my-first-prototype/</guid>
-  <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 09 Mar 2024 11:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hugo sjtravel website</title>
@@ -620,7 +620,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>project</category>
   <guid>https://1jamesthompson1.github.io/posts/hugo-website/</guid>
-  <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 22 Apr 2023 12:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Rmd no more (atleast not while it is hindering me)</title>
@@ -643,7 +643,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>meta</category>
   <guid>https://1jamesthompson1.github.io/posts/rmd-no-more/</guid>
-  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 10 Apr 2023 12:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Test of building blog posts with rmd and Jekyll</title>
@@ -683,7 +683,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>meta</category>
   <guid>https://1jamesthompson1.github.io/posts/jekyll-with-rmd/</guid>
-  <pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 20 Aug 2022 12:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Blog</title>
@@ -703,7 +703,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>news</category>
   <guid>https://1jamesthompson1.github.io/posts/welcome/</guid>
-  <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 08 Aug 2022 12:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
