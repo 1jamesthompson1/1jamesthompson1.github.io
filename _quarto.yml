@@ -32,9 +32,6 @@ website:
       - text: "Contact Me: 1jamesthompson1@gmail"
         href: "mailto:1jamesthompson1@gmail.com"
 
-
-  
-
 format:
   html:
     theme: yeti
