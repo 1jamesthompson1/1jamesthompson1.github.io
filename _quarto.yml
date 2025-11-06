@@ -27,6 +27,9 @@ website:
         href: https://creativecommons.org/licenses/by-sa/4.0/
       - text: "Contact Me: 1jamesthompson1@gmail"
         href: "mailto:1jamesthompson1@gmail.com"
+comments:
+  giscus: 
+    repo: 1jamesthompson1/1jamesthompson1.github.io
 
 format:
   html:
