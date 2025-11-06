@@ -30,6 +30,9 @@ website:
 comments:
   giscus: 
     repo: 1jamesthompson1/1jamesthompson1.github.io
+    mapping: pathname
+    category: Announcements
+    
 
 format:
   html:

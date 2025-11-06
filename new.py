@@ -37,11 +37,8 @@ def slugify(s: str) -> str:
     return s
 
 
-def create_post(title: str, slug: str | None, category: str | None, date: str | None, force: bool) -> str:
-    if not slug:
-        slug = slugify(title)
-        if not slug:
-            raise SystemExit("Unable to create a slug from the title; please pass --slug")
+def create_post(title: str, slug: str, category: str | None, date: str | None, force: bool) -> str:
+    
     posts_dir = os.path.join(os.getcwd(), "posts")
     post_dir = os.path.join(posts_dir, slug)
     os.makedirs(post_dir, exist_ok=True)
@@ -68,8 +65,18 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--force", help="Overwrite existing post if present", action="store_true")
 
     args = parser.parse_args(argv)
+    slug = args.slug
+    if not slug:
+        slug = slugify(args.title)
+        if not slug:
+            raise SystemExit("Unable to create a slug from the title; please pass --slug")
+    
+    # Create git branch name from slug
+    branch_name = f"posts/{slug}"
+    os.system(f"git checkout -b {branch_name}")
+
     try:
-        path = create_post(args.title, args.slug, args.category, args.date, args.force)
+        path = create_post(args.title, slug, args.category, args.date, args.force)
     except SystemExit as e:
         print(e, file=sys.stderr)
         return 2

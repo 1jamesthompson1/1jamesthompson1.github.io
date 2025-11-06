@@ -21,6 +21,7 @@ about:
       href: mailto:1jamesthompson1@gmail.com
   image-width: 25em
   image-shape: rounded
+comments: false
 ---
 
 # Hello
