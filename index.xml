@@ -9,8 +9,8 @@
 <link>https://1jamesthompson1.github.io/</link>
 <atom:link href="https://1jamesthompson1.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification.</description>
-<generator>quarto-1.5.43</generator>
-<lastBuildDate>Wed, 12 Mar 2025 11:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Thu, 13 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>A good automation story</title>
   <dc:creator>James Thompson</dc:creator>
@@ -39,7 +39,7 @@
  ]]></description>
   <category>computers</category>
   <guid>https://1jamesthompson1.github.io/posts/a-good-automation-story/</guid>
-  <pubDate>Wed, 12 Mar 2025 11:00:00 GMT</pubDate>
+  <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Aiming to ride another day</title>
@@ -76,7 +76,7 @@
  ]]></description>
   <category>snowboarding</category>
   <guid>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/</guid>
-  <pubDate>Sun, 14 Jul 2024 12:00:00 GMT</pubDate>
+  <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Give till what?</title>
@@ -110,7 +110,7 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
   <category>ideas</category>
   <category>altruism</category>
   <guid>https://1jamesthompson1.github.io/posts/give-till-what/</guid>
-  <pubDate>Sat, 08 Jun 2024 12:00:00 GMT</pubDate>
+  <pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My First Prototype</title>
@@ -180,7 +180,7 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
   <category>project</category>
   <category>computers</category>
   <guid>https://1jamesthompson1.github.io/posts/my-first-prototype/</guid>
-  <pubDate>Sat, 09 Mar 2024 11:00:00 GMT</pubDate>
+  <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hugo sjtravel website</title>
@@ -238,7 +238,7 @@ Now I surprisingly am not exactly sure what the current suffering distribution i
 <p>I would of ideally liked to have something that meant you could easily query all of our reviews. Something like the google reviews section on the internet. However sadly using this simple static builder meant that there wasn’t going to be an easy out of the box solutions. So instead I went to my trusty google sheets and collected all our reviews from the kiwihousesitter.co.nz. This meant that I now had the data somewhere I wanted. Since time was short I really came up with a terrible clunky solutions.</p>
 <p>Which was.</p>
 <p>Turning the sheets data into md and copying into the website. I know it is a real shame that something cool could of happened but instead I used copy and paste. Coming back to this and linking everything up to be automatic would be wonderful.</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
@@ -596,7 +596,7 @@ font-style: inherit;">"&amp;#9734;"</span></span>
 background-color: null;
 font-weight: bold;
 font-style: inherit;">return</span> string</span>
-<span id="cb1-40">}</span></code></pre></div>
+<span id="cb1-40">}</span></code></pre></div></div>
 <p>This gives you a string in the console and you can simply add it to the House sitting page md file.</p>
 <p>I also found out that the <a href="https://symbl.cc/en/2BEA/">half star</a> unicode character is not supported somewhere in the website chain so the star rating had to be rounded to the nearest half.</p>
 <p>Regardless of how it was made it did come out looking not half bad.</p>
@@ -620,7 +620,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>project</category>
   <guid>https://1jamesthompson1.github.io/posts/hugo-website/</guid>
-  <pubDate>Sat, 22 Apr 2023 12:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Rmd no more (atleast not while it is hindering me)</title>
@@ -643,7 +643,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>meta</category>
   <guid>https://1jamesthompson1.github.io/posts/rmd-no-more/</guid>
-  <pubDate>Mon, 10 Apr 2023 12:00:00 GMT</pubDate>
+  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Test of building blog posts with rmd and Jekyll</title>
@@ -683,7 +683,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>meta</category>
   <guid>https://1jamesthompson1.github.io/posts/jekyll-with-rmd/</guid>
-  <pubDate>Sat, 20 Aug 2022 12:00:00 GMT</pubDate>
+  <pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Blog</title>
@@ -703,7 +703,7 @@ font-style: inherit;">return</span> string</span>
  ]]></description>
   <category>news</category>
   <guid>https://1jamesthompson1.github.io/posts/welcome/</guid>
-  <pubDate>Mon, 08 Aug 2022 12:00:00 GMT</pubDate>
+  <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

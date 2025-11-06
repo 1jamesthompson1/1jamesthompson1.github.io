@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/index.html</loc>
-    <lastmod>2024-07-16T08:31:06.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://1jamesthompson1.github.io/posts/my-first-prototype/index.html</loc>
-    <lastmod>2024-06-09T02:03:15.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://1jamesthompson1.github.io/posts/a-good-automation-story/index.html</loc>
-    <lastmod>2025-03-16T04:22:09.840Z</lastmod>
+    <loc>https://1jamesthompson1.github.io/about-me.html</loc>
+    <lastmod>2025-11-06T22:15:49.968Z</lastmod>
   </url>
   <url>
     <loc>https://1jamesthompson1.github.io/posts/welcome/index.html</loc>
-    <lastmod>2024-06-09T02:03:15.777Z</lastmod>
+    <lastmod>2025-11-06T22:15:49.971Z</lastmod>
   </url>
   <url>
-    <loc>https://1jamesthompson1.github.io/about-me.html</loc>
-    <lastmod>2025-03-16T04:21:05.981Z</lastmod>
-  </url>
-  <url>
-    <loc>https://1jamesthompson1.github.io/index.html</loc>
-    <lastmod>2024-06-09T04:31:02.885Z</lastmod>
-  </url>
-  <url>
-    <loc>https://1jamesthompson1.github.io/posts/give-till-what/index.html</loc>
-    <lastmod>2024-06-09T04:48:24.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://1jamesthompson1.github.io/posts/jekyll-with-rmd/index.html</loc>
-    <lastmod>2024-06-09T02:03:15.777Z</lastmod>
+    <loc>https://1jamesthompson1.github.io/posts/a-good-automation-story/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.968Z</lastmod>
   </url>
   <url>
     <loc>https://1jamesthompson1.github.io/posts/rmd-no-more/index.html</loc>
-    <lastmod>2024-06-09T02:03:15.777Z</lastmod>
+    <lastmod>2025-11-06T22:15:49.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://1jamesthompson1.github.io/posts/jekyll-with-rmd/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://1jamesthompson1.github.io/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://1jamesthompson1.github.io/posts/my-first-prototype/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.971Z</lastmod>
   </url>
   <url>
     <loc>https://1jamesthompson1.github.io/posts/hugo-website/index.html</loc>
-    <lastmod>2024-06-09T02:03:15.777Z</lastmod>
+    <lastmod>2025-11-06T22:15:49.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://1jamesthompson1.github.io/posts/aim-to-ride-another-day/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://1jamesthompson1.github.io/posts/give-till-what/index.html</loc>
+    <lastmod>2025-11-06T22:15:49.969Z</lastmod>
   </url>
 </urlset>
