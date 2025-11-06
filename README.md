@@ -7,16 +7,10 @@ It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.co
 
 ## Adding post
 
-Simply add a new directory to the `posts` folder.
-It needs to have a `index` file in it. It can be `qmd`, `jupyter`. Then you need to add at least these things to the yaml frontmatter
-
-```yaml
----
-title: "Title"
-date: 'yyyy-mm-dd'
-categories: ["category"]
----
+```bash
+uv run new.py "My Post Title" --categories category
 ```
+
 
 ## Previewing the site locally
 
@@ -28,7 +22,7 @@ uv run quarto preview
 
 ## Setting up environment
 
-### Install Quarto 
+### Install Quarto
 
 Follow instructions at https://quarto.org/docs/get-started/
 
