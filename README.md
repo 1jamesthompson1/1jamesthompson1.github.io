@@ -28,6 +28,10 @@ uv run quarto preview
 
 ## Setting up environment
 
+### Install Quarto 
+
+Follow instructions at https://quarto.org/docs/get-started/
+
 ### Clone repository
 
 This can be done with
