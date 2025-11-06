@@ -13,6 +13,9 @@ about:
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/james-thompson-532246208/
+    - icon: cv
+      text: CV
+      href: https://github.com/1jamesthompson1/james_thompson_cv/blob/main/output/CV.pdf
     - icon: email
       text: 1jamesthompson1@gmail.com
       href: mailto:1jamesthompson1@gmail.com
@@ -21,9 +24,9 @@ about:
 ---
 
 # Hello
-My name is James Thompson. I am a 20ish old living in New Zealand. On one side I am a Snowboarder (Freeride particularly), on the other side I am right into AI through my Computer. At the end of the day I just want to make the world a better place and see what cool things I can do.
+My name is James Thompson. I am a 20ish old living in New Zealand. I spend my days behind a computer working on problems in AI safety and AI applications. I moonlight as a snowboarding (competing in Freeride events).
 
 I am always keen to hear about opportunities for me to use my skills in AI/Data Science to make the world a better place.
 
-# Currently (March 2025)
-Living in and around Wellington while studying towards my Master of Artificial Intelligence at Victoria University of Wellington. 
+# Currently (November 2025)
+Living in and around Wellington. I have recently completed my course work part of my Master of AI and am starting my research project in AI alignment which will take me through till June-ish 2026.

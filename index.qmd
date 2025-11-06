@@ -14,11 +14,6 @@ page-layout: full
 title-block-banner: true
 ---
 
-# Hello
-Welcome to my own little space of the internet.
-
-This is mainly a place for my brain overflow to be dumped.
-
 Find out about me [here](about-me.qmd)
 
 **Disclaimer: I make no promise that my posts will be consistent with each other I expect my thought and ideas on all discussed topics to change.This means that I am likely to disagree with myself a lot. But your past self is really a different person.**

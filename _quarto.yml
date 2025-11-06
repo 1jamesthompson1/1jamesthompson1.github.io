@@ -14,17 +14,13 @@ website:
         href: https://instagram.com/1jamesthompson1
       - icon: linkedin
         href: https://www.linkedin.com/in/james-thompson-532246208/
-  google-analytics: 
-    tracking-id: "G-Y4LKP8KTPE"
-    storage: none
-    anonymize-ip: true
 
   repo-url: "https://github.com/1jamesthompson1/1jamesthompson1.github.io"
   issue-url: "https://github.com/1jamesthompson1/1jamesthompson1.github.io/issues"
   page-navigation: true
 
   page-footer:
-    center: 
+    center:
       - text: "About Me"
         href: about-me.qmd
       - text: "CC BY-SA 4.0"
@@ -36,6 +32,6 @@ format:
   html:
     theme: yeti
     css: styles.css
-
-
-
+    include-in-header:
+        - text: |
+            <script data-goatcounter="https://1jamesthompson1.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
