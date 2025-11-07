@@ -10,7 +10,7 @@ It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.co
 ```bash
 uv run new.py "My Post Title" --categories category
 ```
-
+This is creathed a new post in `posts/my-post-title/index.qmd` with the appropriate front matter as well as put you on a new git branch.
 
 ## Previewing the site locally
 

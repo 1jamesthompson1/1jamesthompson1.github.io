@@ -1,0 +1,655 @@
+client,project,task,day,duration,description,trimester
+VUW MAI,AIML440,Intro to RL,2025-02-09,0 days 07:29:00,Chapter 3,T12025
+VUW MAI,AIML440,Lectures,2025-02-10,0 days 01:11:00,Lecture 3,T12025
+VUW MAI,AIML440,Lectures,2025-02-10,0 days 02:07:00,Lecture 3,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-11,0 days 00:26:00,Chapter 4,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-12,0 days 06:49:00,Chapter 4,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-14,0 days 06:25:00,Chapter 4,T12025
+VUW MAI,AIML440,Lectures,2025-02-15,0 days 00:25:00,Lecture 4,T12025
+VUW MAI,AIML440,Lectures,2025-02-18,0 days 02:30:00,Lecture 4,T12025
+VUW MAI,AIML427,Lectures,2025-02-23,0 days 01:09:00,Week 1 - Mon,T12025
+VUW MAI,AIML420,Lectures,2025-02-25,0 days 02:00:00,Week 1 - Both lectures,T12025
+VUW MAI,AIML428,Lectures,2025-02-25,0 days 01:00:00,Week 1 - Tuesday,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-25,0 days 01:00:00,Chapter 5,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-26,0 days 03:00:00,Chapter 5,T12025
+VUW MAI,AIML440,Lectures,2025-02-26,0 days 02:00:00,Lecture 5,T12025
+VUW MAI,AIML428,Lectures,2025-02-27,0 days 01:01:00,Week 1 - Friday,T12025
+VUW MAI,AIML427,Lectures,2025-02-27,0 days 00:45:00,Week 1 - Thu,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-28,0 days 01:13:00,Chapter 5,T12025
+VUW MAI,AIML440,Intro to RL,2025-02-28,0 days 01:39:00,Chapter 6,T12025
+VUW MAI,AIML440,Assignment,2025-02-28,0 days 00:36:00,,T12025
+VUW MAI,AIML420,Lectures,2025-02-28,0 days 00:50:00,Week 1 - Tutorial,T12025
+VUW MAI,AIML440,Intro to RL,2025-03-02,0 days 00:20:00,Chapter 6,T12025
+VUW MAI,AIML440,Intro to RL,2025-03-02,0 days 01:57:00,Chapter 7,T12025
+VUW MAI,AIML440,Assignment,2025-03-02,0 days 00:45:00,Getting environment ready for writing,T12025
+VUW MAI,AIML427,Lectures,2025-03-03,0 days 01:15:00,Week 2 - Monday lecture,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-03,0 days 00:43:00,,T12025
+VUW MAI,AIML428,Lectures,2025-03-03,0 days 01:00:00,Week 2 - Tue,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-04,0 days 03:06:00,Writing up intro,T12025
+VUW MAI,AIML440,Lectures,2025-03-04,0 days 03:40:00,Lecture 6,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-04,0 days 02:16:00,Writing up DQN,T12025
+VUW MAI,AIML428,Assignment 1,2025-03-04,0 days 00:10:00,,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-04,0 days 01:34:00,Writing up intro,T12025
+VUW MAI,AIML428,Lectures,2025-03-04,0 days 01:00:00,Week 2 - Wed,T12025
+VUW MAI,AIML420,Lectures,2025-03-05,0 days 00:49:00,Week 2 - Tuesday,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-05,0 days 02:20:00,,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-05,0 days 01:57:00,Writing up DQN,T12025
+VUW MAI,AIML420,Lectures,2025-03-05,0 days 01:13:00,Week 2 - Thu,T12025
+VUW MAI,AIML427,Lectures,2025-03-06,0 days 01:00:00,Week 2 - Thu,T12025
+VUW MAI,AIML428,Lectures,2025-03-06,0 days 00:45:00,Week 2 - Fri,T12025
+VUW MAI,AIML428,Assignment 1,2025-03-06,0 days 02:17:00,Completed step 1 and 2,T12025
+VUW MAI,AIML440,Meeting,2025-03-06,0 days 01:23:00,Meeting and getting to grips with ECS stuff and grid,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-07,0 days 00:37:00,Writing up DQN,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-07,0 days 01:21:00,Writing up part 1,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-07,0 days 00:09:00,,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-07,0 days 02:30:00,Finished draft of part 1,T12025
+VUW MAI,AIML440,Lectures,2025-03-08,0 days 02:25:00,Lecture 7,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-09,0 days 01:00:00,Writing up SAC,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-09,0 days 01:52:00,Writing up part 1,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-09,0 days 02:44:00,Writing up part 2,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-09,0 days 00:03:00,Writing up part 1,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-10,0 days 05:02:00,Writing up SAC,T12025
+VUW MAI,AIML427,Lectures,2025-03-10,0 days 00:39:00,Week 3 - Mon,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-10,0 days 04:00:00,Writing up SAC,T12025
+VUW MAI,AIML428,Lectures,2025-03-10,0 days 01:13:00,Week 3 - Tue,T12025
+VUW MAI,AIML420,Lectures,2025-03-10,0 days 01:30:00,Week 3 - Tue,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-11,0 days 04:02:00,Writing up PPO,T12025
+VUW MAI,AIML440,Intro to RL,2025-03-11,0 days 00:51:00,Chapter 13,T12025
+VUW MAI,AIML420,Lectures,2025-03-12,0 days 01:13:00,Week 3 - Wed,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-12,0 days 02:06:00,Part 3,T12025
+VUW MAI,AIML440,Assignment,2025-03-12,0 days 00:51:00,Read up about REDQ,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-12,0 days 01:42:00,Part 2,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-12,0 days 03:43:00,Proof reading draft,T12025
+VUW MAI,AIML420,Lectures,2025-03-13,0 days 00:56:00,Week 3 - Thu,T12025
+VUW MAI,AIML440,Assignment,2025-03-13,0 days 01:15:00,"Quick read of DroQ, CrosQ and TQC",T12025
+VUW MAI,AIML440,Meeting,2025-03-13,0 days 01:07:00,,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-13,0 days 03:42:00,Redoing report in latex format,T12025
+VUW MAI,AIML427,Lectures,2025-03-14,0 days 01:14:00,Week 3 - Thu,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-14,0 days 00:31:00,Part 1 proof read and completition,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-14,0 days 00:54:00,Part 2 - iv,T12025
+VUW MAI,AIML428,Lectures,2025-03-14,0 days 00:47:00,Week 3 - Fri,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-14,0 days 02:18:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-15,0 days 03:00:00,Trying to get mujoco working,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-16,0 days 01:00:00,,T12025
+VUW MAI,AIML427,Lectures,2025-03-16,0 days 01:00:00,Week 4 - Mon,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-16,0 days 01:28:00,Writing up TD3,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-16,0 days 00:53:00,Getting grid environment setup,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-17,0 days 03:20:00,Adding changes to draft,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-17,0 days 04:17:00,Finished part 2 and part 3,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-18,0 days 03:49:00,Adding changes to draft,T12025
+VUW MAI,AIML420,Lectures,2025-03-18,0 days 02:15:00,"Week 4 - Tue, Wed",T12025
+VUW MAI,AIML440,Assignment 2,2025-03-18,0 days 03:42:00,Geting loca RL environment setup,T12025
+VUW MAI,AIML428,Lectures,2025-03-19,0 days 01:26:00,Week 4 - Tue,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-19,0 days 03:22:00,Getting grid setup,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-19,0 days 01:49:00,Running basic experiemets with models,T12025
+VUW MAI,AIML420,Lectures,2025-03-19,0 days 00:01:00,The comparisions,T12025
+VUW MAI,AIML428,Assignment 1,2025-03-20,0 days 00:49:00,Question 3,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-20,0 days 01:13:00,Setting up remote dev environment,T12025
+VUW MAI,AIML420,Lectures,2025-03-20,0 days 01:00:00,Week 4 - Thu,T12025
+VUW MAI,AIML440,Meeting,2025-03-20,0 days 01:00:00,Handed in report good feedback and movin on the second stage of experiments,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-20,0 days 02:09:00,Running basic experiemets with models,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-20,0 days 01:58:00,Part 2,T12025
+VUW MAI,AIML427,Lectures,2025-03-21,0 days 01:10:00,Week 4 - Thu,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-21,0 days 02:16:00,Finished part 1 and 2,T12025
+VUW MAI,AIML428,Lectures,2025-03-21,0 days 01:02:00,Week 4 - Fri,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-22,0 days 02:41:00,"Finish part 3
+
+Might be a DT problem and nee to make it morel ike c4.5",T12025
+VUW MAI,AIML440,Assignment 2,2025-03-23,0 days 05:44:00,Figuring out how to get the reward information I need,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-24,0 days 01:00:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-24,0 days 01:26:00,Submitting test jobs and removing concurrency,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-24,0 days 00:01:00,Submitting test jobs,T12025
+VUW MAI,AIML427,Lectures,2025-03-24,0 days 00:48:00,Week 5 - Mon,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-24,0 days 01:12:00,Complete part 1,T12025
+VUW MAI,AIML427,Assignment 1,2025-03-24,0 days 01:16:00,"Finish part 3
+
+Might be a DT problem and nee to make it morel ike c4.5",T12025
+VUW MAI,AIML428,Assignment 1,2025-03-25,0 days 02:07:00,,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-25,0 days 02:36:00,Touching up part 2,T12025
+VUW MAI,AIML440,Assignment 1,2025-03-26,0 days 00:58:00,Check ion experiments,T12025
+VUW MAI,AIML428,Assignment 1,2025-03-26,0 days 02:50:00,Touching up question 3 and 4 and gettign starting on question 5,T12025
+VUW MAI,AIML420,Assignment 1,2025-03-26,0 days 03:52:00,Finish up part 1,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-27,0 days 02:10:00,Writing up baseline experiment report,T12025
+VUW MAI,AIML428,Assignment 1,2025-03-27,0 days 06:24:00,,T12025
+VUW MAI,AIML440,Meeting,2025-03-27,0 days 00:24:00,,T12025
+VUW MAI,AIML427,Lectures,2025-03-28,0 days 01:00:00,Thu,T12025
+VUW MAI,AIML420,Lectures,2025-03-28,0 days 02:00:00,"Week 5 - Tue,Wed",T12025
+VUW MAI,AIML428,Assignment 1,2025-03-28,0 days 03:19:00,,T12025
+VUW MAI,AIML420,Lectures,2025-03-29,0 days 00:59:00,Week 5 - Thu,T12025
+VUW MAI,AIML428,Lectures,2025-03-29,0 days 01:00:00,Workshop,T12025
+VUW MAI,AIML428,Lectures,2025-03-29,0 days 01:00:00,Week 5 - Tue,T12025
+VUW MAI,AIML427,Lectures,2025-03-29,0 days 01:10:00,Week 5 - Thu,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-29,0 days 02:00:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-30,0 days 03:15:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-30,0 days 01:01:00,,T12025
+VUW MAI,AIML427,Lectures,2025-03-31,0 days 00:00:00,Week 6 - Mon,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-31,0 days 03:40:00,Running TQC experiments,T12025
+VUW MAI,AIML427,Lectures,2025-03-31,0 days 00:41:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-03-31,0 days 03:59:00,Running RedQ experiments,T12025
+VUW MAI,AIML427,Lectures,2025-03-31,0 days 00:03:00,,T12025
+VUW MAI,AIML427,Lectures,2025-03-31,0 days 00:04:00,,T12025
+VUW MAI,AIML420,Lectures,2025-04-01,0 days 01:34:00,"Week 6 - Mon, Tue",T12025
+VUW MAI,AIML440,Assignment 2,2025-04-01,0 days 03:23:00,Triaging CrosQ and DroQ,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-02,0 days 02:59:00,Running CrossQ And DroQ,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-02,0 days 00:50:00,Writing up hyperparameters,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-02,0 days 05:24:00,Writing up modern algorithms,T12025
+VUW MAI,AIML428,Lectures,2025-04-03,0 days 01:17:00,Week 6 - tue,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-03,0 days 03:51:00,Writing up hyperparameters,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-03,0 days 01:26:00,Running CrossQ And DroQ,T12025
+VUW MAI,AIML440,Meeting,2025-04-03,0 days 00:31:00,,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-04,0 days 01:13:00,Setup repo,T12025
+VUW MAI,AIML420,Lectures,2025-04-04,0 days 01:00:00,Week6 - Thu,T12025
+VUW MAI,AIML428,Lectures,2025-04-04,0 days 00:47:00,Week 6 - Fri,T12025
+VUW MAI,AIML427,Lectures,2025-04-04,0 days 01:00:00,Week 6 - Thu,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-04,0 days 01:27:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-04,0 days 01:14:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-05,0 days 01:52:00,Rerunning redq and tqc,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-06,0 days 04:22:00,Downloading,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-07,0 days 02:39:00,Running CrossQ And DroQ,T12025
+VUW MAI,AIML427,Lectures,2025-04-07,0 days 01:03:00,Week 7 - Mon,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-07,0 days 04:04:00,Part 1,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-07,0 days 00:25:00,Sorting out out of space bug,T12025
+VUW MAI,AIML420,Lectures,2025-04-08,0 days 01:03:00,Week 7 - Tue,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-08,0 days 03:00:00,Upgrading the file reader as well as making time graph,T12025
+VUW MAI,AIML420,Assignment 2,2025-04-08,0 days 00:35:00,,T12025
+VUW MAI,AIML428,Lectures,2025-04-09,0 days 01:02:00,Week 7 - Tue,T12025
+VUW MAI,AIML420,Assignment 2,2025-04-09,0 days 03:26:00,Geting started,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-09,0 days 06:21:00,,T12025
+VUW MAI,AIML420,Lectures,2025-04-10,0 days 00:50:00,Week 7 - Thu,T12025
+VUW MAI,AIML420,Lectures,2025-04-10,0 days 01:12:00,Week 7 - Wed,T12025
+VUW MAI,AIML428,Lectures,2025-04-10,0 days 01:06:00,Week 7 ;- Fri,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-10,0 days 00:38:00,,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-10,0 days 00:43:00,,T12025
+VUW MAI,AIML427,Lectures,2025-04-10,0 days 00:55:00,Week 7 - Thu,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-11,0 days 00:49:00,,T12025
+VUW MAI,AIML440,Meeting,2025-04-11,0 days 01:03:00,Meeting,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-11,0 days 00:48:00,Exploring using ensemble of actors,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-13,0 days 03:23:00,Getting experiemtns running HPC,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-14,0 days 03:12:00,,T12025
+VUW MAI,AIML420,Mid term,2025-04-14,0 days 01:11:00,Figuring out how to study,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-14,0 days 01:00:00,Submitting experiments to raapoi,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-14,0 days 00:36:00,,T12025
+VUW MAI,AIML428,Lectures,2025-04-14,0 days 00:57:00,Hugging facve lab 2,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-14,0 days 01:00:00,Need to get the evaluation on bbh to work,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-15,0 days 02:32:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-16,0 days 04:01:00,Working on sumbtting new jobs and updating the report,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-17,0 days 00:35:00,Managing experiments,T12025
+VUW MAI,AIML440,Meeting,2025-04-17,0 days 00:29:00,,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-18,0 days 03:21:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-18,0 days 00:13:00,Managing experiments,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-19,0 days 02:41:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-19,0 days 00:20:00,Managing experiments,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-20,0 days 08:00:00,Writing up pseudo code for algorithm ideas,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-22,0 days 00:46:00,Converting a SAC implementastion,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-22,0 days 01:51:00,Writing up pseudo code for algorithm ideas,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-23,0 days 03:53:00,Converting a SAC implementastion,T12025
+VUW MAI,AIML420,Assignment 2,2025-04-24,0 days 00:53:00,Doing perceptron,T12025
+VUW MAI,AIML420,Mid term,2025-04-24,0 days 03:42:00,Redoing first part of notes,T12025
+VUW MAI,AIML420,Mid term,2025-04-25,0 days 04:00:00,Redoing serach and unsupervised learning,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-26,0 days 02:10:00,COmpleting part 1,T12025
+VUW MAI,AIML420,Mid term,2025-04-27,0 days 02:27:00,Probabilitiy,T12025
+VUW MAI,AIML427,Lectures,2025-04-27,0 days 00:17:00,Week 8 - mon,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-27,0 days 00:17:00,Finfing which experiemnts are failing,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-28,0 days 02:07:00,Rerun with checkpoitns redq,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-28,0 days 00:00:00,,T12025
+VUW MAI,AIML428,Lectures,2025-04-28,0 days 00:57:00,Week 8 - Tue,T12025
+VUW MAI,AIML427,Lectures,2025-04-28,0 days 00:53:00,Week 8 - mon,T12025
+VUW MAI,AIML440,Assignment 2,2025-04-28,0 days 00:46:00,Rerun with checkpoitns redq,T12025
+VUW MAI,AIML427,Assignment 2,2025-04-29,0 days 02:47:00,,T12025
+VUW MAI,AIML428,Assignment 2,2025-04-29,0 days 02:27:00,Writing report,T12025
+VUW MAI,AIML420,Mid term,2025-04-29,0 days 00:33:00,practice test comp307,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-30,0 days 02:31:00,,T12025
+VUW MAI,AIML420,Lectures,2025-04-30,0 days 02:13:00,Week 8 - Tue,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-30,0 days 00:15:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-04-30,0 days 02:49:00,,T12025
+VUW MAI,AIML428,Lectures,2025-04-30,0 days 00:02:00,Week 8 - Tue,T12025
+VUW MAI,AIML440,Meeting,2025-05-01,0 days 00:37:00,,T12025
+VUW MAI,AIML420,Mid term,2025-05-01,0 days 02:53:00,Doing practice test,T12025
+VUW MAI,AIML428,Assignment 2,2025-05-01,0 days 02:39:00,Getting ready to submit,T12025
+VUW MAI,AIML420,Mid term,2025-05-01,0 days 00:59:00,Test,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-02,0 days 02:58:00,Sorting out running many experiements,T12025
+VUW MAI,AIML428,Lectures,2025-05-02,0 days 00:53:00,Week 8 - Fri,T12025
+VUW MAI,AIML427,Assignment 2,2025-05-04,0 days 07:53:00,Figuring out what more needs to bedone,T12025
+VUW MAI,AIML427,Assignment 2,2025-05-04,0 days 00:35:00,Figuring out what more needs to bedone,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-05,0 days 02:07:00,,T12025
+VUW MAI,AIML427,Lectures,2025-05-06,0 days 00:58:00,Week 9 - Mon,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-06,0 days 00:00:00,,T12025
+VUW MAI,AIML420,Assignment 2,2025-05-06,0 days 03:21:00,,T12025
+VUW MAI,AIML420,Unknown Task,2025-05-06,0 days 00:35:00,Week 9 - Tue,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-07,0 days 01:37:00,,T12025
+VUW MAI,AIML428,Unknown Task,2025-05-07,0 days 01:25:00,Week 9 - Tue,T12025
+VUW MAI,AIML420,Lectures,2025-05-08,0 days 00:00:00,Week 9 - Wed,T12025
+VUW MAI,AIML420,Assignment 2,2025-05-08,0 days 02:21:00,,T12025
+VUW MAI,AIML420,Assignment 2,2025-05-08,0 days 05:34:00,,T12025
+VUW MAI,AIML428,Lectures,2025-05-08,0 days 00:00:00,Week 9 - Fri,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-08,0 days 03:24:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-05-09,0 days 01:35:00,Completing Hadoop lab,T12025
+VUW MAI,AIML420,Lectures,2025-05-09,0 days 01:05:00,Week 9 - Thu,T12025
+VUW MAI,AIML427,Lectures,2025-05-09,0 days 00:52:00,Week 9 - Thu,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-10,0 days 01:18:00,,T12025
+VUW MAI,AIML440,Assignment 2,2025-05-11,0 days 01:35:00,Checking up on experiments,T12025
+VUW MAI,AIML427,Test,2025-05-11,0 days 02:02:00,Organising topics,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-12,0 days 04:48:00,Looking at SUNRISE,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-12,0 days 04:04:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-13,0 days 01:24:00,"Decided on using togather AI, with langchain and the fwt website blogs.",T12025
+VUW MAI,AIML427,Assignment 3,2025-05-13,0 days 00:47:00,Completing Hadoop lab,T12025
+VUW MAI,AIML427,Test,2025-05-13,0 days 01:34:00,Rewriting notes,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-13,0 days 02:12:00,,T12025
+VUW MAI,AIML427,Lectures,2025-05-13,0 days 01:13:00,Week 10 - Mon,T12025
+VUW MAI,AIML420,Assignment 3,2025-05-13,0 days 03:10:00,,T12025
+VUW MAI,AIML428,Lectures,2025-05-13,0 days 01:12:00,Week 10 - Tue,T12025
+VUW MAI,AIML420,Lectures,2025-05-13,0 days 00:00:00,Week 10 -Tue,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-14,0 days 03:54:00,Getting SUNRISE working,T12025
+VUW MAI,AIML427,Test,2025-05-14,0 days 00:19:00,Rewriting notes,T12025
+VUW MAI,AIML420,Lectures,2025-05-14,0 days 00:53:00,Week 10 - Wed,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-14,0 days 00:38:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-15,0 days 04:55:00,Rewriting SUNRISE,T12025
+VUW MAI,AIML420,Lectures,2025-05-15,0 days 00:35:00,Week 10 - Thu,T12025
+VUW MAI,AIML440,Assignment 2,2025-05-15,0 days 00:23:00,Getting old ones,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-16,0 days 01:06:00,,T12025
+VUW MAI,AIML440,Meeting,2025-05-16,0 days 00:34:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-16,0 days 00:37:00,Rewriting SUNRISE,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-16,0 days 02:00:00,,T12025
+VUW MAI,AIML427,Test,2025-05-16,0 days 00:30:00,Test prep,T12025
+VUW MAI,AIML427,Lectures,2025-05-16,0 days 01:00:00,Week 10 - Thu,T12025
+VUW MAI,AIML428,Lectures,2025-05-16,0 days 00:56:00,Week 10 - Fri,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-16,0 days 00:57:00,Rewriting SUNRISE,T12025
+VUW MAI,AIML427,Test,2025-05-17,0 days 01:28:00,Practice test,T12025
+VUW MAI,AIML427,Test,2025-05-18,0 days 02:36:00,,T12025
+VUW MAI,AIML427,Test,2025-05-19,0 days 02:00:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-20,0 days 02:41:00,,T12025
+VUW MAI,AIML428,Lectures,2025-05-21,0 days 00:56:00,Week 11 - Tue,T12025
+VUW MAI,AIML420,Lectures,2025-05-21,0 days 01:09:00,Week 11 - Tue,T12025
+VUW MAI,AIML428,Assignment 2,2025-05-21,0 days 00:40:00,Grade understanding,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-21,0 days 06:09:00,,T12025
+VUW MAI,AIML420,Lectures,2025-05-22,0 days 00:55:00,Week 11 - Wed,T12025
+VUW MAI,AIML420,Lectures,2025-05-22,0 days 01:11:00,Week 11 - Thu,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-22,0 days 01:06:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-22,0 days 01:25:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-23,0 days 08:49:00,,T12025
+VUW MAI,AIML428,Lectures,2025-05-23,0 days 01:07:00,Week 11 - Fri,T12025
+VUW MAI,AIML440,Assignment 2,2025-05-23,0 days 00:37:00,,T12025
+VUW MAI,AIML440,Meeting,2025-05-23,0 days 00:46:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-23,0 days 00:21:00,,T12025
+VUW MAI,AIML428,Assignment 3,2025-05-23,0 days 04:44:00,,T12025
+VUW MAI,AIML440,Unknown Task,2025-05-25,0 days 02:22:00,Getting sunrise implementation working,T12025
+VUW MAI,AIML440,Unknown Task,2025-05-26,0 days 01:46:00,Getting sunrise implementation working,T12025
+VUW MAI,AIML427,Lectures,2025-05-26,0 days 01:29:00,Week 11 - Thu,T12025
+VUW MAI,AIML420,Assignment 3,2025-05-26,0 days 02:40:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-27,0 days 04:38:00,,T12025
+VUW MAI,AIML420,Lectures,2025-05-27,0 days 01:00:00,Week 12 - Tue,T12025
+VUW MAI,AIML420,Assignment 3,2025-05-28,0 days 00:47:00,Nothing good,T12025
+VUW MAI,AIML420,Lectures,2025-05-28,0 days 01:09:00,Week 12 - Wed,T12025
+VUW MAI,AIML428,Lectures,2025-05-28,0 days 01:11:00,Week 12 - Tue,T12025
+VUW MAI,AIML420,Assignment 3,2025-05-28,0 days 02:39:00,,T12025
+VUW MAI,AIML440,Unknown Task,2025-05-29,0 days 05:04:00,Sunrise work and meeting,T12025
+VUW MAI,AIML440,Assignment 3,2025-05-29,0 days 03:02:00,Getting help,T12025
+VUW MAI,AIML427,Lectures,2025-05-29,0 days 00:55:00,Week 12 - Thu,T12025
+VUW MAI,AIML427,Lectures,2025-05-29,0 days 00:55:00,Week 12 - Tue,T12025
+VUW MAI,AIML427,Assignment 3,2025-05-30,0 days 01:29:00,,T12025
+VUW MAI,AIML428,Lectures,2025-05-30,0 days 01:02:00,Week 12 - Fri,T12025
+VUW MAI,AIML428,Exam,2025-05-30,0 days 03:26:00,Prep work,T12025
+VUW MAI,AIML427,Assignment 3,2025-05-31,0 days 01:52:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-01,0 days 07:02:00,Writing up Sunrise and Dsunrise into report,T12025
+VUW MAI,AIML428,Exam,2025-06-01,0 days 01:37:00,,T12025
+VUW MAI,AIML427,Assignment 2,2025-06-02,0 days 00:15:00,Checking grading 1% error not followed up,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-02,0 days 04:25:00,Getting Achen sunrise implementation working,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-03,0 days 06:56:00,Using authors oroginal sunrise,T12025
+VUW MAI,AIML428,Exam,2025-06-03,0 days 00:20:00,,T12025
+VUW MAI,AIML428,Exam,2025-06-04,0 days 02:23:00,,T12025
+VUW MAI,AIML428,Exam,2025-06-04,0 days 08:04:00,Practice exam 2024,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-04,0 days 01:47:00,Using authors oroginal sunrise,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-05,0 days 01:15:00,Starting individual project,T12025
+VUW MAI,AIML420,Exam,2025-06-05,0 days 01:37:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-06,0 days 01:05:00,Understand,T12025
+VUW MAI,AIML428,Exam,2025-06-06,0 days 03:30:00,Worst exam ever,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-07,0 days 01:45:00,Starting individual project,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-07,0 days 02:27:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-07,0 days 01:00:00,Running some Dsunrise,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-08,0 days 01:13:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-08,0 days 06:37:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-09,0 days 05:50:00,Group part report,T12025
+VUW MAI,AIML420,Exam,2025-06-09,0 days 01:20:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-10,0 days 10:19:00,Individual project,T12025
+VUW MAI,AIML420,Exam,2025-06-10,0 days 00:21:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-10,0 days 01:59:00,,T12025
+VUW MAI,AIML420,Lectures,2025-06-11,0 days 01:37:00,Last tutorial,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-11,0 days 02:15:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-12,0 days 04:06:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-12,0 days 05:11:00,,T12025
+VUW MAI,AIML420,Exam,2025-06-12,0 days 02:22:00,Midterm retest,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-13,0 days 02:20:00,Adding results and writing up presentation,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-13,0 days 00:56:00,Getting,T12025
+VUW MAI,AIML440,Meeting,2025-06-13,0 days 00:30:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-14,0 days 00:12:00,Final report writing,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-15,0 days 07:00:00,Final report writing,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-16,0 days 03:28:00,,T12025
+VUW MAI,AIML427,Assignment 3,2025-06-16,0 days 00:30:00,Presentation,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-18,0 days 02:06:00,,T12025
+VUW MAI,AIML440,Assignment 3,2025-06-21,0 days 05:37:00,,T12025
+VUW MAI,AIML425,Lectures,2025-07-06,0 days 01:21:00,Week 1 - Mon,T22025
+VUW MAI,AIML431,Lectures,2025-07-06,0 days 01:39:00,Week 1 - Mon,T22025
+VUW MAI,AIML430,Lectures,2025-07-07,0 days 00:23:00,,T22025
+VUW MAI,AIML430,Reading logs,2025-07-07,0 days 01:40:00,Figuring out how to,T22025
+VUW MAI,AIML426,Lectures,2025-07-07,0 days 01:08:00,Week 1 - Mon,T22025
+VUW MAI,AIML430,Reading logs,2025-07-07,0 days 05:27:00,,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-08,0 days 00:59:00,,T22025
+VUW MAI,AIML430,Reading logs,2025-07-08,0 days 01:28:00,,T22025
+VUW MAI,AIML430,Reading logs,2025-07-09,0 days 00:12:00,AI ethics writeup,T22025
+VUW MAI,AIML425,Lectures,2025-07-09,0 days 01:54:00,Week 1 - Mon,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-09,0 days 01:54:00,Getting repo setup,T22025
+VUW MAI,AIML426,Lectures,2025-07-09,0 days 01:17:00,Week 1 - Wed,T22025
+VUW MAI,AIML431,Lectures,2025-07-09,0 days 01:06:00,Week 1 - Wed,T22025
+VUW MAI,AIML425,Lectures,2025-07-13,0 days 01:39:00,Week 2 - Mon,T22025
+VUW MAI,AIML426,Project 1,2025-07-13,0 days 01:23:00,Getting started,T22025
+VUW MAI,AIML430,Lectures,2025-07-14,0 days 02:17:00,,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-14,0 days 01:26:00,Working on Question 2,T22025
+VUW MAI,AIML431,Lectures,2025-07-14,0 days 01:26:00,Week 2 - Mon,T22025
+VUW MAI,AIML426,Project 1,2025-07-14,0 days 00:50:00,Wrote most of code needed,T22025
+VUW MAI,AIML426,Lectures,2025-07-14,0 days 01:06:00,Week 2  - Mon,T22025
+VUW MAI,AIML430,Reading logs,2025-07-15,0 days 00:40:00,Started onAI 2027,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-15,0 days 00:37:00,,T22025
+VUW MAI,AIML426,Project 1,2025-07-15,0 days 02:06:00,Working on TASK 1,T22025
+VUW MAI,AIML426,Lectures,2025-07-15,0 days 01:01:00,Week 2 - Wed,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-15,0 days 01:51:00,,T22025
+VUW MAI,AIML430,Unknown Task,2025-07-15,0 days 00:38:00,Week 2 - Mon,T22025
+VUW MAI,AIML430,Reading logs,2025-07-16,0 days 01:02:00,AI 2027,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-16,0 days 01:31:00,Writing out randomized algorithm adn tabu search. Not sure what kind of randomized algorithm I sohuld be doing,T22025
+VUW MAI,AIML426,Lectures,2025-07-16,0 days 01:15:00,Week 2 - Wed,T22025
+VUW MAI,AIML425,Lectures,2025-07-17,0 days 01:25:00,Week 2 - Wed,T22025
+VUW MAI,AIML430,Lectures,2025-07-17,0 days 00:28:00,Week 2 - Thu,T22025
+VUW MAI,AIML425,Lectures,2025-07-20,0 days 01:25:00,Week 3 - Mon,T22025
+VUW MAI,AIML426,Project 1,2025-07-20,0 days 01:20:00,,T22025
+VUW MAI,AIML431,Lectures,2025-07-20,0 days 01:06:00,Week 3 - Mon,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-21,0 days 00:45:00,,T22025
+VUW MAI,AIML431,Unknown Task,2025-07-21,0 days 01:12:00,,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-21,0 days 02:00:00,,T22025
+VUW MAI,AIML430,Lectures,2025-07-21,0 days 00:28:00,Week 3 - Mon,T22025
+VUW MAI,AIML430,Reading logs,2025-07-21,0 days 02:03:00,Still trying to read the AI 2027,T22025
+VUW MAI,AIML430,Reading logs,2025-07-22,0 days 01:29:00,Done first mandotory reading for week 3-4,T22025
+VUW MAI,AIML426,Lectures,2025-07-22,0 days 01:05:00,Week 3 - Mon,T22025
+VUW MAI,AIML426,Project 1,2025-07-22,0 days 00:24:00,Completing question 1 writeup,T22025
+VUW MAI,AIML430,Reading logs,2025-07-22,0 days 01:55:00,Finished AI 2027,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-22,0 days 01:35:00,,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-24,0 days 02:55:00,Write up,T22025
+VUW MAI,AIML431,Lectures,2025-07-24,0 days 00:48:00,Week 3 - Wed,T22025
+VUW MAI,AIML430,Seminar 1,2025-07-25,0 days 01:30:00,Getting repo and such created,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-25,0 days 01:46:00,,T22025
+VUW MAI,AIML425,Lectures,2025-07-25,0 days 01:04:00,Week 3 - Wed,T22025
+VUW MAI,AIML426,Lectures,2025-07-25,0 days 00:57:00,Week 3 - Wed,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-26,0 days 00:36:19,,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-26,0 days 02:14:20,,T22025
+VUW MAI,AIML426,Project 1,2025-07-27,0 days 01:49:26,Adding modofications to GA algorithm,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-27,0 days 01:02:15,,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-27,0 days 00:56:01,,T22025
+VUW MAI,AIML431,Assignment 1,2025-07-27,0 days 01:41:36,,T22025
+VUW MAI,AIML425,Assignment 1,2025-07-27,0 days 01:10:09,,T22025
+VUW MAI,AIML425,Lectures,2025-07-27,0 days 01:09:29,Week 4 - Mon,T22025
+VUW MAI,AIML426,Lectures,2025-07-28,0 days 01:06:50,Week 4 - Mon,T22025
+VUW MAI,AIML431,Lectures,2025-07-28,0 days 01:36:34,Week 4 - Mon,T22025
+VUW MAI,AIML430,Seminar 1,2025-07-28,0 days 01:52:52,,T22025
+VUW MAI,AIML431,Unknown Task,2025-07-28,0 days 01:43:17,,T22025
+VUW MAI,AIML425,Assignment 2,2025-07-29,0 days 01:58:47,,T22025
+VUW MAI,AIML431,Assignment 2,2025-07-29,0 days 01:58:02,,T22025
+VUW MAI,AIML430,Reading logs,2025-07-29,0 days 01:14:20,,T22025
+VUW MAI,AIML430,Reading logs,2025-07-29,0 days 01:22:10,,T22025
+VUW MAI,AIML425,Assignment 2,2025-07-30,0 days 01:12:40,,T22025
+VUW MAI,AIML425,Lectures,2025-07-30,0 days 01:15:45,Week 4 - Wed,T22025
+VUW MAI,AIML431,Assignment 2,2025-07-30,0 days 00:50:37,,T22025
+VUW MAI,AIML426,Project 1,2025-07-30,0 days 02:47:17,,T22025
+VUW MAI,AIML431,Lectures,2025-07-30,0 days 00:59:06,Week 4 - Wed,T22025
+VUW MAI,AIML430,Seminar 1,2025-07-31,0 days 01:45:04,,T22025
+VUW MAI,AIML426,Project 1,2025-07-31,0 days 01:09:48,,T22025
+VUW MAI,AIML430,Reading logs,2025-08-01,0 days 02:36:00,Reading logs,T22025
+VUW MAI,AIML430,Seminar 1,2025-08-02,0 days 02:40:25,,T22025
+VUW MAI,AIML425,Lectures,2025-08-03,0 days 01:40:00,Probability exerciese,T22025
+VUW MAI,AIML426,Project 1,2025-08-03,0 days 01:18:23,Finished question 1,T22025
+VUW MAI,AIML425,Lectures,2025-08-03,0 days 01:32:27,week 5 - Mon,T22025
+VUW MAI,AIML430,Seminar 1,2025-08-03,0 days 02:00:00,,T22025
+VUW MAI,AIML426,Lectures,2025-08-04,0 days 01:08:25,Week 5 - Mon,T22025
+VUW MAI,AIML430,Structured Survey,2025-08-04,0 days 01:52:03,Coming up with idea and some papers,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-04,0 days 00:49:37,,T22025
+VUW MAI,AIML431,Lectures,2025-08-04,0 days 01:06:30,Week 5 - Mon,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-05,0 days 00:54:17,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-05,0 days 02:14:53,,T22025
+VUW MAI,AIML430,Seminar notes,2025-08-05,0 days 01:07:50,,T22025
+VUW MAI,AIML430,Seminar 1,2025-08-05,0 days 01:29:29,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-06,0 days 02:05:21,,T22025
+VUW MAI,AIML430,Seminar notes,2025-08-06,0 days 01:01:13,,T22025
+VUW MAI,AIML426,Project 1,2025-08-06,0 days 02:21:08,,T22025
+VUW MAI,AIML425,Lectures,2025-08-06,0 days 01:31:32,Week 5 - Wed,T22025
+VUW MAI,AIML426,Lectures,2025-08-07,0 days 01:00:26,Week 5 - Wed,T22025
+VUW MAI,AIML426,Lectures,2025-08-07,0 days 00:21:36,Week 5- Wed,T22025
+VUW MAI,AIML431,Lectures,2025-08-07,0 days 01:04:34,Week 5 - Wed,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-07,0 days 02:17:01,Mive to notebook as script,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-07,0 days 01:16:29,Added in parisomny and double tournament,T22025
+VUW MAI,AIML426,Lectures,2025-08-08,0 days 00:31:24,Week 5- Wed,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-08,0 days 01:49:33,Got a basic f1 working,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-08,0 days 01:50:29,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-08,0 days 01:27:54,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-09,0 days 00:20:31,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-10,0 days 03:19:00,,T22025
+VUW MAI,AIML425,Lectures,2025-08-10,0 days 02:08:16,Week 6 - Mon,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-10,0 days 00:30:00,,T22025
+VUW MAI,AIML426,Project 1,2025-08-10,0 days 01:59:38,,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-11,0 days 01:00:36,,T22025
+VUW MAI,AIML430,Structured Survey,2025-08-11,0 days 00:54:21,,T22025
+VUW MAI,AIML426,Lectures,2025-08-11,0 days 01:29:51,Week 6 - Mon,T22025
+VUW MAI,AIML431,Unknown Task,2025-08-11,0 days 01:34:20,,T22025
+VUW MAI,AIML431,Lectures,2025-08-11,0 days 01:23:00,Week 6 - Mon,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-12,0 days 00:58:59,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-13,0 days 00:03:48,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-13,0 days 02:10:10,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-13,0 days 02:54:50,,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-14,0 days 01:00:00,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-14,0 days 03:23:09,,T22025
+VUW MAI,AIML425,Assignment 2,2025-08-15,0 days 02:30:00,Handed in,T22025
+VUW MAI,AIML431,Assignment 2,2025-08-15,0 days 01:31:21,,T22025
+VUW MAI,AIML430,Seminar notes,2025-08-17,0 days 02:05:48,,T22025
+VUW MAI,AIML431,Lectures,2025-08-17,0 days 00:28:19,Week 6 - Wed,T22025
+VUW MAI,AIML431,Lectures,2025-08-17,0 days 00:47:59,Week 6 - Wed,T22025
+VUW MAI,AIML426,Project 1,2025-08-21,0 days 00:45:00,Understanding assignment,T22025
+VUW MAI,AIML426,Unknown Task,2025-08-25,0 days 03:00:00,,T22025
+VUW MAI,AIML430,Structured Survey,2025-08-25,0 days 03:00:00,Reading,T22025
+VUW MAI,AIML426,Unknown Task,2025-08-27,0 days 03:18:17,Doing question 4 and writing up question 3,T22025
+VUW MAI,AIML430,Structured Survey,2025-08-28,0 days 04:28:40,,T22025
+VUW MAI,AIML430,Structured Survey,2025-08-28,0 days 02:55:08,,T22025
+VUW MAI,AIML426,Project 1,2025-08-29,0 days 02:20:11,,T22025
+VUW MAI,AIML426,Project 1,2025-08-29,0 days 00:58:40,,T22025
+VUW MAI,AIML425,Assignment 3,2025-08-30,0 days 02:24:33,Starting on assignment 3,T22025
+VUW MAI,AIML426,Lectures,2025-09-01,0 days 00:34:24,week 7 - mon,T22025
+VUW MAI,AIML425,Lectures,2025-09-01,0 days 01:11:36,week 5 - mon,T22025
+VUW MAI,AIML430,Lectures,2025-09-01,0 days 01:16:11,week 7 - mon,T22025
+VUW MAI,AIML426,Lectures,2025-09-01,0 days 00:17:51,week 7 - mon,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-02,0 days 00:44:32,Looking at AI group seminar idea,T22025
+VUW MAI,AIML426,Project 2,2025-09-03,0 days 00:53:46,Setting up repo,T22025
+VUW MAI,AIML426,Lectures,2025-09-03,0 days 00:58:43,week 7 - wed,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-03,0 days 00:53:11,Looking at AI group seminar idea,T22025
+VUW MAI,AIML431,Lectures,2025-09-03,0 days 01:01:21,week 7 - wed,T22025
+VUW MAI,AIML425,Lectures,2025-09-03,0 days 01:16:17,week 7 - wed,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-03,0 days 00:44:14,Deciding on topic and getting approval,T22025
+VUW MAI,AIML430,Capstone,2025-09-03,0 days 00:19:18,Starting work on ideas,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-04,0 days 01:27:35,Reading papers,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-04,0 days 04:13:38,understanding VAE,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-07,0 days 02:02:17,Writing sekeleton,T22025
+VUW MAI,AIML430,Capstone,2025-09-07,0 days 01:00:00,Writing up capstone proposal,T22025
+VUW MAI,AIML426,Project 2,2025-09-08,0 days 01:00:58,,T22025
+VUW MAI,AIML426,Lectures,2025-09-08,0 days 01:13:20,week 8 - mon,T22025
+VUW MAI,AIML431,Lectures,2025-09-08,0 days 01:00:30,week 8 - mon,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-09,0 days 01:59:47,Writing introduction,T22025
+VUW MAI,AIML431,Assignment 3,2025-09-09,0 days 01:15:36,Creating repo  and did question 1,T22025
+VUW MAI,AIML430,Capstone,2025-09-09,0 days 01:27:34,Submitting proposal,T22025
+VUW MAI,AIML425,Lectures,2025-09-09,0 days 01:56:08,week 8 - mon,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-09,0 days 01:03:05,Adding final performance test,T22025
+VUW MAI,AIML426,Project 2,2025-09-10,0 days 01:16:49,,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-10,0 days 00:52:38,Meeting,T22025
+VUW MAI,AIML425,Lectures,2025-09-10,0 days 01:29:43,week 8 - wed,T22025
+VUW MAI,AIML426,Project 2,2025-09-10,0 days 00:55:59,Working on EP,T22025
+VUW MAI,AIML431,Lectures,2025-09-10,0 days 00:42:26,week 8 - wed,T22025
+VUW MAI,AIML431,Assignment 3,2025-09-11,0 days 01:27:34,Completed question 2 and started on question 3,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-11,0 days 01:22:14,,T22025
+VUW MAI,AIML426,Project 2,2025-09-11,0 days 01:06:04,week 8 - wed,T22025
+VUW MAI,AIML430,Capstone,2025-09-11,0 days 00:31:14,Resuggesting ideas,T22025
+VUW MAI,AIML430,Capstone,2025-09-11,0 days 00:00:01,Resuggesting ideas,T22025
+VUW MAI,AIML431,Unknown Task,2025-09-11,0 days 00:00:19,,T22025
+VUW MAI,AIML426,Project 2,2025-09-11,0 days 01:29:29,Doing EP for question 1,T22025
+VUW MAI,AIML426,Project 2,2025-09-11,0 days 01:15:50,Working on question 1,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-12,0 days 01:14:19,Write up the Theory section,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-12,0 days 00:44:36,Reveiwing other people,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-12,0 days 03:07:26,,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-12,0 days 00:21:24,Feedback and organising everyone,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-12,0 days 01:46:13,Meeting,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-13,0 days 01:00:57,Do more write up and work on inspection,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-13,0 days 02:28:29,"Theory completion, speed up data generation",T22025
+VUW MAI,AIML430,Seminar 2,2025-09-13,0 days 01:11:31,,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-14,0 days 00:38:00,,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-14,0 days 03:18:09,Do more write up and work on inspection,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-14,0 days 01:34:10,Final proof read,T22025
+VUW MAI,AIML425,Lectures,2025-09-14,0 days 01:14:49,,T22025
+VUW MAI,AIML426,Project 2,2025-09-14,0 days 01:33:06,,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-15,0 days 00:00:04,Do more write up and work on inspection,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-15,0 days 02:00:23,Do latent space write up,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-15,0 days 03:23:33,Do latent space write up,T22025
+VUW MAI,AIML426,Lectures,2025-09-16,0 days 00:52:03,,T22025
+VUW MAI,AIML425,Assignment 3,2025-09-16,0 days 03:35:40,Handed it in,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-16,0 days 01:30:00,Practice,T22025
+VUW MAI,AIML430,Seminar 2,2025-09-17,0 days 01:14:24,Giving presentation,T22025
+VUW MAI,AIML431,Lectures,2025-09-18,0 days 01:27:27,Week 9 - Both,T22025
+VUW MAI,AIML425,Lectures,2025-09-18,0 days 00:58:31,Week 9 - Wed,T22025
+VUW MAI,AIML431,Assignment 3,2025-09-19,0 days 02:29:07,Finishing up assignment,T22025
+VUW MAI,AIML426,Project 2,2025-09-19,0 days 02:00:00,,T22025
+VUW MAI,AIML430,Seminar notes,2025-09-19,0 days 02:22:41,Did 2.5 summaries,T22025
+VUW MAI,AIML430,Capstone,2025-09-20,0 days 01:24:25,Getting ctfish setup,T22025
+VUW MAI,AIML430,Capstone,2025-09-20,0 days 01:10:39,Getting ctfish setup,T22025
+VUW MAI,AIML425,Assignment 4,2025-09-21,0 days 03:14:25,Add in dataset generation and the visualisation,T22025
+VUW MAI,AIML425,Lectures,2025-09-21,0 days 01:05:00,Week 10 - Mon,T22025
+VUW MAI,AIML426,Project 2,2025-09-21,0 days 00:20:16,,T22025
+VUW MAI,AIML431,Lectures,2025-09-22,0 days 00:53:17,Week 10 - Mon,T22025
+VUW MAI,AIML426,Lectures,2025-09-22,0 days 01:00:56,Week 10 - mon,T22025
+VUW MAI,AIML426,Project 2,2025-09-22,0 days 00:50:51,ALmost complete the question 3,T22025
+VUW MAI,AIML430,Seminar notes,2025-09-22,0 days 00:57:37,,T22025
+VUW MAI,AIML431,Assignment 4,2025-09-23,0 days 01:26:09,Getting set up,T22025
+VUW MAI,AIML430,Seminar notes,2025-09-23,0 days 01:29:27,First draft cmpelted,T22025
+VUW MAI,AIML425,Assignment 4,2025-09-23,0 days 01:33:26,Got ODE working and SDE progress,T22025
+VUW MAI,AIML430,Capstone,2025-09-23,0 days 01:36:08,Setting up my repo and have game plan for the next 2 weeks,T22025
+VUW MAI,AIML426,Project 2,2025-09-24,0 days 00:52:02,,T22025
+VUW MAI,AIML425,Assignment 4,2025-09-24,0 days 01:49:55,,T22025
+VUW MAI,AIML430,Capstone,2025-09-24,0 days 02:01:47,Make reproducible experiments,T22025
+VUW MAI,AIML425,Lectures,2025-09-24,0 days 00:01:58,Week 10 - wed,T22025
+VUW MAI,AIML425,Lectures,2025-09-24,0 days 01:18:14,Week 10 - wed,T22025
+VUW MAI,AIML426,Lectures,2025-09-24,0 days 00:51:24,Week 10 - Wed,T22025
+VUW MAI,AIML426,Project 2,2025-09-25,0 days 00:38:27,Added in DE,T22025
+VUW MAI,AIML431,Lectures,2025-09-25,0 days 00:45:13,Week 10 - Wed,T22025
+VUW MAI,AIML426,Project 2,2025-09-25,0 days 01:55:35,,T22025
+VUW MAI,AIML431,Assignment 4,2025-09-25,0 days 01:12:28,First pass on task 2,T22025
+VUW MAI,AIML430,Capstone,2025-09-26,0 days 01:28:58,Add in background processing,T22025
+VUW MAI,AIML426,Project 2,2025-09-26,0 days 02:00:31,Added in DE,T22025
+VUW MAI,AIML425,Lectures,2025-09-28,0 days 00:47:37,week 11 - Mon,T22025
+VUW MAI,AIML425,Assignment 4,2025-09-28,0 days 01:41:27,Working on comparision and understanding the theory,T22025
+VUW MAI,AIML431,Lectures,2025-09-29,0 days 00:41:12,week 11 - Mon,T22025
+VUW MAI,AIML426,Lectures,2025-09-29,0 days 00:55:28,Week 11 - Mon,T22025
+VUW MAI,AIML431,Assignment 4,2025-09-29,0 days 01:05:47,Adding to report,T22025
+VUW MAI,AIML430,Capstone,2025-09-30,0 days 01:22:47,Finished reproducible,T22025
+VUW MAI,AIML431,Assignment 4,2025-09-30,0 days 01:45:00,Doing task 2,T22025
+VUW MAI,AIML425,Assignment 4,2025-10-01,0 days 01:35:59,Doing writeup,T22025
+VUW MAI,AIML430,Capstone,2025-10-01,0 days 01:43:56,Starting work on scoring module,T22025
+VUW MAI,AIML425,Lectures,2025-10-01,0 days 00:47:45,Week 11 - Wed,T22025
+VUW MAI,AIML426,Project 2,2025-10-01,0 days 03:34:10,Finishing qestion 1-3 and startingo nquestion 4,T22025
+VUW MAI,AIML431,Lectures,2025-10-02,0 days 01:00:18,Week 11 - Wed,T22025
+VUW MAI,AIML431,Assignment 4,2025-10-02,0 days 01:40:16,Done writeup,T22025
+VUW MAI,AIML426,Lectures,2025-10-02,0 days 00:59:59,Week 11 - Wed,T22025
+VUW MAI,AIML426,Project 2,2025-10-02,0 days 02:15:48,Got GP code working,T22025
+VUW MAI,AIML426,Project 2,2025-10-02,0 days 01:24:02,DOign f2 run thorugh and gp tree visualizing,T22025
+VUW MAI,AIML430,Capstone,2025-10-03,0 days 02:59:44,,T22025
+VUW MAI,AIML431,Assignment 4,2025-10-03,0 days 01:26:12,Most of write up complete. Just need to do full experiment set then can align report,T22025
+VUW MAI,AIML426,Project 2,2025-10-04,0 days 01:14:59,,T22025
+VUW MAI,AIML431,Assignment 4,2025-10-04,0 days 00:34:50,Most of write up complete. Just need to do full experiment set then can align report,T22025
+VUW MAI,AIML426,Project 2,2025-10-04,0 days 03:13:03,,T22025
+VUW MAI,AIML425,Assignment 4,2025-10-05,0 days 02:28:26,,T22025
+VUW MAI,AIML425,Assignment 4,2025-10-05,0 days 01:02:13,Tring to understand what is going on,T22025
+VUW MAI,AIML425,Assignment 4,2025-10-05,0 days 00:51:09,Tring to understand what is going on,T22025
+VUW MAI,AIML426,Project 2,2025-10-05,0 days 01:00:55,Submitted,T22025
+VUW MAI,AIML431,Lectures,2025-10-08,0 days 01:09:40,Week 12 - Mon,T22025
+VUW MAI,AIML425,Lectures,2025-10-08,0 days 00:57:44,,T22025
+VUW MAI,AIML426,Lectures,2025-10-08,0 days 00:51:24,Week 12 - Mon,T22025
+VUW MAI,AIML426,Lectures,2025-10-09,0 days 00:21:16,Week 12 - Wed part 2,T22025
+VUW MAI,AIML425,Assignment 4,2025-10-09,0 days 01:10:27,Updated ODE and handed in,T22025
+VUW MAI,AIML425,Lectures,2025-10-09,0 days 01:00:00,Week 12 - Wed,T22025
+VUW MAI,AIML431,Lectures,2025-10-10,0 days 00:33:22,Week 12 - Wed,T22025
+VUW MAI,AIML426,Lectures,2025-10-10,0 days 00:33:05,Week 12 - Wed part 2,T22025
+VUW MAI,AIML430,Capstone,2025-10-10,0 days 00:41:43,"Figuring out scoring omdule, need to do som runes. but also properly documents and fill otu the readme.",T22025
+VUW MAI,AIML430,Seminar notes,2025-10-10,0 days 00:32:17,SUbmitted,T22025
+VUW MAI,AIML426,Exam prep,2025-10-10,0 days 00:28:30,Starting exam prep plan,T22025
+VUW MAI,AIML430,Capstone,2025-10-10,0 days 01:44:43,Moved on from score module. ight just start again with the scoring aas it is so convoluted.,T22025
+VUW MAI,AIML430,Capstone,2025-10-11,0 days 03:36:17,,T22025
+VUW MAI,AIML425,Exam prep,2025-10-11,0 days 01:33:50,Developing study plan,T22025
+VUW MAI,AIML431,Lectures,2025-10-11,0 days 00:29:00,Understood topics I need to learn,T22025
+VUW MAI,AIML430,Capstone,2025-10-12,0 days 02:33:17,Upgrading scoring omdule. Need to fix up variant and tasks stuff. Furthermore then need to update the scoring prompts,T22025
+VUW MAI,AIML425,Exam prep,2025-10-13,0 days 01:19:07,Did proabilty lectures need to do exrcises,T22025
+VUW MAI,AIML426,Exam prep,2025-10-13,0 days 02:02:24,GA and GP,T22025
+VUW MAI,AIML430,Capstone,2025-10-13,0 days 03:14:37,Need to decide on what my prompts will be,T22025
+VUW MAI,AIML425,Exam prep,2025-10-14,0 days 02:43:21,Finished probability half way through SGD,T22025
+VUW MAI,AIML426,Exam prep,2025-10-14,0 days 01:31:41,Done EMO,T22025
+VUW MAI,AIML430,Capstone,2025-10-14,0 days 02:54:23,,T22025
+VUW MAI,AIML430,Capstone,2025-10-15,0 days 02:04:24,Did first round of experiments,T22025
+VUW MAI,AIML425,Exam prep,2025-10-15,0 days 01:56:22,Finish back propagation and sgd,T22025
+VUW MAI,AIML426,Exam prep,2025-10-15,0 days 01:32:14,Did swarm doing EP needed to understand Geontypica,T22025
+VUW MAI,AIML426,Exam prep,2025-10-16,0 days 01:59:56,,T22025
+VUW MAI,AIML426,Exam prep,2025-10-17,0 days 01:20:18,2024 practice,T22025
+VUW MAI,AIML426,Exam prep,2025-10-18,0 days 02:11:17,2023 practice,T22025
+VUW MAI,AIML425,Exam prep,2025-10-18,0 days 01:03:09,CNN,T22025
+VUW MAI,AIML426,Exam prep,2025-10-18,0 days 01:08:24,2024 exam mark,T22025
+VUW MAI,AIML426,Exam prep,2025-10-19,0 days 02:05:20,2022 practice,T22025
+VUW MAI,AIML426,Exam prep,2025-10-19,0 days 01:10:10,,T22025
+VUW MAI,AIML426,Exam prep,2025-10-19,0 days 00:05:10,2023 practice,T22025
+VUW MAI,AIML426,Exam prep,2025-10-19,0 days 00:28:03,2023 practice,T22025
+VUW MAI,AIML430,Capstone,2025-10-20,0 days 01:41:16,Running more experiments,T22025
+VUW MAI,AIML426,Unknown Task,2025-10-20,0 days 02:00:00,Exam,T22025
+VUW MAI,AIML431,Exam prep,2025-10-21,0 days 01:26:29,Random algorithms and Local search,T22025
+VUW MAI,AIML425,Exam prep,2025-10-21,0 days 00:14:34,Objective Function,T22025
+VUW MAI,AIML430,Capstone,2025-10-21,0 days 03:22:22,Added facilitator,T22025
+VUW MAI,AIML425,Lectures,2025-10-21,0 days 01:34:09,CNN,T22025
+VUW MAI,AIML430,Capstone,2025-10-22,0 days 02:49:24,Fixing up faciliator sohuld run some facilitator experiments now,T22025
+VUW MAI,AIML425,Exam prep,2025-10-22,0 days 00:10:19,Objective Function,T22025
+VUW MAI,AIML425,Exam prep,2025-10-22,0 days 02:09:29,Objective Function,T22025
+VUW MAI,AIML425,Exam prep,2025-10-23,0 days 01:34:29,COmpelted objective functins,T22025
+VUW MAI,AIML430,Capstone,2025-10-23,0 days 01:01:46,Finalising the facilitator,T22025
+VUW MAI,AIML425,Exam prep,2025-10-23,0 days 00:35:45,COmpelted objective functins,T22025
+VUW MAI,AIML425,Exam prep,2025-10-24,0 days 02:14:58,Midterm practice compelte failure wasted time on open-notebook,T22025
+VUW MAI,AIML430,Capstone,2025-10-24,0 days 02:03:01,Do complete exeriments and scoring,T22025
+VUW MAI,AIML430,Capstone,2025-10-24,0 days 01:07:09,Getting readyt o start interpretations,T22025
+VUW MAI,AIML430,Capstone,2025-10-25,0 days 02:08:57,Started the writeup,T22025
+VUW MAI,AIML430,Capstone,2025-10-25,0 days 01:09:34,Started the writeup,T22025
+VUW MAI,AIML430,Capstone,2025-10-26,0 days 03:14:13,Writing up the methodology,T22025
+VUW MAI,AIML430,Capstone,2025-10-27,0 days 03:44:56,Working on the figures and such for the results section. Seems like some of the scoring may be bung,T22025
+VUW MAI,AIML425,Exam prep,2025-10-27,0 days 02:14:56,Redid midterm with AI help,T22025
+VUW MAI,AIML430,Capstone,2025-10-27,0 days 03:42:10,ALmost compelted figures for the results,T22025
+VUW MAI,AIML430,Capstone,2025-10-28,0 days 01:00:35,Cleaning up,T22025
+VUW MAI,AIML430,Capstone,2025-10-28,0 days 02:29:41,Compelted final draft,T22025
+VUW MAI,AIML430,Capstone,2025-10-28,0 days 04:10:25,Completd first draft of results,T22025
+VUW MAI,AIML430,Capstone,2025-10-28,0 days 03:33:30,Completd first draft of results,T22025
+VUW MAI,AIML425,Exam prep,2025-10-29,0 days 02:33:26,GNN,T22025
+VUW MAI,AIML425,Exam prep,2025-10-30,0 days 00:40:34,Flows,T22025
+VUW MAI,AIML425,Exam prep,2025-10-30,0 days 02:46:45,Flows,T22025
+VUW MAI,AIML425,Exam prep,2025-10-30,0 days 02:50:25,GNN,T22025
+VUW MAI,AIML431,Exam prep,2025-10-31,0 days 00:40:54,,T22025
+VUW MAI,AIML425,Exam prep,2025-10-31,0 days 03:12:05,RNN,T22025
+VUW MAI,AIML425,Exam prep,2025-10-31,0 days 01:41:26,RNN,T22025
+VUW MAI,AIML425,Exam prep,2025-10-31,0 days 00:36:03,RNN,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 02:39:02,GAN,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 00:23:35,Exam practice,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 01:21:57,NN and simplicity,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 01:27:14,Exam practice,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 01:19:42,Marking examp practice,T22025
+VUW MAI,AIML425,Exam prep,2025-11-01,0 days 00:32:24,Confirming proper formula,T22025
+VUW MAI,AIML425,Exam prep,2025-11-02,0 days 03:00:00,Study,T22025
+VUW MAI,AIML425,Exam prep,2025-11-02,0 days 00:17:43,Marking examp practice,T22025
+VUW MAI,AIML425,Exam prep,2025-11-02,0 days 02:48:13,Did 2024 practice exam,T22025
+VUW MAI,AIML431,Exam prep,2025-11-02,0 days 00:51:59,Did complexity slides,T22025
+VUW MAI,AIML425,Exam prep,2025-11-03,0 days 04:00:00,Final prep and exam,T22025
+VUW MAI,AIML425,Exam prep,2025-11-03,0 days 01:25:50,,T22025
+VUW MAI,AIML425,Exam prep,2025-11-03,0 days 04:16:17,Did 2024 practice exam,T22025
+VUW MAI,AIML431,Exam prep,2025-11-03,0 days 00:59:56,Did GPSR most of it,T22025
+VUW MAI,AIML431,Exam prep,2025-11-04,0 days 03:24:23,Read through all lecture slides breifly,T22025
+VUW MAI,AIML431,Exam prep,2025-11-05,0 days 05:03:32,Doing practice questions,T22025
+VUW MAI,AIML431,Exam prep,2025-11-05,0 days 03:42:02,Exam,T22025
