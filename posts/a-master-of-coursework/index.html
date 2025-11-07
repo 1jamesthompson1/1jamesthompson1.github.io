@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="James Thompson">
-<meta name="dcterms.date" content="2023-04-23">
+<meta name="dcterms.date" content="2025-11-07">
 
-<title>Hugo sjtravel website – James Thompson</title>
+<title>A master of coursework – James Thompson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -160,9 +160,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Hugo sjtravel website</h1>
+      <h1 class="title">A master of coursework</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">project</div>
+                <div class="quarto-category">personal</div>
               </div>
                   </div>
   </div>
@@ -180,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 23, 2023</p>
+        <p class="date">November 7, 2025</p>
       </div>
     </div>
     
@@ -199,113 +199,143 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>I just created a website for me and my partners travels as well as house sitting.</p>
-<p>Overall the experience was great. I used <a href="https://gohugo.io/">Hugo</a> for the static site generator, <a href="https://stack.jimmycai.com/">Stack</a> as the theme and then <a href="https://www.netlify.com/">netlify</a> for the deployment.</p>
-<p>You can find the website at: <a href="https://sjtravels.netlify.app/">sjtravels.netlify.app</a>. This could quite possibly change in the future as we decide to splash out and buy a domain name.</p>
-<p>Everything about this from starting the website setting up the theme and deploying it went smoothly. Especially considering that the whole thing was free.</p>
-<p>It makes me think about this website that maybe I should be moving it over to Hugo. The only things keeping me from doing that is wanting to be able to write my posts in rmd and then have it rendered and displayed as rendered html on the website. This is possible but is a pain which is why my website is setup the way it is. I will think about changing this website given how easy the process was but that is a project for another day.</p>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
-<p>The requirements for this sjtravels website were as such:</p>
-<ul>
-<li>Free</li>
-<li>Good looking</li>
-<li>Easy to use for non tech person (as my partner is non techie).</li>
-</ul>
-<p>After thinking about it using a static website was the obvious solution.</p>
-<p>I knew that it could be done using Jekyll and GH pages like I have used with this site but wanted to try something a bit better. This is because Jekyll felt a bit clanky and not as smooth as I would like.</p>
-<p>A quick look at Hugo website and it documentation made it my next solution and rather than messing around with using GH pages and non Jekyll (As pages by default is setup to use Jekyll).</p>
-</section>
-<section id="setting-up" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up">Setting up</h2>
-<p>As I had never used hugo before I had to setup the software. Luckily all I had to do was follow this <a href="https://gohugo.io/getting-started/quick-start/">quick start guide</a> and I was up and running in no time.</p>
-<p>In turn getting my partners PC setup was also quite a breeze and she had to do everything from git to making a github account.</p>
-<p>All of this smooth setting up was definitely giving me that good feeling that you get when things just work.</p>
-</section>
-<section id="site-building" class="level2">
-<h2 class="anchored" data-anchor-id="site-building">Site building</h2>
-<p>Of the things that took time in building the website we easily spent about 20% of the time just deciding on the theme. We went with a blog orientated theming. This was because the main use of the website is going to be displaying blog posts with only a few pages.</p>
-<p>Because of this we didn’t want a single page site and instead wanted a home page that displayed recent blog posts and then a few other pages which would have about us and housesitting etc.</p>
-<p>We settled on the Stack theme because it was easy to use and fit our requirements. I am sure there are lots more which would fit our requirements but it can be considered lucky this was the one that works. There is also a bonus that the atomic unit all the pages are folders meaning that storing assets needed for a post close by is quite easy.</p>
-<p>As I have never used Hugo before so there was some warming up stage as I was just trying to figure out how Hugo and this theme works. Because of this it took another 20% of the time to get the basics configured for our website. As we got this sorted we had a website that looked something like this: <img src="homepage.png" class="img-fluid"></p>
-<p>From here we could move on to getting stuck in to actually create the website. This meant writing and a fair amount of it. Filling this out meant the website started to a take a form that was quite appealing. We were missing any photos as we hadn’t found any that ere suitable but regardless is was all coming together. This chunk of work easily took about 40% of the time.</p>
-<p>Adding the contact forms and reviews was something that needed some more of my tech hat on.</p>
-<section id="forms" class="level3">
-<h3 class="anchored" data-anchor-id="forms">Forms</h3>
-<p>Starting with what I know I went to pick up Google forms to make this contact form for our website. However almost immediately I knew that this wasn’t going to work the way that I wanted it to. What we needed was a very simple clean embedded form and what Google forms could offer was only large webpages that I would have to link to. This was not going to do. So I searched for a free backend to handle the form submission that my html form was going to have. This is where I found getforms.</p>
-<section id="getforms" class="level4">
-<h4 class="anchored" data-anchor-id="getforms">getforms</h4>
-<p><a href="https://getform.io/">getforms</a> is free so it ticked that box. It also was easy to use so it ticked that box too! However it wast completely free. Many of the useful features that I wanted were locked behind a paywall. This meant that I couldn’t have custom form submission pages, deal with notification how I liked and etc.</p>
-<p>Regardless though I setup the site to work with getforms and everything was fine.</p>
-<p>This was until I came to the deployment stage this morning. Where I changed it all round to work with netlify forms instead. As it was free and I could do whatever I wanted with it.</p>
-</section>
-</section>
-<section id="reviews" class="level3">
-<h3 class="anchored" data-anchor-id="reviews">Reviews</h3>
-<p>I would of ideally liked to have something that meant you could easily query all of our reviews. Something like the google reviews section on the internet. However sadly using this simple static builder meant that there wasn’t going to be an easy out of the box solutions. So instead I went to my trusty google sheets and collected all our reviews from the kiwihousesitter.co.nz. This meant that I now had the data somewhere I wanted. Since time was short I really came up with a terrible clunky solutions.</p>
-<p>Which was.</p>
-<p>Turning the sheets data into md and copying into the website. I know it is a real shame that something cool could of happened but instead I used copy and paste. Coming back to this and linking everything up to be automatic would be wonderful.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">onOpen</span>() {</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> ui <span class="op">=</span> SpreadsheetApp<span class="op">.</span><span class="fu">getUi</span>()<span class="op">;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  ui<span class="op">.</span><span class="fu">createMenu</span>(<span class="st">"Custom features"</span>)<span class="op">.</span><span class="fu">addItem</span>(<span class="st">"generate markdown"</span><span class="op">,</span> <span class="st">'generateMD'</span>)<span class="op">.</span><span class="fu">addToUi</span>()</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<p>I just finished the coursework part (about 2/3 of the total programme) of my Master in Artificial Intelligence, now I move into my research project (in AI alignment). I did this degree because I was curious and wanted to learn more, I knew that my Computer Science undergrad completely changed my view of Computers and Computer Science, this year of coursework has done the same again. As I came to the end of the period of coursework I did have some opinions or ideas that I wanted to jot down. These new ideas are crazy space age technology ideas so be careful reading them your mind could explode.<br>
+- Some courses are better than others<br>
+- Some courses are easier than others<br>
+- Tough courses are probably good</p>
+<section id="courses-do-not-all-need-the-same-amount-of-time." class="level2">
+<h2 class="anchored" data-anchor-id="courses-do-not-all-need-the-same-amount-of-time.">Courses do not all need the same amount of time.</h2>
+<p>Anyone who has spent time at university understands that not all courses are created equal, some require more time and effort than others. I track my time [^Because I am a contractor and that started the habit, I do it always with everything because that’s just the person I am.] and so I am able to quantify this a bit more than just my subjective experience. I took 8 papers over two trimesters, 4 in each, all worth 15 points. 7 of them were usual coursework based papers but one was ‘self-directed learning’ (AIML440) that was more a mini-research project <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div id="cell-fig-time-by-paper" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot of time spent per paper</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.patches <span class="im">import</span> Patch</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">generateMD</span>() {</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> sheet <span class="op">=</span> SpreadsheetApp<span class="op">.</span><span class="fu">getActiveSheet</span>()<span class="op">;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> data <span class="op">=</span> sheet<span class="op">.</span><span class="fu">getDataRange</span>()<span class="op">.</span><span class="fu">getValues</span>()<span class="op">;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> MDstring <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>time_entries <span class="op">=</span> pd.read_csv(<span class="st">'processed_time_entries.csv'</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>time_entries[<span class="st">'duration'</span>] <span class="op">=</span> pd.to_timedelta(time_entries[<span class="st">'duration'</span>])</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> assignment_task_time(task):</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    task <span class="op">=</span> task.lower()</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  data<span class="op">.</span><span class="fu">slice</span>(<span class="dv">1</span>)<span class="op">.</span><span class="fu">forEach</span>(<span class="kw">function</span>(row) {</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    MDstring <span class="op">=</span> MDstring <span class="op">+</span> <span class="fu">convertReviewToMD</span>({<span class="dt">name</span><span class="op">:</span> row[<span class="dv">0</span>]<span class="op">,</span> <span class="dt">location</span><span class="op">:</span> row[<span class="dv">1</span>]<span class="op">,</span> <span class="dt">dates</span><span class="op">:</span> row[<span class="dv">2</span>]<span class="op">,</span> <span class="dt">duration</span><span class="op">:</span> row[<span class="dv">3</span>]<span class="op">,</span> <span class="dt">rating</span><span class="op">:</span> row[<span class="dv">4</span>]<span class="op">,</span> <span class="dt">review</span><span class="op">:</span> row[<span class="dv">5</span>]}) <span class="op">+</span> <span class="st">"  </span><span class="sc">\n\n</span><span class="st">"</span><span class="op">;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  })</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="co">//SpreadsheetApp.getUi().alert(MDstring);</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(MDstring)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'assignment'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'project'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'reading'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'survey'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'capstone'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'seminar'</span> <span class="kw">in</span> task:</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"assignment"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'lecture'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'seminar notes'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'intro'</span> <span class="kw">in</span> task:</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"lectures"</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'test'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'exam'</span> <span class="kw">in</span> task <span class="kw">or</span> <span class="st">'term'</span> <span class="kw">in</span> task:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"test"</span></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">convertReviewToMD</span>(review) {</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> [</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"__"</span> <span class="op">+</span> review<span class="op">.</span><span class="at">location</span> <span class="op">+</span> <span class="st">"__"</span><span class="op">,</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">'_'</span> <span class="op">+</span> review<span class="op">.</span><span class="at">dates</span> <span class="op">+</span> <span class="st">' - '</span> <span class="op">+</span> review<span class="op">.</span><span class="at">duration</span> <span class="op">+</span> <span class="st">'_'</span><span class="op">,</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">convertRatingToString</span>(review<span class="op">.</span><span class="at">rating</span>)<span class="op">,</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    review<span class="op">.</span><span class="at">review</span> <span class="op">+</span> <span class="st">' - '</span> <span class="op">+</span> review<span class="op">.</span><span class="at">name</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  ]<span class="op">.</span><span class="fu">join</span>(<span class="st">"  </span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">convertRatingToString</span>(rating) {</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> ratingRounded <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">round</span>(rating)<span class="op">;</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> string <span class="op">=</span><span class="st">""</span><span class="op">;</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> ratingRounded<span class="op">;</span> i <span class="op">++</span>) {</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    string <span class="op">=</span> string <span class="op">+</span> <span class="st">"&amp;#9733;"</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">5</span><span class="op">-</span>ratingRounded<span class="op">;</span> i <span class="op">++</span>) {</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    string <span class="op">=</span> string <span class="op">+</span> <span class="st">"&amp;#9734;"</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> string</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>This gives you a string in the console and you can simply add it to the House sitting page md file.</p>
-<p>I also found out that the <a href="https://symbl.cc/en/2BEA/">half star</a> unicode character is not supported somewhere in the website chain so the star rating had to be rounded to the nearest half.</p>
-<p>Regardless of how it was made it did come out looking not half bad.</p>
-<p><img src="reviews.png" class="img-fluid"></p>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_time_by_task(time_entries):</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove AIML440 as it is not coursework</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    filtered_entries <span class="op">=</span> time_entries[time_entries[<span class="st">'project'</span>] <span class="op">!=</span> <span class="st">'AIML440'</span>].copy()</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    filtered_entries.loc[:, <span class="st">'task_type'</span>] <span class="op">=</span> filtered_entries[<span class="st">'task'</span>].<span class="bu">apply</span>(assignment_task_time)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Show none tasks that couldn't be classified</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    missing_ones <span class="op">=</span> filtered_entries[filtered_entries[<span class="st">'task_type'</span>].isna()]</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Ignoring </span><span class="sc">{</span><span class="bu">len</span>(missing_ones)<span class="sc">}</span><span class="ss"> entries without classified task type which is a total of </span><span class="sc">{</span>missing_ones[<span class="st">'duration'</span>]<span class="sc">.</span><span class="bu">sum</span>()<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    time_by_task <span class="op">=</span> filtered_entries.groupby([<span class="st">'project'</span>, <span class="st">'task_type'</span>])[<span class="st">'duration'</span>].<span class="bu">sum</span>()</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    time_by_task_hours <span class="op">=</span> time_by_task.dt.total_seconds() <span class="op">/</span> <span class="dv">3600</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> time_by_task_hours.sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>time_by_task_hours <span class="op">=</span> get_time_by_task(time_entries)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co"># add in AIML440 with all time as 'assignment'</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>time_by_task_hours.loc[(<span class="st">'AIML440'</span>, <span class="st">'assignment'</span>)] <span class="op">=</span> time_entries[time_entries[<span class="st">'project'</span>] <span class="op">==</span> <span class="st">'AIML440'</span>][<span class="st">'duration'</span>].<span class="bu">sum</span>().total_seconds() <span class="op">/</span> <span class="dv">3600</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Get trimester for each project</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>project_trimester <span class="op">=</span> time_entries.groupby(<span class="st">'project'</span>)[<span class="st">'trimester'</span>].first()</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>project_trimester[<span class="st">'AIML440'</span>] <span class="op">=</span> <span class="st">'T12025'</span>  <span class="co"># Assuming AIML440 is T1</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Create subplots for each trimester</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">6</span>), sharey<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>trimesters <span class="op">=</span> [<span class="st">'T12025'</span>, <span class="st">'T22025'</span>]</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>titles <span class="op">=</span> [<span class="st">'Trimester 1'</span>, <span class="st">'Trimester 2'</span>]</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>recommended_hours <span class="op">=</span> <span class="dv">150</span>  <span class="co"># 8.8 hours/week for 17 weeks ~= 150</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax, tri, title <span class="kw">in</span> <span class="bu">zip</span>(axes, trimesters, titles):</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Filter projects for this trimester</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    tri_projects <span class="op">=</span> project_trimester[project_trimester <span class="op">==</span> tri].index</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get data for these projects</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    tri_data <span class="op">=</span> time_by_task_hours.loc[tri_projects].unstack(fill_value<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Sort by total time descending</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    tri_data <span class="op">=</span> tri_data.loc[tri_data.<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>).sort_values(ascending<span class="op">=</span><span class="va">False</span>).index]</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot stacked bar</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>    tri_data.plot(kind<span class="op">=</span><span class="st">'bar'</span>, stacked<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax, colormap<span class="op">=</span><span class="st">'viridis'</span>, legend<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>    ax.set_title(title)</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(<span class="st">'Project'</span>)</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(<span class="st">'Total Duration (hours)'</span>)</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>    ax.tick_params(axis<span class="op">=</span><span class="st">'x'</span>, rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Horizontal line for recommended hours</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    ax.axhline(y<span class="op">=</span>recommended_hours, color<span class="op">=</span><span class="st">'red'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, linewidth<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="co"># Add legend to the figure</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>handles, labels <span class="op">=</span> axes[<span class="dv">0</span>].get_legend_handles_labels()</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="co"># Add the recommended line handle</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>handles.append(plt.Line2D([<span class="dv">0</span>], [<span class="dv">0</span>], color<span class="op">=</span><span class="st">'red'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, linewidth<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>labels.append(<span class="ss">f'Recommended (</span><span class="sc">{</span>recommended_hours<span class="sc">:.1f}</span><span class="ss"> h)'</span>)</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>fig.legend(handles, labels, title<span class="op">=</span><span class="st">'Task Type / Reference'</span>, loc<span class="op">=</span><span class="st">'upper right'</span>)</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Ignoring 10 entries without classified task type which is a total of 0 days 15:26:13</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div id="fig-time-by-paper" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-time-by-paper-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-time-by-paper-output-2.png" width="1438" height="574" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-time-by-paper-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Time spent per paper with recommended hours line. ‘tests’ include taking the actual tests/exams but also studying for them.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>We all know some papers are easier than others, given that I get the same-ish grade across the board looking at <a href="#fig-time-by-paper" class="quarto-xref">Figure&nbsp;1</a> we can see that the numbers back this intuition up. It is assignments that are the most “time intensive” as I end up spending a lot of time making sure that everything is just right. Obviously AIML440 was an ineffective way to get credits yet as someone wise once said “If you just want a degree, study something else”.</p>
 </section>
+<section id="not-all-coursework-is-as-valuable." class="level2">
+<h2 class="anchored" data-anchor-id="not-all-coursework-is-as-valuable.">Not all coursework is as valuable.</h2>
+<p>It’s really hard to judge the value of coursework and content. Especially without wisdom and old age to reflect on what was useful and what was not. However at the end of it all I feel that the papers are useful in one of three ways: they teach me useful things, they challenge my mind, or they give me an opportunity to do something cool.</p>
+<p>Using that as a guideline I can highlight some particularly cool papers:</p>
+<ul>
+<li>AIML425 (Neural Networks and Deep Learning) this paper was very challenging (due to excessive maths), gave a really foundational understanding of Neural Networks. It really feels like the sort of paper that needs to be done to avoid a <a href="https://www.joelonsoftware.com/2005/12/29/the-perils-of-javaschools-2/">HuggingFace/LLMAPI AI school</a>. If someone is going to talk about AI it is important that atleast at some point in their life they have really thought hard about how all these tensors are multiplying together or how this calculus shows that the objective function really is maximum likelihood. I didn’t really build anything cool yet the assignments were refreshing in that they were under a very strict 2 page limit in a pseudo-journal article format.<br>
+</li>
+<li>AIML430 (Application and Implications) this paper was a reframed but age old ‘ethics’ course that any science programme has. It wasn’t the most difficult in terms of “challenging my mind” however it did teach me useful things, gave me an excuse to read <a href="https://ai-2027.com/">AI 2027</a> as well as let me <a href="https://github.com/1jamesthompson1/AIML430_capstone">do something cool</a>.<br>
+</li>
+<li>AIML426 (Evolutionary Computation) I started this paper without any preconceived notions of what evolutionary computation is besides that fact that Victoria University did alot of it and from my humble perspective seemed a bit outdated. I still somewhat think a lot of the algorithms are jaded, still cool ideas though. What really has got me all riled up and excited is NeuroEvolution! Learn the weights and the architecture at the same, no way does that work? Well it doesn’t really but I think it could be made to work better than the current standard method from 20 years ago. If I am going to work on capabilities research at all I can’t see a better area than the intersection of NeuroEvolution and RL.<br>
+</li>
+<li>AIML440 (Self Directed Learning) I started this paper with a plan of following some online lectures and reading a textbook, throw in a few small assignments and grab my credits and go. Turns out that AIML440 was going to be more work than that. I wanted to learn about Reinforcement Learning, but I ended up doing that, creating a new RL algorithm for robotic control and learning all about the horrors of HPC clusters and long running experiments (&gt; 1 week). In many ways a dreadful experience yet I learnt a lot, a lot a lot and did something that was <a href="https://github.com/1jamesthompson1/AIML440_report">kinda cool</a> (also thought my supervisor was cool).</li>
+</ul>
+<p>Now I won’t name and shame the other papers, yet some definitely felt like busy work, not really teaching me anything useful, nor challenging my mind. I would have happily switched some of them out for more self-directed learning or other electives papers about maths, physics etc.</p>
 </section>
-<section id="deploying" class="level2">
-<h2 class="anchored" data-anchor-id="deploying">Deploying</h2>
-<p>Now that we had the website we had to deploy it. I started by creating an account with netlify which was easy and then I gave it permissions to my repository and then I well accidentally deployed it.</p>
-<p>It was just too darn easy. Well it wasn’t really deployed properly it had a weird as domain name (flocking-cats-1234 or something) and also the website was only showing an error. I went back and give it the ‘hugo’ build command I had ignored when first logging in and then it did work. Just Like That!</p>
-<p>When I pushed to the main it updated the build. When I added a PR it made a preview. When I did something it just worked.</p>
-<p>Very Very impressive I thought.</p>
-<p>I kept seeing on the home page as I was looking around that there were forms so I had a look and in changing a single line of code set it up to use netlify instead. As it just automatically found the form and handled it which was very smart of it. The thing about netlify instead of getforms is that nothing was annoying locked behind a paywall. Instead it was simply capped. That’s alright because I don’t really expect any to actually be using our form let alone more than 50 times a month.</p>
-<p>Getting the submission page to work did take more time than I would have liked but it was mostly due to my complete lack of knowledge rather than anything else.</p>
-<p>The deployment process was barely a process at all. It was a few button clicks no headaches and our website was live.</p>
-<p>This has left me feeling quite impressed with these web tools. As I never get near web technologies or anything to do with web development having this small detour into building a new website go so flawlessly was quite satisfying. Now as you might expect I really want to switch over my current website to this so that everything just works for me too.</p>
+<section id="hard-courses" class="level2">
+<h2 class="anchored" data-anchor-id="hard-courses">Hard courses</h2>
+<p>I think I am not quite done with the discourse on the beauty of AIML425 and hard work <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. AIML425 was the first paper in a while that was hard. Like truly difficult, not the kind of lecture where you sit there and nod along thinking “yeah I get that”. More the kind of lectures where you sit there like “ARGHHHHH” wait I knew that word he just said oh nevermind “ARGHHGHHGHGHGGHGHGH”. These sort of papers are important because you know that you are going to learn something good. It’s like when I did maths in my undergrad, I took them because they were hard, yet I knew at the end it would make sense. This paper was the first Machine Learning paper I have seen like this. Lots of maths and theory, and even though none of it made sense most of the time I can confidently say that some of it made sense for a little bit of time. Not to dismiss my University but it is a middle of the road university, not a top tier Oxford like establishment. It does make me wonder whether the Computer Science program at one of these top tier unis be just full of courses like AIML425? If so I can see why their graduates are so highly sought after.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I wanted to do this as the courses on offer didn’t cover Reinforcement Learning<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I am yet to receive my grades back so maybe they will come back appalling and I should of just studied something easier but I digress<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
