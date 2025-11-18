@@ -1,0 +1,46 @@
+---
+title: "AI from the government?"
+date: 2025-11-18
+categories: ['ideas', 'ai']
+tags: ['public ai', 'governance', 'ethics']
+description: | 
+  An introduction and overview of the concept of Public AI and its implications for society.
+bibliography: references.bib
+---
+
+Public AI is one of a few new concepts that have emerged in recent years as a framework, guiding principles and definition for how AI systems of tomorrow could be developed, deployed, governed and used in a more positive manner for society. This idea comes from a collection of people from academia and industry and is 'centrally' organized by [@publicaiPublicAIWhite2024]. The core idea is that AI systems should be viewed like public goods, similar to water, electricity and roads. This is essential as AI systems are becoming more integrated and thus critical to our daily lives ^[Generally speaking  it seems the more things are used in a society the more people without them are left out / left behind.], where making them a public good adds a quality floor and price ceiling to enable equitable access and prevent exclusion.
+
+## Its all about incentives
+
+Things are optimizers. Particles are just trying to get to lower energy states. Humans are trying to minimize discomfort and maximize pleasure. Yet what are societies optimizing for? What are companies optimizing for? In short it seems quite clear that they are optimizing for profit and power. These goals are good proxies for some handy attributes like efficiency, survival and so one, yet they aren't necessarily aligned with [@millUtilitarianism2004] goals or really any of the goals of a standard philosophical ethical system [@aristotleAristotlesNicomacheanEthics; @kantImmanuelKantGroundwork2000] ^[Forgive me dearly for I am no Philosopher and just want to make the point that profit is not a good goal.].
+
+The current AI development framework is mainly of developing an AI system that is designed to maximize profit for shareholders. This leads to many instrumental goals at both the organizational level and the AI level. At the AI level we can imagine it learns goals like maximizing user engagement as the more you use the something the more likely you can have value extracted from you. This engagement goal has been shown through various social media platforms failures that it leads to furthermore negative goals. At the organizational level we can view it through the lens of something called Collective Intelligence [@collectiveintelligenceprojectCIP+Whitepaper]. Which suggests that organizations will fail by either sacrificing safety for progress, or participation for safety or progress participation.
+
+## A better incentive
+
+Ok so if profit, power and growth are not good moral goals and not good societal goals what should our AI goals be? Well on one extreme is optimizing for maximum sum of happiness minus suffering (AKA utilitarianism), yet to avoid pitfalls or problems there I will instead use the concept of Public good. The definition of public good is something that everyone can use without using it effecting someones else's ability to use it. It's the clean air we breath, which is the same air that companies pollute to drive profit. Therefore we are left with the goal of maximizing access minus exclusion.
+
+One can view government and governing bodies in general as entities that provides incentive tweaks to society. That if done correctly let societies collective efforts more towards the future we want. There we can have government move AI tools and development truly in-house. This move will realign the incentives of AI development from profit maximization to public good maximization.
+
+Importantly the goal of public good maximization generally has better instrumental goals associated with it. The previous wave of technological development was driven by profit and private enterprises which has resulted in much better advertising and entertainment, yet also increasing inequality and polarization. All while ignoring much needed problems like climate change, public health and the global poor. When operating within the framework of a public good and for the public good you are not judged on how much money you make but rather how much good you do. The AI bot that talks to users for hours on end and causes them to quite their job and spend all their money on it is great for business yet would be a terrible public AI and therefore would not be incentive.
+
+## How to do it
+
+Fixing it at the incentive level is really attractive. We just write this document of how things should be done and then everyone follows it, and i get my flying car by christmas! Maybe its kinda like that and maybe the problem in the middle are just creases to be ironed out yet there are big creases and alot of them so we do need some technical work and actual solutions.
+
+Broadly speaking there are a few areas that need work so that we can truly have public AI systems.   
+
+* **Public AI infrastructure:** Due to large compute and data requirements building AI systems is expensive. Therefore we need public infrastructure that can support the development and deployment of AI systems. Specifically we need public compute and public data.  
+* **Representative AI development:** *I will expand below as I think this is the most interesting*. But how do we build AI systems both at the application and model level that represent and maintain public and individual values.  
+* **Audits and transparency:** This kind of goes with the above but we need clear ways forward in how we can audit AI systems to ensure they are aligned with whatever we want (but in our case we could say public good maximization). We can somewhat tell people what data we used, algorithm and so on yet that provides information at the wrong abstraction level. It doesn't tell people what they really care about which is "Will it be kind", "Will this bot thingy treat me fairly" etc.  
+
+### Good AI development processes
+
+In line with this idea of incentives and AI development this will expand on what the challenges are possible solutions are for actually having AI development that is setup right.
+First is data. Any model is currently trained using some input of information and the information used can have a huge impact on the resultant model. Therefore we need better ways of procuring data that is fair for the everyone. Furthermore and crucially for post training data how do we decide on what sort of model we would want? This is where the concept of treating it as part of our collective intelligence and [@collectiveintelligenceprojectCIP+Whitepaper] hs a bit to say about this. Namely various techniques and methods to extract and process values from a large group of people.
+Second is training. However from the previous step of data how do we then use that data to train models ^[Now obviously the first part is just training using next token prediction, yet it is what comes after that is the most interesting bit]. This immediately brings us to very technical ideas like RLHF [@christianoDeepReinforcementLearning2023] and DPO [@rafailovDirectPreferenceOptimization2024], however more broadly speaking the question is still open on how to instill the values and expected behaviors into models. There are interesting ideas like Constitutional AI [@baiConstitutionalAI2022] yet not only are they only in early stages they are largely ignored due to lack of direct profit incentive.
+Lastly is deployment, which I use in the sense of embedding these AI models into applications and systems that people use. Here the question is how do we do that in the correct method. For example deploying a chatbot we could follow some framework like [@CITELayeredDefense2025] or other "standard engineering best practices" like processes.
+
+## Now remember
+
+Building things is cool. I like building things. I particularly enjoy building computers and software that does really neat things. Yet we are dealing with powerful technologies (can be called transformative technologies) and we may be dealing with something more powerful than ever before. If the foundations of how we are building these systems are not aligned with what we want that we are simply fooling ourselves into thinking we are going to get something good. We need to align the incentives of AI development with what we humans want at all levels of the process. Not just some small technical post training part. Public AI is one such framework that can help us do that.
