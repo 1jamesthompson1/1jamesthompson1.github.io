@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="James Thompson">
-<meta name="dcterms.date" content="2023-04-11">
+<meta name="dcterms.date" content="2025-11-18">
+<meta name="description" content="An introduction and overview of the concept of Public AI and its implications for society.">
 
-<title>Rmd no more (atleast not while it is hindering me) – James Thompson</title>
+<title>AI from the government? – James Thompson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -123,9 +144,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Rmd no more (atleast not while it is hindering me)</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">meta</div>
+      <h1 class="title">AI from the government?</h1>
+                  <div>
+        <div class="description">
+          <p>An introduction and overview of the concept of Public AI and its implications for society.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">ideas</div>
+                <div class="quarto-category">ai</div>
               </div>
                   </div>
   </div>
@@ -143,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 11, 2023</p>
+        <p class="date">November 18, 2025</p>
       </div>
     </div>
     
@@ -162,15 +189,97 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I had the initial goal here of having a space to help me have a space to write some words. In writing those words I was going to gain some skills in writing words in an order that works well to convey information.</p>
-<p>However as one might expect I got bogged down in my efforts to get the website working. Specifically trying to get it to automatically build the rmd files to md with graphs included! This roadblock discouraged me from carrying on from using the website.</p>
-<p>Regardless of all of my effort (6 months ago) it didnt work. It may work in the future and that would be great as then my blog can easily have some basic stats work in it if I want it to. What I am left with though is a website that can function quite alright at being a simple hosted blog.</p>
-<p>All of the stuff that builds this website can be found <a href="https://github.com/1jamesthompson1/1jamesthompson1.github.io">here</a>.</p>
-<p>Otherwise I expect to when post things worth my time when I have said time to post.</p>
+<p>We can probably agree that artificial intelligence<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> is not a guaranteed hole in one and there are some valid concerns for how it may negatively affect us humans. Therefore we ought come up with ways in which we can do it right and one of these ideas is called Public AI. This idea comes from a collection of people from academia and industry and is ‘centrally’ organized by <span class="citation" data-cites="publicaiPublicAIWhite2024">(<a href="#ref-publicaiPublicAIWhite2024" role="doc-biblioref">Public AI 2024</a>)</span>. The core idea is that AI systems should be viewed like public goods, similar to water, electricity and roads. This is essential as AI systems are becoming more integrated and thus critical to our daily lives <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, where making them a public good adds a quality floor and price ceiling to enable equitable access and prevent exclusion. Changing the paradigm of AI development from private profit maximization to public good maximization is a switch of incentives that can push AI development in a more positive direction.</p>
+<section id="its-all-about-incentives" class="level2">
+<h2 class="anchored" data-anchor-id="its-all-about-incentives">It’s all about incentives</h2>
+<p>Things are optimizers. Particles are just trying to get to lower energy states. Humans are trying to minimize discomfort and maximize pleasure. What are societies optimizing for? What are companies optimizing for? At least for companies it is quite safe to say they are optimizing for profit, specifically near term profit (&lt; 50 years). These goals are good proxies for some handy attributes like efficiency, survival and so on, yet they aren’t necessarily aligned with Utilitarian <span class="citation" data-cites="millUtilitarianism1879">(<a href="#ref-millUtilitarianism1879" role="doc-biblioref">Mill 1879</a>)</span> goals or really any of the goals of a standard philosophical ethical system <span class="citation" data-cites="aristotleAristotlesNicomacheanEthics350B.C.E kantImmanuelKantGroundwork1785">(<a href="#ref-aristotleAristotlesNicomacheanEthics350B.C.E" role="doc-biblioref">Aristotle 350 B.C.E</a>; <a href="#ref-kantImmanuelKantGroundwork1785" role="doc-biblioref">Kant 1785</a>)</span> <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Generally speaking profit maximization leads to short term thinking, exploitation of all resources (human, natural etc) and ignoring externalities. These are not good foundations for a driver of positive change in a civilization let alone a powerful technology like AI.</p>
+<p>The current AI development framework is mainly of developing an AI system that is designed to maximize profit for shareholders. This leads to many instrumental goals at both the organizational level and the AI level. At the AI level we can imagine it learns goals like maximizing user engagement, manipulating users preferences and generally all of the negative things associated with social media. Social media has pretty terrible outcomes across society and AI has more negative potential than that<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. At the organizational level we can use a framework from the Collective Intelligence Project <span class="citation" data-cites="collectiveintelligenceprojectCIP+Whitepaper">(<a href="#ref-collectiveintelligenceprojectCIP+Whitepaper" role="doc-biblioref">Collective Intelligence Project 2024</a>)</span> that states organizations will result in negative outcomes for society by sacrificing safety for progress, participation for safety, or progress for participation.</p>
+</section>
+<section id="a-better-incentive" class="level2">
+<h2 class="anchored" data-anchor-id="a-better-incentive">A better incentive</h2>
+<p>Ok so if profit, power and growth are not good moral goals and not good societal goals what should our AI goals be? Well on one extreme is optimizing for maximum sum of happiness minus suffering (AKA utilitarianism)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, yet to avoid pitfalls and problems when using a philosophical framework, I will instead use the concept of public good. The definition of public good is something that everyone can use without it affecting someone else’s ability to use it. It’s the clean air we breathe, which is the same air that companies pollute to drive profit (which is an example of ignoring externalities). Therefore we are left with the goal of maximizing access minus exclusion.</p>
+<p>One can view government and governing bodies in general as entities that provides incentive tweaks to society. That if done correctly let societies collective efforts move towards the future we want. Thus if we move AI development in-house, or at least the responsibility of the collective (like roads, power grid etc) we will realign the incentives of AI development from profit maximization to public good maximization.</p>
+<p>Importantly the goal of public good maximization generally has better instrumental goals associated with it. Namely being help the public. The previous wave of technological development was driven by profit and private enterprises which has resulted in much better advertising and entertainment, yet also increasing inequality and polarization. All while ignoring much needed problems like climate change, public health and the global poor. When operating within the framework of building a public good you are <em>for the public good</em>, you are not judged on how much money you make but rather how much good you do for the public<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. For example The AI bot that talks to users for hours on end and causes them to quit their job and spend all their money on it, great for business yet terrible for society so not incentivized.</p>
+</section>
+<section id="how-to-do-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-do-it">How to do it</h2>
+<p>Fixing it at the incentive level is really attractive. We just write this document of how things should be done and then everyone follows it, and I get my flying car by christmas! Maybe its kinda like that, but more likely those pesky road bumps on the road to the future are non trivial and might be more like building a new road from scratch than just driving over a road bump. Therefore there are some significant technical and social challenges to overcome.</p>
+<p>Broadly speaking there are a few key areas that need work so that the government can recapture AI and move it towards public good maximization:</p>
+<ul>
+<li><strong>Public AI infrastructure:</strong> Due to large compute and data requirements building AI systems is expensive. Therefore we need public infrastructure that can support the development and deployment of AI systems. Specifically we need public compute and public data. The lack of this is a crucial reason that early startups take that tempting venture capitalist money then have to spend the time trying to make money for them.<br>
+</li>
+<li><strong>Representative AI development:</strong> <em>I will expand below as I think this is the most interesting</em>. But how do we build AI systems both at the application and model level that represent and maintain public and individual values.<br>
+</li>
+<li><strong>Audits and transparency:</strong> This kind of goes with the above but we need clear ways forward in how we can audit AI systems to ensure they are aligned with whatever we want (but in our case we could say public good maximization). We can somewhat tell people what data we used, algorithm and so on yet that provides information at the wrong abstraction level. It doesn’t tell people what they really care about which is “Will it be kind”, “Will this bot thingy treat me fairly”, “why did it deny my application” etc. Some of this is covered or partially solved by the EU AI act <span class="citation" data-cites="ArtificialIntelligenceAct2024">(<a href="#ref-ArtificialIntelligenceAct2024" role="doc-biblioref"><span>“Artificial <span>Intelligence Act</span> (<span>Regulation</span> (<span>EU</span>) 2024/1689)”</span> 2024</a>)</span>, yet more is left out on how to technically do this and practically implement it.<br>
+</li>
+</ul>
+<section id="good-ai-development-processes" class="level3">
+<h3 class="anchored" data-anchor-id="good-ai-development-processes">Good AI development processes</h3>
+<p>There are many problems with current AI development. These can be broken down into the lifecycle of a classical Machine Learning system.</p>
+<p>First is data. Any model is currently trained using some input of information and the information used can have a huge impact on the resultant model. Therefore we need better ways of procuring data that is fair for everyone. Furthermore and crucially for post training data how do we decide on what sort of model we would want (e.g nationalism vs globalism or self interest vs group interest)? This is where the concept of treating it as part of our collective intelligence can be effective framing and the CIP <span class="citation" data-cites="collectiveintelligenceprojectCIP+Whitepaper">(<a href="#ref-collectiveintelligenceprojectCIP+Whitepaper" role="doc-biblioref">Collective Intelligence Project 2024</a>)</span> works on it a lot. One of the key outputs of CIP is how to extract and synthesize values from a large heterogeneous group of people.</p>
+<p>Second is training. From the previous step of data it is not always obvious how to use this data to train the model <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>. This immediately brings us to very technical ideas like RLHF <span class="citation" data-cites="christianoDeepReinforcementLearning2023">(<a href="#ref-christianoDeepReinforcementLearning2023" role="doc-biblioref">Christiano et al. 2023</a>)</span> and DPO <span class="citation" data-cites="rafailovDirectPreferenceOptimization2024">(<a href="#ref-rafailovDirectPreferenceOptimization2024" role="doc-biblioref">Rafailov et al. 2024</a>)</span>, however more broadly speaking the question is still open on how to instill the values and expected behaviors into models. There are interesting ideas like Constitutional AI <span class="citation" data-cites="baiConstitutionalAIHarmlessness2022">(<a href="#ref-baiConstitutionalAIHarmlessness2022" role="doc-biblioref">Bai et al. 2022</a>)</span> yet not only are they only in early stages they are largely ignored due to lack of direct profit incentive.</p>
+<p>Lastly is deployment, which I use in the sense of embedding these AI models into applications that end users interact with as well as the actual hardware it runs on. Here the question is how do we do that in the correct method. For example deploying a chatbot we could follow some framework like <span class="citation" data-cites="CITELayeredDefense2025">(<a href="#ref-CITELayeredDefense2025" role="doc-biblioref"><span>“<span>CITE</span>: <span>Layered Defense</span> in <span>AI Chat Safety</span> - by <span>James Padolsey</span>”</span> 2025</a>)</span> or other “standard engineering best practices” like processes.</p>
+</section>
+</section>
+<section id="now-remember" class="level2">
+<h2 class="anchored" data-anchor-id="now-remember">Now remember</h2>
+<p>Building things is cool. I like building things. I particularly enjoy building computers and software that does really neat things. Yet we are dealing with powerful technologies <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> and we may be dealing with something more powerful than ever before. If the foundations of how we are building these systems are not aligned with what we want, then we are simply fooling ourselves into thinking we are going to get something good. We need to align the incentives of AI development with what we humans want at all levels of the process. Not just some small technical post training part. Public AI is one such framework that can help us do that.</p>
 
 
 
-</main> <!-- /main -->
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-amnestyinternationalMyanmarSocialAtrocity2022" class="csl-entry" role="listitem">
+Amnesty International. 2022. <span>“Myanmar: <span>The</span> Social Atrocity: <span>Meta</span> and the Right to Remedy for the <span>Rohingya</span>.”</span> ASA 16/5933/2022.
+</div>
+<div id="ref-aristotleAristotlesNicomacheanEthics350B.C.E" class="csl-entry" role="listitem">
+Aristotle. 350 B.C.E. <em>Aristotles <span>Nicomachean Ethics</span></em>.
+</div>
+<div id="ref-ArtificialIntelligenceAct2024" class="csl-entry" role="listitem">
+<span>“Artificial <span>Intelligence Act</span> (<span>Regulation</span> (<span>EU</span>) 2024/1689).”</span> 2024.
+</div>
+<div id="ref-baiConstitutionalAIHarmlessness2022" class="csl-entry" role="listitem">
+Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, et al. 2022. <span>“Constitutional <span>AI</span>: <span>Harmlessness</span> from <span>AI Feedback</span>.”</span> arXiv. <a href="https://doi.org/10.48550/arXiv.2212.08073">https://doi.org/10.48550/arXiv.2212.08073</a>.
+</div>
+<div id="ref-brownEchoChambersRabbit2022" class="csl-entry" role="listitem">
+Brown, Megan A., James Bisbee, Angela Lai, Richard Bonneau, Jonathan Nagler, and Joshua A. Tucker. 2022. <span>“Echo <span>Chambers</span>, <span>Rabbit Holes</span>, and <span>Algorithmic Bias</span>: <span>How YouTube Recommends Content</span> to <span>Real Users</span>.”</span> {{SSRN Scholarly Paper}}. Rochester, NY: Social Science Research Network. <a href="https://doi.org/10.2139/ssrn.4114905">https://doi.org/10.2139/ssrn.4114905</a>.
+</div>
+<div id="ref-christianoDeepReinforcementLearning2023" class="csl-entry" role="listitem">
+Christiano, Paul, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2023. <span>“Deep Reinforcement Learning from Human Preferences.”</span> arXiv. <a href="https://doi.org/10.48550/arXiv.1706.03741">https://doi.org/10.48550/arXiv.1706.03741</a>.
+</div>
+<div id="ref-CITELayeredDefense2025" class="csl-entry" role="listitem">
+<span>“<span>CITE</span>: <span>Layered Defense</span> in <span>AI Chat Safety</span> - by <span>James Padolsey</span>.”</span> 2025. https://blog.j11y.io/2025-11-13_CITE-AI-Safety/.
+</div>
+<div id="ref-collectiveintelligenceprojectCIP+Whitepaper" class="csl-entry" role="listitem">
+Collective Intelligence Project. 2024. <span>“<span>CIP Whitepaper</span>.”</span>
+</div>
+<div id="ref-kantImmanuelKantGroundwork1785" class="csl-entry" role="listitem">
+Kant. 1785. <em>Immanuel <span>Kant Groundwork For The Metaphysics Of Morals</span></em>.
+</div>
+<div id="ref-millUtilitarianism1879" class="csl-entry" role="listitem">
+Mill, John Stuart. 1879. <em>Utilitarianism</em>.
+</div>
+<div id="ref-publicaiPublicAIWhite2024" class="csl-entry" role="listitem">
+Public AI. 2024. <span>“Public <span>AI White Paper</span>.”</span> <a href="https://doi.org/10.5281/zenodo.13914560">https://doi.org/10.5281/zenodo.13914560</a>.
+</div>
+<div id="ref-rafailovDirectPreferenceOptimization2024" class="csl-entry" role="listitem">
+Rafailov, Rafael, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, and Chelsea Finn. 2024. <span>“Direct <span>Preference Optimization</span>: <span>Your Language Model</span> Is <span>Secretly</span> a <span>Reward Model</span>.”</span> arXiv. <a href="https://doi.org/10.48550/arXiv.2305.18290">https://doi.org/10.48550/arXiv.2305.18290</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I have a love hate relationship these days with the word AI, particularly how it is used in the context of governance and policy discourse. It always amuses me (visualize an accountant freaking out and just saying “money” instead of taxes, income etc) when people discuss broadly concerns of various computer systems under the lump title of ‘AI’, I assume that it means they don’t really know any other words to describe it. Therefore I will demonstrate that I know at least two more buzz words by suggesting that I could have replaced AI with ‘agentic LLM’ for this sentence.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Generally speaking it seems the more things are used in a society the more people without them are left out / left behind. Ergo as more people use AI the ones who can’t access it due to money, logistics etc are left behind<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Forgive me dearly for I am no Philosopher and just want to make the point that profit is not a good goal.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Think how much damage recommender systems have done (causes genocides <span class="citation" data-cites="amnestyinternationalMyanmarSocialAtrocity2022">(<a href="#ref-amnestyinternationalMyanmarSocialAtrocity2022" role="doc-biblioref">Amnesty International 2022</a>)</span>, polarization <span class="citation" data-cites="brownEchoChambersRabbit2022">(<a href="#ref-brownEchoChambersRabbit2022" role="doc-biblioref">Brown et al. 2022</a>)</span>…), a system with a simple goal of finding the next piece of content that the user would like the most<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Well if I understand it technically a weighted sum where the weights are how much the evaluator cares about the thing. Like for instance if I was to evaluate it I would put no weight on the happiness of limestone rocks as I don’t care about them much.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Lets ignore problems of crony capitalism for now<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Now obviously the first part is just training using next token prediction, yet it is what comes after that is the most interesting bit<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>a cool word for this is transformative technologies<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
