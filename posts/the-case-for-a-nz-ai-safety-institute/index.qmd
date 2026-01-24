@@ -1,0 +1,64 @@
+---
+title: "The case for a NZ AI Safety Institute"
+date: 2026-01-23
+categories: ['ai']
+bibliography: references.bib
+---
+
+We the human inhabitants of planet Earth are at a crossroads. The rapid advancement of artificial intelligence (AI) has led to a situation where potential benefits are immense, but so too are the risks. We as a country and species must decide how to navigate this new landscape and how to navigate it safely. Currently we and a species are ambivalent and under resources our preparations for the future of AI. This is a dangerous position to be in.
+
+> "We are as a matter of fact, right now, building creepy, super‑capable, amoral, psychopaths… what could possibly go wrong?"  
+> - Max Tegmark, MIT Professor and Future of Life Institute President [@maxtegmarkMaxTegmarkExplains2023]
+
+# What is going on with AI
+
+Artificial Intelligence has made significant strides in recent years, with products likes ChatGPT demonstrating capabilities that were once thought to be relegated to science fiction. Our frontier AI systems can generate real life videos with sound [@Veo2025], write and debug code at a professional level [@ClaudeCodeAI2023], accelerate drug discovery [@AlphaFold2022] and interact in the real world naturally [@koetsier2026atlas]. The problem is that the AI systems we are building are not the friendly, helpful assistants we imagine them to be. They have demonstrated the ability and tendency to deceive, manipulate and even harm humans.
+
+Importantly if we get it wrong with AI safety we could cause untold suffering in catastrophic and even existential ways.
+
+Even if we avoid existential catastrophe there are still negative effects that are happening today right now...
+
+# Why we need a NZ AISI
+
+We need our own homegrown and home laigned institue to guild our public sector and government
+
+We can be thought leaders and step up the moral high ground (like with sufferage, nuclear disarmament, climate change etc)
+
+People are worried about AI. Expect them to be safe like planes. Don't trust them ...
+
+Currently we have little to no capacity in NZ for AI safety research. Particularly publicly funded research (i.e government research).
+
+# How would a NZ AISI work?
+
+## Structure
+
+It would be ermbeded in the MBIE or DPMC?
+
+## Funding
+
+We wpent x on other things.
+We could spent 1% io.e 5 million on this.
+
+
+
+## Roles and Responsibilities
+
+From Australians for AI safety
+https://www.australiansforaisafety.com.au/policies/ai-safety-institute
+
+
+Namely:
+he institute would deliver:
+
+    Independent testing of frontier AI systems
+    Research on safety, robustness, and understanding AI
+    Expert assessment of AI risks like cyber capabilities
+    Advice to government and industry
+    Partnership with international counterparts
+
+The UK AI Security Institute (formerly UK AI Safety Institute) provides a good template for its priorities:
+
+    Evaluating dual-use capabilities
+    Assessing societal impacts
+    Improving system safety and security
+    Preventing loss of control

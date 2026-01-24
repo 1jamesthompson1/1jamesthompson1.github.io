@@ -41,3 +41,5 @@ format:
     include-in-header:
         - text: |
             <script data-goatcounter="https://1jamesthompson1.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
+
+# csl: csl/ieee.csl
