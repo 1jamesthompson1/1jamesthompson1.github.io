@@ -7,6 +7,12 @@ website:
   site-url: "https://1jamesthompson1.github.io"
   navbar:
     right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Posts"
+        href: posts.qmd
+      - text: "Short Forms"
+        href: shorts.qmd
       - about-me.qmd
       - icon: github
         href: https://github.com/1jamesthompson1

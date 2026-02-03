@@ -1,0 +1,12 @@
+# options specified here will apply to all shorts in this folder
+
+freeze: true
+title-block-banner: true
+author: James Thompson
+
+# Shorts are meant to be quick thoughts/updates under 280 characters (like a tweet!)
+# Each short generates its own page with prev/next navigation
+
+# Enable individual page navigation
+number-sections: false
+page-navigation: true

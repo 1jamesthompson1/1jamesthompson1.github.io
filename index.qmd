@@ -1,27 +1,101 @@
 ---
-title: ""
+title: "James Thompson"
+subtitle: "Some person on the internet"
 listing:
-  id: posts
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  feed: true
-  filter-ui: false
-  page-size: 5
+  - id: recent-posts
+    contents: posts
+    sort: "date desc"
+    type: grid
+    grid-columns: 2
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    page-size: 4
+    fields: [date, title, description]
+  - id: recent-shorts
+    contents: 
+      - "shorts/*.qmd"
+      - "!shorts/_metadata.yml"
+    sort: "date desc"
+    type: table
+    max-items: 6
+    fields: [title, date]
+    field-display-names:
+      title: "Recent Short Forms"
+      date: "Date"
+    table-hover: true
 page-layout: full
-title-block-banner: true
-comments:  false
+title-block-banner: false
+comments: false
 ---
 
-Find out about me [here](about-me.qmd)
+::: {.column-page}
 
-**Disclaimer: I make no promise that my posts will be consistent with each other I expect my thought and ideas on all discussed topics to change.This means that I am likely to disagree with myself a lot. But your past self is really a different person.**
+I'm someone very interested and concerned about the future of artificial intelligence, technology, and society. I have academic experience (Masters') and professional experience in AI research, software development, and data science.
 
----
-::: {#posts}
+::: {style="text-align: center; font-size: 1.1em; padding: 1rem 2rem; background-color: #f7fafc; margin: 2rem 0; font-style: italic;"}
+Welcome to my space on the internet
 :::
 
-This website was built with [Quarto](https://quarto.org/) and uses [GitHub Pages](https://pages.github.com/) to host it.  
-The code repository can be found here: [https://github.com/1jamesthompson1/1jamesthompson1.github.io](https://github.com/1jamesthompson1/1jamesthompson1.github.io)
+:::{.callout-note appearance="simple"}
+**Disclaimer:** My thoughts and ideas evolve constantly. I make no promise that my posts will be consistent with each other - I expect to disagree with my past self often. After all, your past self is really a different person.
+:::
+
+---
+
+## What's Here
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### [Long Form Posts](posts.qmd)
+Essays, articles, and in-depth explorations of topics I find interesting.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Short Forms](shorts.qmd)
+Quick thoughts and micro-posts under 150 words for bite-sized reading.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [About Me](about-me.qmd)
+Learn more about who I am and what I'm working on.
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
+## Recent Posts
+
+::: {#recent-posts}
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[View all posts →](posts.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+## Recent Shorts
+
+::: {#recent-shorts}
+:::
+
+::: {style="text-align: center; margin-top: 1rem;"}
+[View all shorts →](shorts.qmd)
+:::
+:::
+
+:::
+
+---
+
+:::{.column-body-outset}
+*This website was built with [Quarto](https://quarto.org/) and is hosted on [GitHub Pages](https://pages.github.com/). View the [source code](https://github.com/1jamesthompson1/1jamesthompson1.github.io).*
+:::
+
+:::
