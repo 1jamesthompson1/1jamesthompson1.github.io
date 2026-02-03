@@ -1,6 +1,6 @@
 ---
 title: "Short Forms"
-subtitle: "Quick thoughts and micro-posts (max 280 characters)"
+subtitle: "Quick thoughts and micro-posts (under 100 words)"
 listing:
   id: shorts-listing
   contents: 
@@ -41,36 +41,6 @@ Questions I'm pondering or seeking input on.
 
 ---
 
-```{=html}
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Add character count to each short form card
-  const cards = document.querySelectorAll('.quarto-grid-item');
-  cards.forEach(card => {
-    const content = card.textContent;
-    const charCount = content.length;
-    
-    if (charCount > 0) {
-      const counter = document.createElement('div');
-      counter.style.cssText = `
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 0.85rem;
-        padding: 0.25rem 0.5rem;
-        border-radius: 4px;
-        background-color: ${charCount > 280 ? '#fee2e2' : '#d1fae5'};
-        color: ${charCount > 280 ? '#991b1b' : '#065f46'};
-        font-weight: 500;
-      `;
-      counter.textContent = `${charCount} / 280`;
-      card.style.position = 'relative';
-      card.appendChild(counter);
-    }
-  });
-});
-</script>
-```
 
 ::: {#shorts-listing}
 :::

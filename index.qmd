@@ -54,7 +54,7 @@ Essays, articles, and in-depth explorations of topics I find interesting.
 
 ::: {.g-col-12 .g-col-md-4}
 ### [Short Forms](shorts.qmd)
-Quick thoughts and micro-posts under 150 words for bite-sized reading.
+Quick thoughts and micro-posts under 100 words for bite-sized reading.
 :::
 
 ::: {.g-col-12 .g-col-md-4}

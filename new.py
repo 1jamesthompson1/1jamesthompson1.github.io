@@ -8,7 +8,7 @@ For posts:
 
 For short forms:
     uv run python new.py short "My Quick Thought"
-    uv run python new.py short "My Quick Thought" -c reflection
+    uv run python new.py short "My Quick Thought" -c thought
     uv run python new.py short "My Quick Thought" -c thought -c ai
 
 This script is deliberately standalone and requires only Python stdlib so you
@@ -37,7 +37,8 @@ date: ${date}
 categories: ${categories}
 ---
 
-${content}
+
+Write your short form here (max 280 characters).
 """)
 
 
@@ -82,7 +83,7 @@ def create_post(title: str, slug: str, categories: list[str] | None, date: str |
     return index_path
 
 
-def create_short(title: str, content: str, categories: list[str] | None, date: str | None, force: bool) -> str:
+def create_short(title: str, categories: list[str] | None, date: str | None, force: bool) -> str:
     """Create a new short form in shorts/ directory."""
     shorts_dir = os.path.join(os.getcwd(), "shorts")
     os.makedirs(shorts_dir, exist_ok=True)
@@ -99,17 +100,11 @@ def create_short(title: str, content: str, categories: list[str] | None, date: s
     if not date:
         date = datetime.date.today().isoformat()
     
-    # Check character count
-    char_count = len(content)
-    if char_count > 280:
-        print(f"Warning: Short form is {char_count} characters (limit is 280). Consider trimming.", file=sys.stderr)
-    
     categories_value = format_categories(categories)
     rendered = SHORT_TEMPLATE.substitute(
         title=title.replace('"', '\\"'),
         date=date,
-        categories=categories_value,
-        content=content
+        categories=categories_value
     )
     
     with open(short_path, "w", encoding="utf-8") as f:
@@ -136,8 +131,7 @@ def main(argv: list[str] | None = None) -> int:
     # Short subcommand
     short_parser = subparsers.add_parser("short", help="Create a new short form (max 280 characters)")
     short_parser.add_argument("title", help="Short form title (quoted)")
-    short_parser.add_argument("--content", "-c", help="Short form content (if omitted, will open editor). Max 280 chars.")
-    short_parser.add_argument("--category", action="append",
+    short_parser.add_argument("--category", "-c", action="append",
                 help="Category or comma-separated categories",
                 default=[])
     short_parser.add_argument("--date", help="Date (YYYY-MM-DD). Defaults to today", default=None)
@@ -172,11 +166,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     
     elif args.type == "short":
-        content = args.content or ""
-        if not content:
-            raise SystemExit("Please provide content with --content flag, or content was empty")
-        
-        # Support comma-separated categories
+        # Support comma-separated categories, just like posts
         raw_cats: list[str] = []
         for c in args.category:
             if c is None:
@@ -184,15 +174,11 @@ def main(argv: list[str] | None = None) -> int:
             raw_cats.extend([part.strip() for part in c.split(",") if part.strip()])
         
         try:
-            path = create_short(args.title, content, raw_cats, args.date, args.force)
+            path = create_short(args.title, raw_cats, args.date, args.force)
         except SystemExit as e:
             print(e, file=sys.stderr)
             return 2
         print(f"Created short form: {path}")
-        if len(content) > 280:
-            print(f"⚠️  Character count: {len(content)}/280 (over limit)", file=sys.stderr)
-        else:
-            print(f"✓ Character count: {len(content)}/280")
         return 0
     
     else:

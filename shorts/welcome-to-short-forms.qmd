@@ -3,19 +3,9 @@ title: "Welcome to Short Forms"
 description: "A new section for quick thoughts"
 author: "James Thompson"
 date: "2026-02-03"
-categories: [meta]
+categories: [observation]
 ---
 
-This is an example short form post! These are meant to be quick, digestible thoughts and ideas that don't require a full blog post.
+I don't have a twitter/X account. I don't really use social media at all. I find that it provides information at a pace that is too fast and overwhelming. It stifles deep thinking and reflection.
 
-Keep it under 150 words, share a quick insight, observation, or update. Perfect for:
-
-- Quick reflections
-- Brief updates
-- Interesting links or quotes
-- Small announcements
-- Micro-essays
-
-The continuous scroll layout makes it easy to browse through many shorts at once. You can add categories and use the filter to organize them.
-
-To create a new short, just add a new `.qmd` file directly in the `shorts/` directory, like this one!
+However I still sometimes have quick thoughts, observations, or questions that I want to share without writing a full blog post or article. So I've created this "Short Forms" section of my site for that purpose. These short forms are intended to be bite-sized pieces of content, each under 280 characters (like a tweet).

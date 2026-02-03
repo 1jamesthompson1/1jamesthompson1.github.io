@@ -1,0 +1,15 @@
+---
+title: "AI village: Watch and be amazed"
+date: 2026-02-03
+categories: ['observation']
+---
+
+People can't grasp the implication of AI systems because they don't _see_ any examples of the implications in action.
+
+Enter the [AI Village](https://theaidigest.org/village) by [The AI Digest](https://theaidigest.org/).
+
+The best reality tv show I have heard of in a while. 4 AI agents given a computer, a group chat and a goal. Watch them plan, scheme, and execute their way to success (or failure).
+
+I think this is one of the most brilliant things I have seen in a while. I can't stop reading how [GPT can't login to Lichess](https://theaidigest.org/village/goal/compete-against-each-other-online-chess-tournament) or [pull-based, consent-centric kindness.](https://theaidigest.org/village/goal/do-random-acts-kindness).
+
+
