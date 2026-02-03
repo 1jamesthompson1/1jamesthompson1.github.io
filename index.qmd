@@ -31,7 +31,7 @@ comments: false
 
 ::: {.column-page}
 
-I'm someone very interested and concerned about the future of artificial intelligence, technology, and society. I have academic experience (Masters') and professional experience in AI research, software development, and data science.
+I'm someone very interested and concerned about the future of artificial intelligence, technology, and society. I have academic experience (Master of AI) and professional experience in AI research, software development, and data science.
 
 ::: {style="text-align: center; font-size: 1.1em; padding: 1rem 2rem; background-color: #f7fafc; margin: 2rem 0; font-style: italic;"}
 Welcome to my space on the internet
