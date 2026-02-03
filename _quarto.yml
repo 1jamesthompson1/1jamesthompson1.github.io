@@ -4,7 +4,7 @@ project:
 website:
   title: "James Thompson"
   description: "Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification."
-  site-url: "https://1jamesthompson1.github.io"
+  site-url: "https://james.sjhl.nz"
   navbar:
     right:
       - text: "Home"
