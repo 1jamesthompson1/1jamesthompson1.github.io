@@ -1,0 +1,9 @@
+---
+title: "AI forecasts are math bamboozling methods"
+date: 2026-02-20
+categories: ['thoughts']
+---
+
+I am quite a fan of the [AI 2027](https://ai-2027.com/) project. Its great to raise awareness of that AI *could* appear soon and *could go bad*. Yet its importance to stay sober that these "models" are really just [fancy mathematical justifications](https://www.aifuturesmodel.com/) for the forecaster's intuitions^[Given these forecasters do have a pretty good track record of guessing things well].
+
+For reference my own perspective is that AI will more less show up in 10-100 years and that it has a high likelihood (>50%) of being very bad for humanity.
