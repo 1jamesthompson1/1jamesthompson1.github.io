@@ -8,7 +8,7 @@ It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.co
 ## Adding post
 
 ```bash
-uv run new.py Post "My Post Title" -c category
+uv run new.py post "My Post Title" -c category
 ```
 This is creathed a new post in `posts/my-post-title/index.qmd` with the appropriate front matter as well as put you on a new git branch.
 
