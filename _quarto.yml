@@ -29,8 +29,8 @@ website:
     center:
       - text: "About Me"
         href: about-me.qmd
-      - text: "CC BY-SA 4.0"
-        href: https://creativecommons.org/licenses/by-sa/4.0/
+      - text: "CC BY-NC-SA 4.0"
+        href: https://creativecommons.org/licenses/by-nc-sa/4.0/
       - text: "Contact Me: 1jamesthompson1@gmail"
         href: "mailto:1jamesthompson1@gmail.com"
 comments:

@@ -4,6 +4,7 @@ This is the repository for my [simple personal website](https://james.sjhl.nz).
 
 It uses [Quarto](https://quarto.org/) and [GitHub Pages](https://pages.github.com/).
 
+The code is licensed under GPL-3.0 (i.e., it is free software), but the content is licensed under CC-BY-SA-NC-4.0 (i.e., somewhat free to use yourself, just not for making money!).
 
 ## Adding post
 
