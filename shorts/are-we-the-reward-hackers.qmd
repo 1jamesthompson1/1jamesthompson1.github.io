@@ -1,0 +1,13 @@
+---
+title: "Are we the reward hackers?"
+date: 2026-05-31
+categories: ['thought']
+---
+
+The evolutionary process is a search process for an agent that can survive and reproduce, this goal is instilled into humans as a reward function through an innate desire for pleasure.
+
+Since humans have already conquered the survival challenge, we have learnt ways to achieve—an illusion of—more 'pleasure' in *other ways* (power, status...). It seems these *other ways* could cause extinction (war, cooperate greed in AI companies...).
+
+Therefore it seems that we are the reward hackers of evolution.
+
+A neat little idea from: [Why AI alignment could be hard with modern deep learning](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)

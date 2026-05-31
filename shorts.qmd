@@ -25,7 +25,7 @@ comments: false
 ::: {.g-col-12 .g-col-md-4}
 **Thought**
 
-Personal reflections, ideas, and observations about the world around me.
+Personal reflections, ideas, and interpretations about the world around me.
 :::
 ::: {.g-col-12 .g-col-md-4}
 **Observation**
