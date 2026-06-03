@@ -1,0 +1,11 @@
+---
+title: "Its all fugazi"
+date: 2026-06-03
+categories: ['observations']
+---
+
+
+It seems to me that there is just an unreasonable supply of fugazi stemming from AI companies; specifically the ones that are pushing the frontier (Anthropic, Google, OpenAI,...). To get what I mean check out ["Anthropic's new model passed their tests for AI Autonomy so they then asked their workers if it was really that good, workers said nah so they removed the tests instead"](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf). Whats the point of a warning alarm if you just decide to turn it off when it goes off?
+I am very much unconvinced at the moment that any of the Frontier AI companies are authentically pursuing safety, seems much more like safety [theater](https://blog.j11y.io/2026-05-06_AI-Safety-Theatre/)/[washing](https://www.lesswrong.com/posts/PY3HEHc5fMQkTrQo4/beware-safety-washing). 
+
+*Where cooperative profits are involved all else is secondary*
