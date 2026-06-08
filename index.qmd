@@ -1,6 +1,6 @@
 ---
 title: "James Thompson"
-subtitle: "Some person on the internet"
+subtitle: "Some human worried about AI"
 listing:
   - id: recent-posts
     contents: posts
@@ -31,37 +31,11 @@ comments: false
 
 ::: {.column-page}
 
-I'm someone very interested and concerned about the future of artificial intelligence, technology, and society. I have academic experience (Master of AI) and professional experience in AI research, software development, and data science.
+I'm someone very interested and concerned about the future of society and how AI may bring about negative change. I have academic experience (Master of AI) and professional experience in AI research, software development, and data science.
 
-::: {style="text-align: center; font-size: 1.1em; padding: 1rem 2rem; background-color: #f7fafc; margin: 2rem 0; font-style: italic;"}
-Welcome to my space on the internet
-:::
-
-:::{.callout-note appearance="simple"}
-**Disclaimer:** My thoughts and ideas evolve constantly. I make no promise that my posts will be consistent with each other - I expect to disagree with my past self often. After all, your past self is really a different person.
-:::
-
----
-
-## What's Here
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-### [Long Form Posts](posts.qmd)
-Essays, articles, and in-depth explorations of topics I find interesting.
-:::
-
-::: {.g-col-12 .g-col-md-4}
-### [Short Forms](shorts.qmd)
-Quick thoughts and micro-posts under 100 words for bite-sized reading.
-:::
-
-::: {.g-col-12 .g-col-md-4}
-### [About Me](about-me.qmd)
-Learn more about who I am and what I'm working on.
-:::
-
+:::{.epigraph}
+“The first principle is that you must not fool yourself — and you are the easiest person to fool.”
+— [Richard Feynman](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
 :::
 
 ---
@@ -70,6 +44,7 @@ Learn more about who I am and what I'm working on.
 
 ::: {.g-col-12 .g-col-md-8}
 ## Recent Posts
+Essays, articles, and in-depth explorations of topics I find interesting.
 
 ::: {#recent-posts}
 :::
@@ -81,6 +56,7 @@ Learn more about who I am and what I'm working on.
 
 ::: {.g-col-12 .g-col-md-4}
 ## Recent Shorts
+Quick thoughts and micro-posts under 100 words for bite-sized reading.
 
 ::: {#recent-shorts}
 :::

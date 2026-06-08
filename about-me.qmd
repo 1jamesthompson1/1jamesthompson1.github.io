@@ -25,9 +25,9 @@ comments: false
 ---
 
 # Hello
-My name is James Thompson. I am a 20ish old living in New Zealand. I spend my days behind a computer working on problems in AI safety and AI applications. I moonlight as a snowboarding (competing in Freeride events).
+My name is James Thompson. I am a 20ish old living in New Zealand. I spend my days behind a computer working on problems in AI safety and AI applications. I moonlight as a [snowboarder](https://www.freerideworldtour.com/riders/james-thompson/) (competing in Freeride events).
 
 I am always keen to hear about opportunities for me to use my skills in AI/Data Science to make the world a better place.
 
-# Currently (November 2025)
-Living in and around Wellington. I have recently completed my course work part of my Master of AI and am starting my research project in AI alignment which will take me through till June-ish 2026.
+# Currently (June 2026)
+Living in and around Wellington. I have recently completed my course work part of my Master of AI and am starting my research project in AI alignment which will take me through till November 2026.
