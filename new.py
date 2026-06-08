@@ -66,15 +66,21 @@ def format_categories(categories: list[str] | None) -> str:
         return f"[{', '.join(safe_elems)}]"
 
 
+def _date_prefix(date_str: str) -> str:
+    """Convert YYYY-MM-DD to YYMMDD prefix."""
+    return datetime.date.fromisoformat(date_str).strftime("%y%m%d")
+
+
 def create_post(title: str, slug: str, categories: list[str] | None, date: str | None, force: bool) -> str:
+    if not date:
+        date = datetime.date.today().isoformat()
+    dated_slug = f"{_date_prefix(date)}-{slug}"
     posts_dir = os.path.join(os.getcwd(), "posts")
-    post_dir = os.path.join(posts_dir, slug)
+    post_dir = os.path.join(posts_dir, dated_slug)
     os.makedirs(post_dir, exist_ok=True)
     index_path = os.path.join(post_dir, "index.qmd")
     if os.path.exists(index_path) and not force:
         raise SystemExit(f"Refusing to overwrite existing post: {index_path} (use --force to overwrite)")
-    if not date:
-        date = datetime.date.today().isoformat()
 
     categories_value = format_categories(categories)
     content = POST_TEMPLATE.substitute(title=title.replace('"', '\\"'), date=date, categories=categories_value)
@@ -87,18 +93,19 @@ def create_short(title: str, categories: list[str] | None, date: str | None, for
     """Create a new short form in shorts/ directory."""
     shorts_dir = os.path.join(os.getcwd(), "shorts")
     os.makedirs(shorts_dir, exist_ok=True)
+
+    if not date:
+        date = datetime.date.today().isoformat()
     
     # Generate filename from title
     slug = slugify(title)
     if not slug:
         raise SystemExit("Unable to create a filename from the title")
     
-    short_path = os.path.join(shorts_dir, f"{slug}.qmd")
+    dated_slug = f"{_date_prefix(date)}-{slug}"
+    short_path = os.path.join(shorts_dir, f"{dated_slug}.qmd")
     if os.path.exists(short_path) and not force:
         raise SystemExit(f"Refusing to overwrite existing short: {short_path} (use --force to overwrite)")
-    
-    if not date:
-        date = datetime.date.today().isoformat()
     
     categories_value = format_categories(categories)
     rendered = SHORT_TEMPLATE.substitute(
@@ -146,8 +153,10 @@ def main(argv: list[str] | None = None) -> int:
             if not slug:
                 raise SystemExit("Unable to create a slug from the title; please pass --slug")
         
-        # Create git branch name from slug
-        branch_name = f"posts/{slug}"
+        # Create git branch name from dated slug
+        date_for_branch = args.date or datetime.date.today().isoformat()
+        dated_slug_for_branch = f"{_date_prefix(date_for_branch)}-{slug}"
+        branch_name = f"posts/{dated_slug_for_branch}"
         os.system(f"git checkout -b {branch_name}")
         
         # Support either: --category a --category b, or --category a,b
