@@ -9,5 +9,5 @@ dependencies = [
     "notebook>=7.4.7",
     "numpy>=2.3.4",
     "pandas>=2.3.3",
-    "quarto>=0.1.0",
+    "quarto-cli>1.9,<2.0",
 ]

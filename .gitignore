@@ -3,4 +3,6 @@ env
 _site
 /env/
 _freeze
+.venv/
 .vscode
+**/*.quarto_ipynb

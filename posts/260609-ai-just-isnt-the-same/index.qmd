@@ -4,20 +4,30 @@ date: 2026-06-09
 categories: ['ai']
 ---
 
+Before anyone is going to have an appreciation that AI could be dangerous^[One only gets an appreciation of how dangerous AI could be they need to understand that you cannot just 'make safe AI' in the same way that we can just 'make a safe banking app'.], they need to have an appreciation of what it is, and importantly that it is **not the same as a computer programme**. Luckily the reason is simple, AI is just really super complex compared to traditional software. Once you understand that, you can gain an appreciation of the unique risks it poses and why it is so hard to 'just make it safe'.
 
-Before anyone is going to have an appreciation that AI could be dangerous^[One only gets an appreciation of how dangerous AI could be they need to understand that you cannot just 'make safe AI' in the same way that we can just 'make a safe banking app'.], they need to have an appreciation of what it is, and importantly that its **not the same as a computer programme**. The single biggest reason why it isn't the same is due to the complexity in the system. Me telling you to trust me that it is super duper complex and just not the same isn't going to convince you. Human brains don't do complexity well naturally and so I will spend the rest of my time here trying to help you understand a bit more about AI.
+Me telling you to trust me that it is super duper complex and just not the same isn't going to convince you. Now given you numbers that it is more complex won't really help you either. Human brains just don't understand  complexity and numbers well, therefore I will spend the rest of my time here trying to help you understand complexity and how modern AI is built.
 
 
 ## The complex recipe
 
-Most computer programs are like recipes. You write down a set of instructions and you follow those instructions to get the thing you want—like a chocolate cake. 
+Before we understand how AI is different we need to understand what a computer program is. Put simply, computer programs are like recipes. You write down a set of instructions and the computer follows those instructions to get the thing you want—like a chocolate cake. 
 
 > Chocolate cake recipe:  
 > 1. Mix ingredients together  
 > 2. Put in cake tin  
 > 3. Bake for 30 minutes at 180 degrees  
 
-Now imagine you wanted to write a recipe that can make both a chocolate cake and a vanilla cake. You could write two separate recipes, but that would be inefficient. Instead you can write one recipe that is just a bit more complex.
+This sort of recipe is easy to understand, not very complex and also not very useful. Lets give this recipe a new feature; the ability to make vanilla cake. To do this you could write two recipes^[ This is what the recipe would look like. It is quite long and alot of it is repeated.  
+Chocolate and Vanilla cake recipes:  
+1. If you are making a chocolate cake go to step 5, if you are making a vanilla cake go to step 2  
+2. Mix ingredients together for vanilla cake  
+3. Put in cake tin  
+4. Bake for 30 minutes at 180 degrees  
+5. Mix ingredients together for chocolate cake  
+6. Put in cake tin  
+7. Bake for 30 minutes at 180 degrees  
+] but that would be inefficient. So many of the instruction would be repeated like "put in cake tin", "bake for 30 minutes at 180 degrees". Instead you can write one recipe that uses the same instructions for as much of the cakes as possible and just has a few exceptions for the parts that need to be different. This is much more efficient and easier to understand. This makes a recipe that is a little bit more complex but still pretty easy to understand.
 
 > Chocolate/Vanilla cake recipe:  
 > 1. Mix common ingredients together  
@@ -25,7 +35,8 @@ Now imagine you wanted to write a recipe that can make both a chocolate cake and
 > 2. Put in cake tin  
 > 3. Bake for 30 minutes at 180 degrees 
 
-Ok so that was easy. What if you wanted to add a banana cake in there as well? You could do it and once again it is easy to add it to this one recipe "chocolate/banana/vanilla cake" rather than create two recipes "chocolate/vanilla cake" and "banana cake". You can do it again with a Feijoa loaf a bit more of a stretch yet still similar enough that adding the current recipe is easier than creating a new one.
+<!-- need to add something here about how this is easier tokeep on adding adding as it is awlys eaisesr. Something from theoretical copmuter science here I imagine.-->
+What if you wanted to add a banana cake in there as well? You could do it and once again it is easy to add it to this one recipe "chocolate/banana/vanilla cake" rather than create two recipes "chocolate/vanilla cake" and "banana cake". You can do it again with a Feijoa loaf a bit more of a stretch yet still similar enough that adding the current recipe is easier than creating a new one. 
 
 One can keep on adding to the recipe more and more exceptions ("if making this do that, or if making that do this") and the recipe will get more and more complex. That's how much of computer programming works. You write a set of instructions and anytime you want your program to do something new you add some more instructions to the program. The more things you want it to do the more complex the program gets.
 
@@ -47,26 +58,39 @@ People did try to ask the recipe writing team to write a recipe that could detec
 
 If thinking through the complexity of writing a recipe that can do all things is hard. What if we instead told the computer what we want it to be able to do and then let it figure out the recipe itself? This is the approach that modern AI systems take. Lets take the simple example of the recipe for making all foods. Using modern AI techniques we do it in a very different way.
 
-1. Firstly we would build a simulated kitchen  
-2. Then we would give the computer a really really complex recipe that is random  
-2. Ask it to build a type of food we want and then we would test the output (in the simulated kitchen) to see if it was the correct type of food.  
-3. We tell the computer if it got it right or wrong and then the computer will update the recipe to try and get it closer to being right next time.
-4. Repeat step 3 and 4 until the recipe is good enough to make all the foods that we test it with.
+> 1. Firstly we would build a simulated kitchen  
+> 2. Then we would give the computer a really really complex recipe that is random  
+> 2. Ask it to build a type of food we want and then we would test the output (in the simulated kitchen which means we can do this process really really fast) to see if it was the correct type of food.  
+> 3. We tell the computer if it got it right or wrong and then the computer will update the recipe to try and get it closer to being right next time.
+> 4. Repeat step 3 and 4 until the recipe is good enough to make all the foods that we test it with.
 
-That is to say we write a simple recipe (the thing you read above) that if followed for long enough will produce a really complex recipe that can make all foods.
+That is to say we write a simple recipe (the thing you read above) that if followed for long enough will produce a really complex recipe that can make all foods ^[If at this point you are thinking "this recipe that makes all foods is a bit useless" your right! So to make things concrete this is the same process that is used to train ChatGPT like systems. In this case the recipe is a set of instructions that takes in a series of words and outputs the next word. Its trained by having it guess the next word in a sentence and it adjusts its 'recipe' based on how close to was to guessing the correct answer."]. This works because even if we only test it on 10,000 different types of food we find that normally it does a pretty good job at filling in the gaps of the recipes that are combinations of other recipes.
 
-How much time do we spend trying to find the recipe...
+It takes a long time to do this by hand—in the real world. Yet computers are really good at doing this sort of thing; a simple process that it can do really really fast. However it still takes a long time to do this mostly random search process. For example we can count how many operations are required to follow this recipe until we have something that is good. If we do that we have a really really large number that would take an average laptop about 3.2 million years to do. That is a long time! For example 'in theory' a humans entire K-12 education would take about 3,200 laptop years to do. Its quite fair to say that the process of finding the recipe is quite slow and inefficient.
 
-A shortcut to writing this program that can do all things is that instead of writing down everything we possibly want it to do we simply write a program that is sufficiently good at learning how to do what it wants to do. This is what modern AI systems are. We write a relatively small amount of code. Give a bunch of examples of the types of things we want it to do and then let it try out all the possible programs and slowly find one that is closer and closer to the one we want. It uses very clever method to speed up this process yet it still takes hundreds of billions of bytes of information to teach it to do anything useful and needs to use the equivalent of 3.2 million laptop years. note a human k-12 education takes about 3,200 laptop years.
+## The super complex recipe is *really* super complex
 
-## The super complex recipe is really really complex
+Once again we are going to expand our horizons. Lets imagine a recipe book that can not only make all possible foods but also can do all possible things. It  tells you how to build a chair, treat a burn, write a poem, do you taxes, ... Needless to say this a really really complex recipe and probably won't fit in your standard hardcover book at all! Lets try to understand just how complex it really is.
 
+It is a shot in the dark if we try to guess how complex this recipe would be. We can say though that this recipe will be atleast as complex as the human brain right? And how complex is the human brain? Well in simple terms if we tried to write out all of the instructions that are in the brain it would fill up a book shelf that would stretch atleast 1.3 times around the world (or 44 library of congresses, or ) ^[Human brain complexity is ~[1 petabyte](https://www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/) / 0.6MB per book (i.e 600,000 characters) is 1.7 billion books. An average hardcover book is about 3cm so 52,000 km of books is needed. Earths circumference is about 40,000 km.].
 
-Lets try and understand complexity of it a bit more to really gain appreciation. A standard cook book recipe might take a few thousands bytes (a couple of thousand words), in parallel a simple website might take a few million bytes of information to explain to a computer how to show it. These are large numbers yet easily done by individual humans. The brain which is our current best example of a program that can do everything is about 100 trillion bytes (ion the low end) which is enough for about 300 billion recipes. Our current most powerful AI systems are somewhere in the middle at 1 trillion bytes; way beyond humans ability to write it all down.
+That immense amount of information is fine tuned and almost exact you mis type a word here and the instructions to build a car might instead tell you how to do a backflip. It is the interplay between these instructions that allows this recipe (i.e our brains) to do all the things we want it to do.
+
+One can imagine that with this complexity not only can't we not write it ourselves. We also can't understand it. We can't simply read the recipe and know what happens (you try read 2 books a day for over 2 million yeras and see how well you remember what was in page 3 of book 14,365). We probably can't even understands the instructions if we read a summary of each book (still 17 million books to read!), and are still hopeless even if we just read a summary of each group of books (170,000 books to read!)^[Where a summary is 1,000 characters and a group of books is on average 100 books]. Understanding this recipe is really really hard.
+
+Notice that given we haven't written the recipe our self—instead we got a computer to find it for us, nor can we understand it once it is given to us, we really have no idea what is going on. What we do have is a recipe and we can much more easily test to see if it works. For the human brain this is trivial I know that I think therefore I know that the recipe of my brain is working, voila! Yet I am (and most of science) is still pretty clueless as to how this works. This is very true for AI systems as well we somewhat understand how the recipe for the AI system is found and we can get a computer to follow the recipe, but we don't understand the recipe itself. Regardless we can use the recipe to do some pretty cool things like write poems, do taxes, and even have a conversation about the complexity of recipes! A cautious person might point out that using things we don't understand can be a bit dangerous, so more on that later!
+
+## Closing thoughts
+
+ALot of talk of recipes and besides getting hungry (and maybe confused) I did have a point that I am making. This is my time to land that point. The point is that AI is really really complex and it is not the same thing as other computer programs, we can't understand what it is doing and so we can't know that it is safe.
+
+<!-- Might be moving this to the next blog post -->
 
 ## Hazards of this complex recipe
 
 
+
+Given the complexity of this recipe w can't understand it from the ground up (i.e by reading the instructions and putting it all togather in our minds). There 
 
 Now when we are searching for this program that does all we want it to do, we use test to see if it is getting better or not. The challenge is that we can only test a small amount of things we really want it to do. The amount of effort to test it on everything we want it to do would make building the thing useless as we have already done all the things we ever want to do.
 
@@ -75,4 +99,4 @@ Therefore the safety of a AI (i.e it does the things we want to do and not the t
 Al in all it is technically challenging to build AI because we don't really understand what is going on. It should also be said though that if we did understand what is going on then it would still be hard as making sure that billions of instructions are all correct is quite difficult.
 
 
-*This post was inspired by a question in the Blue Dot Impact [Technical AI safety course](https://bluedot.org/courses/technical-ai-safety) that was "Why is safe AI so hard to build?"*
+*This post was inspired by a question in the Blue Dot Impact [Technical AI safety course](https://bluedot.org/courses/technical-ai-safety) that was "Why is safe AI so hard to build?". I think from a public outreach point it is very important for people to understand that this 'AI' is something new.*
