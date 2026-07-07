@@ -4,6 +4,7 @@ date: 2026-06-09
 categories: ['ai']
 description: |
     AI is really quite a complex system. It is so complex that humans don't even know how to find it. We get really powerful computers to find it for us, then try it out and see if it "seems to work". we don't understand how it works therefore we don't know that it is a safe system.
+draft: true
 ---
 
 <!--
