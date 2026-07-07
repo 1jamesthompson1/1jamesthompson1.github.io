@@ -1,0 +1,100 @@
+---
+title: "A cooking great idea"
+date: 2026-07-07
+categories: ['food']
+description: "I am very busy right now which is why I have decided to try make high tea once a month for me and my partners date day. Its a good excuse to get to cook all sorts of wonderful food."
+image: images/everything2.JPG
+---
+
+I am quite busy right now. Finishing up some work on an [Applied AI project](https://github.com/1jamesthompson1/TAIC-engine) and starting work on my Master's research project^[One page summary on the way!]. Which is exactly the reason I have been in the kitchen cooking more so than ever before. There seems to be a strong correlation between how busy I am and how much I cook...
+
+## The idea to make high tea
+
+I had a really great idea last month that for me and my partners date day I should make high tea. The reason for this idea being so splendied is simple:
+
+1. Me and my partner enjoy eating yummy high tea food (which to us just means yummy food).  
+2. I enjoy cooking and making food for my partner.  
+
+As a bonus it is a good excuse to get to cook the complex, yummy food that I can't normally fit in my weekly schedule. Now I am no chef, but I do enjoy cooking and in the past year have let the rabbit out the bag so to speak and cook a lot more (with great success thanks to AI support).
+
+## The rules
+
+To keep myself grounded the rules are simple:  
+- 3 savoury items and 2 sweet items.  
+- No repeats of a food item made in any previous high teas I have made (which will be more of a challenge as time goes on yet should prevent any mode collapse).  
+- All made from scratch (as much as reasonably possible^[This roughly coincides with as raw as possible and no [ultra processed foods](https://en.wikipedia.org/wiki/Nova_classification#Group_4:_Ultra-processed_foods).]).
+
+## What I did
+
+What you will find below is a list of the food I made for our high tea with pictures and recipes. Most of the recipes are made with great assistance from ChatGPT with tweaks and what not to make it all work. They all worked well enough for me to enjoy yet by no means are they perfect, and furthermore by no means are they 'accurate' or 'correct' recipes.
+
+It probably took about a day of cooking spread out over 4 days. The most complex thing were the croissants (due to all of the folding and rolling out by hand) and the raw chocolate cheesecake (making bean-to-bar chocolate at home is tough!).
+
+The five things that I made for our high tea were:  
+**Savoury**:  
+    - [Mini spinach and gruyere quiche](#mini-spinach-and-gruyere-quiche)  
+    - [Seared Beef, horseradish cream on cucumber](#seared-beef-horseradish-cream-on-cucumber)  
+    - [Ham and Cheese croissants](#ham-and-cheese-croissants)  
+**Sweet**:  
+    - [Almond croissants](#almond-croissants)  
+    - [Raw chocolate cheesecake](#raw-chocolate-cheesecake)  
+  
+![High tea food](images/everything.JPG)
+
+# The food
+
+## Croissants
+
+There were two types of croissant items I made. A sweet and a savoury. Both however were made from the same butter croissant bases (cooked the day before).
+
+[Butter croissant recipe](recipes/butter-croissants.pdf)
+
+### Almond croissants
+
+![Almond croissants](images/almond-croissants.JPG)
+
+The real reason for croissants was to make almond croissants. This is the third time I have attempted and the first time they came out close enough to croissants to be considered a success.
+
+[Almond croissant recipe](recipes/almond-croissants.pdf)
+
+### Ham and Cheese croissants
+
+![Ham and cheese croissants](images/ham&cheese-croissants.JPG)
+
+Being a Kiwi I have no idea what the French themselves think of a ham and cheese croissant, but to me they are a bit like the pie of France. So hearty and good.
+
+[Ham and Cheese croissant recipe](recipes/ham&cheese-croissants.pdf)
+
+
+## Mini spinach and gruyere quiche
+
+Only ended up eating a couple with high tea, yet were quite good with the Swiss-style cheese. Many more for leftovers.
+
+![Mini spinach and gruyere quiche](images/quiches.JPG)
+
+[Spinach and gruyere quiche recipe](recipes/spinach&gruyere-quiches.pdf)
+
+## Seared Beef, horseradish cream on cucumber
+
+As always with high tea one need some pretentious little food on a plate. This was my attempt at that. Quite good and very refreshing compared  with the fat heavy quiches and croissants. I didn't actually have horseradish and so instead just used dijon mustard as as substitute.
+
+![Seared beef tenderloin canapes](images/beef.JPG)
+
+[Seared beef tenderloin canapes recipe](recipes/seared-beef-tenderloin-canapes-with-horseradish-cream&cucumbers.pdf)
+
+## Raw chocolate cheesecake
+
+These took longer than one might think as I made the chocolate from scratch however they turned out very rich and satisfying. I did slightly miscalculate the amount of food I was making and so ended upw ith more than a kilo of cheesecake. We will be eating it for some time. Luckily it stores very well.
+
+![Raw chocolate cheesecake](images/cheesecakes.JPG)
+
+[Raw chocolate cheesecake recipe](recipes/raw-chocolate-cheesecake.pdf)
+
+# The leftovers
+
+A trouble with making high tea for two is that you end up making a lot of food and only eating a little. Luckily with the power of modern technology (i.e refrigerators) we simply have lunch sorted for two more days—plus some extra quiches and cheesecakes.
+
+![Leftovers](images/leftovers.JPG)
+
+
+Let's see now how long I can keep this up for. I am thinking once a month is a good start. At some point I should really get one of those stands, might make it look official.
