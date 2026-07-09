@@ -71,6 +71,21 @@ Quick thoughts and micro-posts under 100 words for bite-sized reading.
 ---
 
 :::{.column-body-outset}
+:::: {style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;"}
+::: {style="flex: 0 1 380px;"}
+**[Reading List](reading.qmd)**
+:   Books and articles I recommend,<br>
+    things that have shaped my thinking.
+:::
+
+::: {style="flex: 0 1 380px;"}
+**[Software](software.qmd)**
+:   Open source software I use and endorse.
+:::
+::::
+
+<br><br>
+
 *This website was built with [Quarto](https://quarto.org/) and is hosted on [GitHub Pages](https://pages.github.com/). View the [source code](https://github.com/1jamesthompson1/1jamesthompson1.github.io).*
 :::
 

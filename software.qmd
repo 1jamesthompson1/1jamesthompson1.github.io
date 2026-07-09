@@ -1,0 +1,17 @@
+---
+title: "Software Recommendations"
+subtitle: "Open source software I endorse"
+page-layout: full
+title-block-banner: true
+comments: false
+---
+
+<!-- As per the Beauty of open source -->
+
+sometimes people (and AI) find out how to order some bits in a computer that result in a pretty useful piece of software. I am a fan on the open source movement purely because once someone figures it out once then everyone can benefit for no cost. Therefore in no order of preference here are some pieces of software that are aprt of my lifes tech stack that you might want toknow about.
+
+---
+
+### [Readest](https://readest.com/) - Cross platform e-reading app (with syncing)
+
+

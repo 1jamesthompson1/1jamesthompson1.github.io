@@ -31,3 +31,9 @@ I am always keen to hear about opportunities for me to use my skills in AI/Data 
 
 # Currently (June 2026)
 Living in and around Wellington. I have recently completed my course work part of my Master of AI and am starting my research project in AI alignment which will take me through till November 2026.
+
+# Some lists that I—somewhat—maintain
+
+A [reading list](reading.qmd) of written works that I recommend.
+
+A [software shoutout](software.qmd) list of software that is particularly well made and useful to me and potentially others.

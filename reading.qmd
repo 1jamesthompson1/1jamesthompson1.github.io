@@ -1,0 +1,21 @@
+---
+title: "Reading List"
+subtitle: "Books and articles I recommend"
+page-layout: full
+title-block-banner: true
+comments: false
+---
+
+"A word is known by the company it keeps."
+
+One way to understand me would be to understand what I read. Therefore the following is a collection of written word that I have found to be influential or defining in my thinking, or that I have found to resonate with me well.
+
+Obviously not exhaustive but a good starting point for anyone interested.
+
+# short length
+
+[Aarons Swartz comments about legacy](http://www.aaronsw.com/weblog/legacy)
+
+# medium length
+
+# long length
