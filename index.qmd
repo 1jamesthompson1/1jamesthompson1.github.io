@@ -24,7 +24,6 @@ listing:
       title: "Recent Short Forms"
       date: "Date"
     table-hover: true
-  - feed: true
 page-layout: full
 title-block-banner: false
 comments: false
