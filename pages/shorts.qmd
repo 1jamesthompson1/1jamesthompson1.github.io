@@ -4,7 +4,7 @@ subtitle: "Quick thoughts and micro-posts (under 100 words)"
 listing:
   id: shorts-listing
   contents: 
-    - "shorts/*.qmd"
+    - "../shorts/*.qmd"
     - "!shorts/_metadata.yml"
   sort: "date desc"
   type: grid

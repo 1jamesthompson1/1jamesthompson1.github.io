@@ -50,7 +50,7 @@ Essays, articles, and in-depth explorations of topics I find interesting.
 :::
 
 ::: {style="text-align: center; margin-top: 2rem;"}
-[View all posts →](posts.qmd)
+[View all posts →](pages/posts.qmd)
 :::
 :::
 
@@ -62,7 +62,7 @@ Quick thoughts and micro-posts under 100 words for bite-sized reading.
 :::
 
 ::: {style="text-align: center; margin-top: 1rem;"}
-[View all shorts →](shorts.qmd)
+[View all shorts →](pages/shorts.qmd)
 :::
 :::
 
@@ -73,13 +73,13 @@ Quick thoughts and micro-posts under 100 words for bite-sized reading.
 :::{.column-body-outset}
 :::: {style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;"}
 ::: {style="flex: 0 1 380px;"}
-**[Reading List](reading.qmd)**
+**[Reading List](pages/reading.qmd)**
 :   Books and articles I recommend,<br>
     things that have shaped my thinking.
 :::
 
 ::: {style="flex: 0 1 380px;"}
-**[Software](software.qmd)**
+**[Software](pages/software.qmd)**
 :   Open source software I use and endorse.
 :::
 ::::

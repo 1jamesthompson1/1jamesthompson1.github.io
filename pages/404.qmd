@@ -10,6 +10,6 @@ If you believe there is a bug please contact me at [1jamesthompson1@gmail.com](m
 **Here are some places that *should* exist:**
 
 - [Home](/) — start here
-- [Posts](/posts.qmd) — long-form essays and ramblings
-- [Short Forms](/shorts.qmd) — micro-posts under 100 words
-- [About Me](/about-me.qmd) — more about me
+- [Posts](/pages/posts.qmd) — long-form essays and ramblings
+- [Short Forms](/pages/shorts.qmd) — micro-posts under 100 words
+- [About Me](/pages/about-me.qmd) — more about me

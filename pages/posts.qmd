@@ -3,7 +3,7 @@ title: "Long Form Posts"
 subtitle: "Essays, articles, and in-depth explorations"
 listing:
   id: posts-listing
-  contents: posts
+  contents: "../posts/**/*.qmd"
   sort: "date desc"
   type: default
   categories: true
