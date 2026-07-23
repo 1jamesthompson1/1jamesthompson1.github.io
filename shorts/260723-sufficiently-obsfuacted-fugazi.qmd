@@ -1,0 +1,7 @@
+---
+title: "Sufficiently Obfuscated Fugazi"
+date: 2026-07-23
+categories: ['idea']
+---
+
+Humans have a built in detector for when something seems off. Therefore when told about made up internet money, the knee jerk reaction is "You can't just invent money"! Reasonable response yet might not be productive. The only reason that people don't have the same knee jerk reaction to fiat currency is because the process of inventing money and the collective illusion that it is worth something is sufficiently obfuscated from the average brain. Unfortunately Bitcoin doesn't have this luxury. Even if it *might be*—or other forms of crypto—an objectively better form of money. Money might be something that has a default level of fugazi in it, which might mean unfortunately we miss out on better money due to our silly cognitive biases.
