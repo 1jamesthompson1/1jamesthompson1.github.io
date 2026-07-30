@@ -1,0 +1,9 @@
+---
+title: "A problem with defensibility"
+date: 2026-07-30
+categories: ['ideas']
+---
+
+Sometimes you might be in a meeting or making a decision and someone might say "Well what about what [thing] will say/think about it", with the implication one needs to make sure whatever we do is defensible. Its reasonable and in some systems (bureaucratic, academic, legal) sometimes the entire thing is built around this idea of defensibility; so it *matters*. However it hasn't quite sat with me well; if something was really good then it would defend itself... right? Now some of these systems are so far from meritocracies that they **prioritize defensibility over optimality**. And that is why it bugs me. Once you are arguing for *defensibility* you are no longer arguing for *optimality* ([thanks Eliezer](https://www.lesswrong.com/posts/erGipespbbzdG5zYb/the-third-alternative)).
+
+Related to my [research](https://github.com/1jamesthompson1/AIML589) design decisions, I should search for the optimal method, idea etc, not just the one which is easily defensible with citations!
