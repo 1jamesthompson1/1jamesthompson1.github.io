@@ -16,7 +16,7 @@ title-block-banner: true
 comments: false
 ---
 
-Here are all my longer form posts where I dive deeper into topics, share detailed thoughts, and explore ideas more thoroughly.
+Here are all my longer form posts where I dive deeper into topics, share detailed thoughts, and explore ideas more thoroughly. You can also [subscribe via RSS](/posts.xml).
 
 ::: {#posts-listing}
 :::

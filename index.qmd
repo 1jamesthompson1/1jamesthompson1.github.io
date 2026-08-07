@@ -50,7 +50,7 @@ Essays, articles, and in-depth explorations of topics I find interesting.
 :::
 
 ::: {style="text-align: center; margin-top: 2rem;"}
-[View all posts →](posts.qmd)
+[View all posts →](posts.qmd) · [RSS](/posts.xml)
 :::
 :::
 

@@ -34,6 +34,9 @@ website:
         href: https://creativecommons.org/licenses/by-nc-sa/4.0/
       - text: "Contact Me: 1jamesthompson1@gmail"
         href: "mailto:1jamesthompson1@gmail.com"
+    right:
+      - icon: rss
+        href: /posts.xml
 comments:
   giscus: 
     repo: 1jamesthompson1/1jamesthompson1.github.io

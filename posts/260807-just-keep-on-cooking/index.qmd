@@ -3,6 +3,7 @@ title: "Just keep on cooking"
 date: 2026-08-07
 categories: ['food']
 image: images/everything.JPG
+description: "Doing something once is fun, twice can be something and by three times it is now a **thing**"
 ---
 
 
