@@ -1,0 +1,51 @@
+---
+title: "Whats the point?"
+date: 2026-08-24
+categories: ['idea']
+description: "When all things are said and done there really isn't much else left to do... but we could probably have done better."
+---
+
+Casting our eyes forward into the future it seems to me that we are going to be be more and more so faced with the question of "what's the point?". We will be faced with this dilemma as less and less of the natural dilemmas will exist. The more successful a human is the less one needs to worry about their shelter, food, water, safety etc. Ergo once we have finished all of the things that we need to do to survive and thrive, what is left? Thus we are left with a nagging question of "what's the point?". In other words the old conundrum of "what is the meaning of life?" just worded more causually.
+
+So here goes now a 24 year old musing on the answer to such a good question. Always feel guilty when writing about ideas as I didn't really come up with any of this just sort of regurgitated whats in my mind from what I have read and thought about. To cut to the chase I think that the answer is what I will call _**C**ontinuous **I**erative **S**elf **I**mprovement_ (CISI), pronounced "sissy" for the curious. Its a very simple idea and a very simple guiding belief—the bests ideas usually are simple I've been told. Its not only simple it also seem to be quit intuitive. We are designed and built to work and do things, life is supposed to do things and doing things that have a purpose is much better than doing things for no reason. Therefore to focus on CISI gives you a focus and grounding that lets your mind body and soul stay occupied and present. 
+
+To always improve things is a striving for perfection. We can acknowledge taht perfection is impossible yet the strive to meet it or make it as close as possible is a noble and worthy goal. Of course worrying about perfectionism is a concern as that can be very counter productive. Yet we can also acknowledge that some things are better than others even if the waters are a bit muddy [^1]. Furthermore I will make an unfounded assertion that for most things in your life you can roughly rank them in terms of this thing is better than the other and deep down you know what it is. 
+
+[^1]: If you ignore that some thigns rae better than others by saying things like "everyone is imperfect" then you are committing the [fallacy of gray](https://www.lesswrong.com/posts/dLJv2CoRCgeC2mPgj/the-fallacy-of-gray), which is generally the process of replacing a binary world (this is good, this is bad) with a world in which everyone is the same (uncertain).
+
+## It actually applies to many things.
+
+Now what is mean by continious iteractive self improvment. I will go through each word one by one to make things clear.
+
+Continuous means that this process isn't discrete and never stops. Its not something that happens in definable steps, you don't only improve on Sunday's and stayed the same the rest of the week. It also isn't something that stops based on the assumption that things will never be perfect ^[Now I know here there is a point to be made about how this sounds alot like never being content. That is partly true, but we have to look one layer deeper to see the distinction. One is never content with the status quo—not even the Dalai Lama himself. The key is that what you are trying to improve it needn't be money, power etc it can simply be contentness itself! Furthermore you can be very content with who you are and your journey will striving to improve and be better. Jesus might be considered an enlightened guy and he wasn't content with just healing one person, he wanted to improve on that and heal the world!].
+
+Iterative is a simple one that means that you build on what was before you. What is already there is a foundation for what you are trying to do. The steps are small and incremental, but they do exist.
+
+When I say self it doesn't limit this to individuals and people alone. It is instead a self referential idea that applies to everything. I would hope that civilisation itself will work to improve itself as well as my own foot muscles ability to help me balance.
+
+Lastly is improvement. A tough one to measure and define. Rather that provide an exact definition (that is left as an exercise for the reader). Instead I will scope out how to define it. The idea of improvement requires both a destination and a measure of how far along you are. For the destination we generally want to use the idea of perfect yet the dimension that can be used is very vast. I.e. you can improve your health, your wealth, your compassion etc. Importantly not all of these dimensions are equal and we can spend time working to improve which one is most important.
+
+
+## Lots of people are actually talking about CISI
+
+To make it concrete that CISI is probalby generally a good idea I will go through a shortl ist of somethings  I can think of that are related to this but in different areas.
+
+
+### Movements
+
+| name | their idea | the connection |
+|------|------------|----------------|
+| Rationality movement | As put forth by Eliezer Yudkowsky and others, its about improving your rationality and decision amking skills. Always wanting to find more biases and fallacy to dispell them. |
+| [Star trek: First contact](https://www.youtube.com/watch?v=8rh3xPatEto) | In the future they have no money as it is no longer a driving force and instead "work to better ourselves and the rest of humanity." | I am no starttrek person and never watched it but read it in asome book once and it is great vision of our future. |
+| [Mens groups](https://www.mensgroup.nz/about/#) | Mens groups are about men coming togather to find out beters of being men | Seems like a thin veneer on CISI |
+| [Growth Mindset] & [Lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning)
+
+
+### People
+ 
+| [Aaron Schwartz](https://aaronsw.vercel.app/weblog/stepback) | 
+
+## How to do it
+
+Who knowsl I have my dieas you probalby have yours. I posit that we can both agree though
+
