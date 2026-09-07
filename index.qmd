@@ -31,7 +31,7 @@ comments: false
 
 ::: {.column-page}
 
-I'm someone very interested and concerned about the future of society and how AI may bring about negative change. I have academic experience (Master of AI) and professional experience in AI research, software development, and data science.
+I'm someone very interested and concerned about the future of society and how AI may bring about negative change. I have academic experience (Master of AI *[in progress]*) and professional experience in AI research, software development, and data science.
 
 :::{.epigraph}
 “The first principle is that you must not fool yourself — and you are the easiest person to fool.”
