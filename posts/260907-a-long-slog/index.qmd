@@ -20,12 +20,12 @@ Some things were very quick and easy like Salmon Blinis while other took most of
 
 **Savoury**:  
 - [Beef Crostini](#beef-crostini)  
-- [Salmon & Creme Fraiche on mini Blinis](#salmon-&-creme-fraiche-on-mini-blinis)  
+- [Salmon & Creme Fraiche on mini Blinis](#salmon-creme-fraiche-on-mini-blinis)  
 - [Samosas](#samosas)
 
 **Sweet**:  
 - [Mini Pumpkin Pie](#mini-pumpkin-pies)  
-- [Pistachio & Raspberry Opera Cake](#pistachio-&-raspberry-opera-cake)
+- [Pistachio & Raspberry Opera Cake](#pistachio-raspberry-opera-cake)
 
 ## The food
 
@@ -67,4 +67,4 @@ This was a beast. I didn't quite know what I was getting myself into and the ext
 
 My first attempt at making the sponge with beating egg whites failed as I didn't clean my mixer and so the egg whites never got to stiff peaks. Lesson learned always clean the mixer when beating egg whites.
 
-[Pistachio & Raspberry Opera Cake recipe](recipes/pistachio-raspberry-opera-cake.pdf)
+[Pistachio & Raspberry Opera Cake recipe](recipes/opera-cake.pdf)
