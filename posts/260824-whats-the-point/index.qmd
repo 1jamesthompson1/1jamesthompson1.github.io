@@ -1,0 +1,82 @@
+---
+title: "What's the point?"
+date: 2026-08-24
+categories: ['idea']
+description: "When all things are said and done there really isn't much else left to do... but we could probably have done better."
+---
+
+Casting our eyes forward into the future it seems to me that we are going to be ever more faced with the question of "what's the point?". We will be faced with this dilemma as less of the natural dilemmas will exist. Humans won't be worried about their shelter, food, water, safety etc, once we have finished all of the things that we need to do to survive and thrive, what's left? Seemingly what's left is the question that we all know:  
+
+> "what's the point?, why am I even here in the first place".  
+  
+In other words the old conundrum of "what is the meaning of life?"—just worded differently. I know that the answer is 42 but I would like to give some discussion on that answer, a way to look at it.
+
+So here goes a 24 year old musing on the answer to such a good question. To cut to the chase I think that the answer is what I will call _**C**ontinuous **I**erative **S**elf **I**mprovement_ (CISI), pronounced "sissy" for the curious^[I love coming up with new names and disregarding that someone else has already thought of this and written 15+ books about it. Nevermind all that **I** have given it a new name!].
+
+# Undertaking CISI makes sense and is a good goal
+It's a simple idea and a very simple guiding belief—the best ideas usually are simple. Not only is it simple, it also seems to be logical. Take these two points.
+
+1. We are designed and built to work and do things ^[Because of evolution our bodies are fine tuned to hunt, gather, protect, reproduce and survive, i.e "doing things" is in our DNA.].
+2. Doing things that have a purpose is better than doing things for no reason.^[From a perspective of life satisfaction and well being. I say this as a descriptive statement of what I observe and generalising from it. If you disagree with this let me know, I would be very interested to hear your argument.].
+
+Now CISI seems like a good way to follow both these points. It both gives what you do a purpose (to improve) and it is something that you can do (you can always improve). It is a goal that is actionable and commendable. The only trick is to actually believe that it is your goal.
+
+There needn't be a philosophical argument that it is your moral duty or the *correct* thing to do (I believe that argument exists and is probably valid I am just not making it). I just suggest that this goal will maximise your happiness and satisfaction in life. A very minor claim... The reason as to why you will actually have this as your 'operational' goal is up to your own value system (whether hedonistic or utilitarian).
+
+To always improve things is striving for perfection. We can acknowledge that perfection is impossible and of course worrying about perfectionism is a concern that can be very counterproductive. Yet we can also acknowledge that some things are better than others even if the waters are a bit muddy [^1]. Furthermore I will make an unfounded assertion that for most things in your life you can roughly rank them in terms of this thing is better than the other and deep down you know what it is. In other words you know areas in your personal life or in what you do daily that you can improve on (being kinder, appreciating the little things, being honest with your partner...), all while still being unsure how to be perfectly kind.
+
+[^1]: If you ignore that some things are better than others by saying things like "everyone is imperfect" then you are committing the [fallacy of gray](https://www.lesswrong.com/posts/dLJv2CoRCgeC2mPgj/the-fallacy-of-gray), which is generally the process of replacing a binary world (this is good, this is bad) with a world in which everyone is the same (uncertain). This is a problem as it ignores the fact that you probably do know some things and can say that some things are better than other in some way; it's not a perfectly unknown situation.
+
+## It actually applies to many things.
+
+Hopefully you are curious or open to the fact that this makes some sense. Now it is time to flesh it out more. I will go through each word one by one to make things clear.
+
+Continuous means you can't quite decompose it into distinct steps, and that you never stop. You don't only improve on Sundays and stay the same the rest of the week. It also isn't something that stops based on the assumption that things will never be perfect ^[Now I know here there is a point to be made about how this sounds a lot like never being content. That is partly true, but we have to look one layer deeper to see the distinction. One is never content with the status quo—even a monk on a hilltop is trying to be more at one with the world. The key is that what you are trying to improve determines the effectiveness of the goal; it needn't be money, power etc it can be contentment itself! Furthermore you can be very content with who you are and your journey while striving to improve and be better.].
+
+Iterative is a simple one that means that you build on what was before you. The goal is not to get it right the first time but simply to keep on improving and do better next time than you did last time. Remember 'better' is a complex idea with many facets—this is important to acknowledge as without it you might be overwhelmed in a sea of perfectionism.
+
+When I say self it doesn't limit this to individuals and people alone. It is instead a self-referential idea that applies to everything. I would hope that civilisation itself will work to improve itself as well as my own foot muscles' ability to help me balance. Furthermore it is noted that you really only have control over yourself and nothing else, so you should focus on it the most.
+
+Lastly is improvement. A tough one to measure and define. You could just do the above and never get any better by spinning around in circles, therefore you need some notion of improvement so you can guide your efforts. Rather than provide an exact definition—that is left as an exercise for the reader—I will scope out how to define it. The idea of improvement requires both a destination and a measure of how far along you are. For the destination we generally want to use the idea of perfect (because that makes it a lifelong journey) yet the dimension that can be used is very vast. I.e. you can improve your health, your wealth, your compassion etc. Importantly not all of these dimensions are equal and we can spend time working to improve which one is most important (which is itself something that requires CISI, I love recursion). I would posit though that focusing inwards is where most of us need to put our attention, namely improving the operation of our own mind and how that flourishes out into the world.
+
+
+## Lots of people are actually talking about CISI
+
+To give some outside influence I can go through what I think other people talk about which seems similar to CISI. A rough list based on where I am thinking right now. Quite random yet some avenues to look into.
+
+| name | their idea |
+|------|----------- |
+| Semi modern internet Rationality movement | As put forth by Eliezer Yudkowsky and others (i.e. [less wrong](https://www.lesswrong.com/about)), it's about improving your rationality and decision making skills. Always wanting to find more biases and fallacies so that one can dispel or mitigate them. |
+| [Star trek: First contact](https://www.youtube.com/watch?v=8rh3xPatEto) | In the future they have no money as it is no longer a driving force and instead "work to better ourselves and the rest of humanity."
+| [Men's groups](https://www.mensgroup.nz/about/#) | Men's groups are about men coming together to find out better ways of being men
+| [Growth Mindset](https://en.wikipedia.org/wiki/Mindset#Fixed_and_growth_mindsets) & [Lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning) | The idea that you can always improve and learn new things. |
+| [Aaron Swartz](https://aaronsw.vercel.app/weblog/rawnerve) | A blog post series about how to improve yourself. |
+| [The big leap](https://openlibrary.org/books/OL24254201M/The_Big_Leap) | The idea that we have four zones in our life (zone of incompetence, zone of competence, zone of excellence and zone of genius) and that we should always strive to be in the zone of genius. You end up with a feeling of emptiness and dissatisfaction if you don't continuously challenge yourself. |
+
+I am sure there is more I could add to this list. But perfection isn't needed, you probably get the picture.
+
+
+## Where other people are wrong
+
+What are the failure modes? When working on trying to improve yourself I see two problems happen. Either you end up narrowly focused on one dimension and disregard low hanging fruit in other dimensions (sports star who wins gold yet is unfaithful to their partner) or you end up trying to improve everything at once and get lost trying to climb Mt Everest in a day (so you stay at home on the couch avoiding the impossible—which is a reasonable thing to do as impossible things are *hard*).
+
+For example the Rationality movement has good ideas about being honest and being correct yet mostly applies them to abstract logical concepts, not their inner worlds and feelings. They are missing ideas of very wide diverse dimensions of improvement. As another failure mode in practice you probably know a depressed person who could be more capable of doing things yet is stuck feeling like they are in front of Mt Everest in their undies.
+
+## How to do it
+
+Broadly speaking I don't know. If I did know I would be a very happy and content person—which I don't feel like I am yet. The idea though is you have to accept that you are not perfect, open your eyes to the world and then heed the call to action to improve^[This idea is the central thesis of the big leap.]. 
+
+To make this more practical I will throw out three things that can be helpful.  
+
+### Being uncomfortable:  
+It gives you the ability to observe and experience the feeling of being powerful by pushing through and also gives you a certain focus that is very grounded and natural ^[Some things like [Comfort Crisis](https://openlibrary.org/books/OL32441583M/The_Comfort_Crisis) discusses this idea more. Yet it's important to note that you can have discomfort without any of the macho masculinity that is sometimes associated with this particular "wellbeing" idea. Doing tough Pilates movements is pretty uncomfortable for me and seems pretty effeminate.]. Namely this gives you the learned ability to be uncomfortable and realise "it's not that bad".
+
+### Reflecting:  
+If you never take a minute to stop and look at what has transpired you have no chance to learn from it. This act of reflecting and fully acknowledging what has happened can be one of the most uncomfortable things you can do. It gives the knowledge and insights that help you guide your precise direction of improvement.
+
+### Updating:  
+Even in a cold world of Rationality it's observed people don't like to update their beliefs. Updating how you work is hard, it takes calories and the brain doesn't like to do that. So again it is uncomfortable yet you need to update yourself to be able to improve.
+
+For me these ideas involve, cold exposure, meditation, journaling, working out, thinking hard and standing up a lot.
+
+What being a sissy means to you is up to you. I think though it *should* be what you want to be.

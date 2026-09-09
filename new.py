@@ -25,6 +25,7 @@ POST_TEMPLATE = Template("""---
 title: "${title}"
 date: ${date}
 categories: ${categories}
+draft: true
 ---
 
 
@@ -35,6 +36,7 @@ SHORT_TEMPLATE = Template("""---
 title: "${title}"
 date: ${date}
 categories: ${categories}
+draft: true
 ---
 
 
@@ -153,12 +155,6 @@ def main(argv: list[str] | None = None) -> int:
             if not slug:
                 raise SystemExit("Unable to create a slug from the title; please pass --slug")
         
-        # Create git branch name from dated slug
-        date_for_branch = args.date or datetime.date.today().isoformat()
-        dated_slug_for_branch = f"{_date_prefix(date_for_branch)}-{slug}"
-        branch_name = f"posts/{dated_slug_for_branch}"
-        os.system(f"git checkout -b {branch_name}")
-        
         # Support either: --category a --category b, or --category a,b
         raw_cats: list[str] = []
         for c in args.category:
@@ -172,6 +168,7 @@ def main(argv: list[str] | None = None) -> int:
             print(e, file=sys.stderr)
             return 2
         print(f"Created post: {path}")
+        print("The post is a draft: it will render but stay out of listings. Remove 'draft: true' to publish it.")
         return 0
     
     elif args.type == "short":
@@ -188,6 +185,7 @@ def main(argv: list[str] | None = None) -> int:
             print(e, file=sys.stderr)
             return 2
         print(f"Created short form: {path}")
+        print("The short form is a draft: it will render but stay out of listings. Remove 'draft: true' to publish it.")
         return 0
     
     else:
