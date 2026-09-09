@@ -3,6 +3,7 @@ project:
 
 website:
   title: "James Thompson"
+  draft-mode: unlinked
   description: "Personal website of James Thompson, mainly to post my ideas and thoughts as well as give myself a online space for identification."
   site-url: "https://james.sjhl.nz"
   llms-txt: true
