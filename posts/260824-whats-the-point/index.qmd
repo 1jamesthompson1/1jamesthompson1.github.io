@@ -11,7 +11,7 @@ Casting our eyes forward into the future it seems to me that we are going to be 
   
 In other words the old conundrum of "what is the meaning of life?"—just worded differently. I know that the answer is 42 but I would like to give some discussion on that answer, a way to look at it.
 
-So here goes a 24 year old musing on the answer to such a good question. To cut to the chase I think that the answer is what I will call _**C**ontinuous **I**erative **S**elf **I**mprovement_ (CISI), pronounced "sissy" for the curious^[I love coming up with new names and disregarding that someone else has already thought of this and written 15+ books about it. Nevermind all that **I** have given it a new name!].
+So here goes a 24 year old musing on the answer to such a good question. To cut to the chase I think that the answer is what I will call _**C**ontinuous **I**terative **S**elf **I**mprovement_ (CISI), pronounced "sissy" for the curious^[I love coming up with new names and disregarding that someone else has already thought of this and written 15+ books about it. Nevermind all that **I** have given it a new name!].
 
 # Undertaking CISI makes sense and is a good goal
 It's a simple idea and a very simple guiding belief—the best ideas usually are simple. Not only is it simple, it also seems to be logical. Take these two points.
@@ -56,7 +56,7 @@ To give some outside influence I can go through what I think other people talk a
 I am sure there is more I could add to this list. But perfection isn't needed, you probably get the picture.
 
 
-## Where other people are wrong
+## Failure modes
 
 What are the failure modes? When working on trying to improve yourself I see two problems happen. Either you end up narrowly focused on one dimension and disregard low hanging fruit in other dimensions (sports star who wins gold yet is unfaithful to their partner) or you end up trying to improve everything at once and get lost trying to climb Mt Everest in a day (so you stay at home on the couch avoiding the impossible—which is a reasonable thing to do as impossible things are *hard*).
 
@@ -79,4 +79,4 @@ Even in a cold world of Rationality it's observed people don't like to update th
 
 For me these ideas involve, cold exposure, meditation, journaling, working out, thinking hard and standing up a lot.
 
-What being a sissy means to you is up to you. I think though it *should* be what you want to be.
+What CISI means to you is up to you. Your reasons for improving and what you want to improve is configurable. I think though it *should* be the goal that you have.
