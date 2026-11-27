@@ -3,7 +3,7 @@ title: "Changing LLM behaviour with a survey question"
 date: 2026-11-27
 categories: ['ai']
 description: "My master's research project that fine-tuned a model on value survey data, tested how the fine-tuned model acted in dilemmas and then ran a public survey to see if the fine-tuned model was preferred over the base model."
-draft: true
+draft: false
 ---
 
 How a Large Language Model (LLM)---and the agents it powers---behave, is already becoming a big deal and will only get bigger. When we care about behaviour, we generally want the model to behave in a way that is aligned with our values and goals (i.e., [value alignment](https://www.lesswrong.com/w/value-alignment-problem)). Fortunately, there are many ways to influence the behaviour of agents. One common method is to train the underlying LLM more using special data and methods to fine-tune the model. In this project, I explored a fine-tuning method that uses readily available value survey data to influence the behaviour of LLMs. The project found that fine-tuning changed behaviour; however, the public's preference for the changed behaviour was small and inconclusive. The project was exploratory and raises many questions for future work.
