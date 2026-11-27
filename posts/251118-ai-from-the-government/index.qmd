@@ -5,7 +5,6 @@ categories: ['ideas', 'ai']
 tags: ['public ai', 'governance', 'ethics']
 description: | 
   An introduction and overview of the concept of Public AI and its implications for society.
-bibliography: references.bib
 ---
 
 We can probably agree that artificial intelligence[^1] is not a guaranteed hole in one and there are some valid concerns for how it may negatively affect us humans. Therefore we ought come up with ways in which we can do it right and one of these ideas is called Public AI. This idea comes from a collection of people from academia and industry and is 'centrally' organized by [@publicaiPublicAIWhite2024]. The core idea is that AI systems should be viewed like public goods, similar to water, electricity and roads. This is essential as AI systems are becoming more integrated and thus critical to our daily lives [^2], where making them a public good adds a quality floor and price ceiling to enable equitable access and prevent exclusion. Changing the paradigm of AI development from private profit maximization to public good maximization is a switch of incentives that can push AI development in a more positive direction.

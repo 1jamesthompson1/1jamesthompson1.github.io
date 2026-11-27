@@ -7,15 +7,12 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/1jamesthompson1
-    - icon: instagram
-      text: instagram
-      href: https://instagram.com/1jamesthompson1
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/james-thompson-532246208/
     - icon: cv
       text: CV
-      href: https://github.com/1jamesthompson1/james_thompson_cv/blob/main/output/CV.pdf
+      href: https://github.com/1jamesthompson1/james_thompson_cv/raw/main/output/CV.pdf
     - icon: email
       text: 1jamesthompson1@gmail.com
       href: mailto:1jamesthompson1@gmail.com
@@ -25,9 +22,9 @@ comments: false
 ---
 
 # Hello
-My name is James Thompson. I am a 20ish old living in New Zealand. I spend my days behind a computer working on problems in AI safety and AI applications. I moonlight as a [snowboarder](https://www.freerideworldtour.com/riders/james-thompson/) (competing in Freeride events).
+My name is James Thompson. I am a 20ish old living in New Zealand. I am a AI researcher who works on problems in AI safety and AI applications. 
 
-I am always keen to hear about opportunities for me to use my skills in AI/Data Science to make the world a better place.
+# Currently (November 2026)
+Living in New Zealand. Finished my [Master's of AI](posts/261127-changing-llm-behaviour-with-survey-question/) recently and working on entering the AI safety space (likely in alignment, behavioural evaluations, or raising awareness).
 
-# Currently (June 2026)
-Living in and around Wellington. I have recently completed my course work part of my Master of AI and am starting my research project in AI alignment which will take me through till November 2026.
+Always keen to hear about opportunities to work on making the world a better place. I am surprisingly open to a wide range of ideas, stemming from my own uncertainty.

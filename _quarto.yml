@@ -1,6 +1,8 @@
 project:
   type: website
 
+bibliography: references.bib
+
 website:
   title: "James Thompson"
   draft-mode: unlinked
@@ -18,8 +20,6 @@ website:
       - about-me.qmd
       - icon: github
         href: https://github.com/1jamesthompson1
-      - icon: instagram
-        href: https://instagram.com/1jamesthompson1
       - icon: linkedin
         href: https://www.linkedin.com/in/james-thompson-532246208/
 
